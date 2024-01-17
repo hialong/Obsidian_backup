@@ -1,0 +1,232 @@
+{
+  "workspaces": {
+    "笔记": {
+      "main": {
+        "id": "0a270b760ee1ce64",
+        "type": "split",
+        "children": [
+          {
+            "id": "a5ecfba864f40a18",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2e8a7d570e2e207a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "后端学习/Redis/redis面试题.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "fd80e52df51d6ad9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "后端学习/Redis/知识点/Redis持久化.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fa68b86c572f0093",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "复盘/复盘日志 2024-01-07.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "1e106bec0da5ee09",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e0f8584ea9d49c6",
+            "type": "tabs",
+            "dimension": 47.34195402298851,
+            "children": [
+              {
+                "id": "8d3d701de9f4432e",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "295079f97f927bb5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d594fb7a40913197",
+            "type": "tabs",
+            "dimension": 52.65804597701149,
+            "children": [
+              {
+                "id": "60a1caf02783b1c5",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a51981405e2820fc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2b844983bb28f37d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "72b9348819d1720a",
+        "type": "split",
+        "children": [
+          {
+            "id": "bbf10aab69a02e42",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "47729b424f4c9c62",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "复盘/复盘日志 2024-01-06.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "06c2b54bcaa54a23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dbca5ff09d525cfd",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "复盘/复盘日志 2024-01-07.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "03821c3d2f1d5770",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "复盘/复盘日志 2024-01-07.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "c63c817ae65dc1d8",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "6a1c3dbbb956f822",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "复盘/复盘日志 2024-01-07.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "random-note:开始漫游笔记": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "float-search:Search Obsidian In Modal": false,
+          "remotely-save:Remotely Save": false,
+          "obsidian-memos:Memos": false,
+          "file-tree-alternative:File Tree Alternative Plugin": false
+        }
+      },
+      "active": "8d3d701de9f4432e"
+    }
+  },
+  "active": "笔记"
+}

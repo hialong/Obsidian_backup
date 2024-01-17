@@ -1,3 +1,13 @@
+---
+Created: 2024-01-17
+Updated: 2024-01-17
+Type: knowledge
+Status: 🌱 完成
+截止日期: 
+目标: 
+领域: 
+Tags:
+---
 ## Redis Hash
 
 - 是什么

@@ -1,4 +1,14 @@
-#计算机网络 #URI
+---
+Created: 2024-01-17
+Updated: 2024-01-17
+Type: knowledge
+Status: 🌱 完成
+截止日期: 
+目标: 
+领域: 
+Tags: #计算机网络 #URI
+---
+
 
 > 要搞懂HTTP甚至网络应用，就必须搞定URI
 

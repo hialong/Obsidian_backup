@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "0a270b760ee1ce64",
+    "type": "split",
+    "children": [
+      {
+        "id": "1370f894a3e5a18c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "454288f33c86ba1e",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce8d98ca97e2c0e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复盘/日报/2023.12.30复盘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e106bec0da5ee09",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e0f8584ea9d49c6",
+        "type": "tabs",
+        "dimension": 47.34195402298851,
+        "children": [
+          {
+            "id": "8d3d701de9f4432e",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "1de1a10cb87cbb58",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d594fb7a40913197",
+        "type": "tabs",
+        "dimension": 52.65804597701149,
+        "children": [
+          {
+            "id": "60a1caf02783b1c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a51981405e2820fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Redis操作",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b844983bb28f37d",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "295079f97f927bb5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "72b9348819d1720a",
+    "type": "split",
+    "children": [
+      {
+        "id": "06c2b54bcaa54a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbca5ff09d525cfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "复盘/日报/2023.12.30复盘.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03821c3d2f1d5770",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "复盘/日报/2023.12.30复盘.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c63c817ae65dc1d8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6a1c3dbbb956f822",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "复盘/日报/2023.12.30复盘.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "random-note:开始漫游笔记": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "float-search:Search Obsidian In Modal": false,
+      "remotely-save:Remotely Save": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-memos:Memos": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "ce8d98ca97e2c0e6",
+  "lastOpenFiles": [
+    "复盘/日报/delete.md",
+    "template/默认模板.md",
+    "首页/HOME.canvas",
+    "首页/首页模块.md",
+    "template/周记模板.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-05.md",
+    "后端学习/计算机网络/HTTP传输大文件的方法.md",
+    "后端学习/计算机网络/Http的实体数据.md",
+    "template/日记模板.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-16.md",
+    "后端学习/Redis/redis面试题.md",
+    "复盘/日报/2023.12.30复盘.md",
+    "首页",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17 1.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
+    "复盘/日报/2024/Daily/01/2024-01-04.md",
+    "复盘/日报/2024/Daily/01/2024-01-17.md",
+    "复盘/周报/2024/Weekly/2024-W03.md",
+    "复盘/日报/2024/Daily/01",
+    "复盘/日报/2024/Daily",
+    "复盘/日报/2024",
+    "复盘/周报/2024/Weekly",
+    "复盘/周报/2024",
+    "后端学习/Redis/Redis场景/Redis集群.md",
+    "后端学习/Redis/Redis场景/Redis缓存基础.md",
+    "后端学习/Redis/Redis场景/消息队列.md",
+    "后端学习/Redis/Redis场景/数据同步技术.md",
+    "后端学习/Redis/Redis场景/事务.md",
+    "后端学习/Redis/Redis场景/秒杀和限流.md",
+    "后端学习/Redis/Redis场景/缓存应用.md",
+    "后端学习/Redis/Redis场景/缓存异常场景.md",
+    "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
+    "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+    "Pasted Image 20240109221118.png",
+    "复盘/日报",
+    "复盘/周报",
+    "后端学习/Redis/Redis场景",
+    "新建 文本文档.txt",
+    "Pasted image 20240105002129.png",
+    "Pasted image 20231230011324.png",
+    "Pasted image 20231230012218.png"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "folder": "复盘/日报",
+  "template": "template/日记模板",
+  "autorun": true,
+  "format": "YYYY/[Daily]/MM/复盘日志 YYYY-MM-DD"
+}

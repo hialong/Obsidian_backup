@@ -1,0 +1,14 @@
+{
+  "shimmering-focus@@show-ribbon": true,
+  "shimmering-focus@@show-sidebar-header-buttons": true,
+  "minimal-advanced@@styled-scrollbars": true,
+  "minimal-advanced@@cursor": "default",
+  "shimmering-focus@@show-urls": false,
+  "shimmering-focus@@normal-header-bar": false,
+  "shimmering-focus@@overlaying-right-sidebar": false,
+  "shimmering-focus@@sidebar-no-animations": false,
+  "shimmering-focus@@hide-settings-button": false,
+  "shimmering-focus@@show-tab-list-button": false,
+  "shimmering-focus@@show-new-tab-button": false,
+  "shimmering-focus@@show-sidebar-toggle-buttons": true
+}

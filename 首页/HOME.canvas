@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"517113ecaada52a0","type":"file","file":"首页/首页模块.md","subpath":"#最近的 Fleeting Notes","x":-368,"y":-440,"width":1868,"height":360,"color":"1"},
+		{"id":"517113ecaada52a0","type":"file","file":"首页/首页模块.md","subpath":"#最近的 Fleeting Notes","x":-368,"y":-440,"width":1868,"height":360,"color":"2"},
 		{"id":"777b1dfb5e643824","type":"file","file":"首页/首页模块.md","subpath":"#最近创建的笔记","x":-368,"y":-40,"width":788,"height":400,"color":"2"},
 		{"id":"a78b9a431ca4aaa1","type":"file","file":"首页/首页模块.md","subpath":"#后端学习","x":-368,"y":411,"width":1868,"height":400,"color":"3"},
 		{"id":"221cd8bea75d6420","type":"file","file":"首页/首页模块.md","subpath":"#最近完成的任务","x":500,"y":-40,"width":1000,"height":400,"color":"4"}

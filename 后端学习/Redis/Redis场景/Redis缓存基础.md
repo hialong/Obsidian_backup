@@ -2,11 +2,11 @@
 Created: 2024-01-17
 Updated: 2024-01-17
 Type: knowledge
-Status: 🌱 完成
+Status: 🎃已完成
 截止日期: 
 目标: 
 领域: 
-Tags:
+tags:
 ---
 > 由于Redis性能高效，通常可以用作数据库储存的缓存，常见的就有给Mysql的热点数据做缓存的玩法，可以很大程度的提升系统的吞吐量
 

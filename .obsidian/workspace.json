@@ -4,31 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "1370f894a3e5a18c",
+        "id": "31269c4b19b0dac7",
         "type": "tabs",
         "children": [
           {
-            "id": "454288f33c86ba1e",
+            "id": "35e97196867a783e",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "ce8d98ca97e2c0e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "复盘/日报/2023.12.30复盘.md",
-                "mode": "source",
-                "source": false
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 185.5,
+                  "zoom": -0.16075455143129758
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -128,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2023.12.30复盘.md",
+                "file": "首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2023.12.30复盘.md",
+                "file": "首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复盘/日报/2023.12.30复盘.md"
+                "file": "首页/HOME.canvas"
               }
             }
           }
@@ -193,16 +187,20 @@
       "float-search:Search Obsidian In Modal": false,
       "remotely-save:Remotely Save": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-memos:Memos": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "ce8d98ca97e2c0e6",
+  "active": "35e97196867a783e",
   "lastOpenFiles": [
-    "复盘/日报/delete.md",
-    "template/默认模板.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
+    "后端学习/Redis/Redis场景/Redis集群.md",
     "首页/HOME.canvas",
+    "后端学习/Redis/Redis场景/多机部署.md",
+    "template/默认模板.md",
+    "复盘/日报/2023.12.30复盘.md",
+    "复盘/日报/delete.md",
     "首页/首页模块.md",
     "template/周记模板.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-05.md",
@@ -211,10 +209,8 @@
     "template/日记模板.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-16.md",
     "后端学习/Redis/redis面试题.md",
-    "复盘/日报/2023.12.30复盘.md",
     "首页",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-17 1.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
     "复盘/日报/2024/Daily/01/2024-01-04.md",
     "复盘/日报/2024/Daily/01/2024-01-17.md",
     "复盘/周报/2024/Weekly/2024-W03.md",
@@ -223,7 +219,6 @@
     "复盘/日报/2024",
     "复盘/周报/2024/Weekly",
     "复盘/周报/2024",
-    "后端学习/Redis/Redis场景/Redis集群.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
     "后端学习/Redis/Redis场景/消息队列.md",
     "后端学习/Redis/Redis场景/数据同步技术.md",
@@ -231,8 +226,6 @@
     "后端学习/Redis/Redis场景/秒杀和限流.md",
     "后端学习/Redis/Redis场景/缓存应用.md",
     "后端学习/Redis/Redis场景/缓存异常场景.md",
-    "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
-    "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "Pasted Image 20240109221118.png",
     "复盘/日报",
     "复盘/周报",

@@ -15,6 +15,10 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
+      "folder": "后端学习",
+      "template": "template/默认模板.md"
+    },
+    {
       "folder": "/",
       "template": "template/默认模板.md"
     }

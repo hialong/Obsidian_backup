@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f581dfd3aecfb16",
+        "id": "e824914af3587c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "ffdfe99476918f85",
+            "id": "0ebbee175199b231",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,12 +187,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ffdfe99476918f85",
+  "active": "0ebbee175199b231",
   "lastOpenFiles": [
-    "首页/HOME.canvas",
-    "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
-    "后端学习/Redis/redis面试题.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+    "后端学习/Redis/Redis场景/事务.md",
+    "后端学习/Redis/Redis场景/消息队列.md",
+    "首页/HOME.canvas",
+    "后端学习/Redis/redis面试题.md",
     "后端学习/Redis/Redis场景/多机部署.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
     "后端学习/Redis/Redis场景/Redis集群.md",
@@ -203,7 +206,6 @@
     "template/默认模板.md",
     "首页/首页模块.md",
     "后端学习/Redis/Redis场景/数据同步技术.md",
-    "后端学习/Redis/Redis场景/事务.md",
     "后端学习/计算机网络/HTTP传输大文件的方法.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",

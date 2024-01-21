@@ -11,14 +11,11 @@
             "id": "8a4d36ee73cd7b31",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "首页/HOME.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -122,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/HOME.canvas"
+                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md"
               }
             }
           }
@@ -191,16 +188,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8a4d36ee73cd7b31",
+  "active": "295079f97f927bb5",
   "lastOpenFiles": [
-    "template/周记模板.md",
-    "复盘/周报/2024/Weekly/2024-W03.md",
-    "首页/首页模块.md",
+    "后端学习/Mysql",
     "后端学习/Redis/Redis场景/RedisHash槽.md",
+    "资源/旅行/南京旅游攻略一天半.md",
+    "资源/旅行",
+    "资源/未命名思维导图.md",
+    "复盘/周报/2024/Weekly/2024-W03.md",
+    "资源",
+    "首页/HOME.canvas",
+    "template/周记模板.md",
+    "首页/首页模块.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "后端学习/Redis/Redis场景/多机部署.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
-    "首页/HOME.canvas",
     "template/日记模板.md",
     "后端学习/Redis/Redis场景/事务.md",
     "后端学习/Redis/Redis场景/消息队列.md",
@@ -217,8 +219,6 @@
     "后端学习/计算机网络/HTTP状态码.md",
     "后端学习/计算机网络/Http的实体数据.md",
     "后端学习/计算机网络/http的网址.md",
-    "复盘/日报/2024/Daily/01/2024-01-17.md",
-    "复盘/日报/2023.12.30复盘.md",
     "首页",
     "复盘/日报/2024/Daily/01",
     "复盘/日报/2024/Daily",
@@ -228,8 +228,6 @@
     "Pasted Image 20240109221118.png",
     "复盘/日报",
     "复盘/周报",
-    "后端学习/Redis/Redis场景",
-    "新建 文本文档.txt",
     "Pasted image 20240105002129.png",
     "Pasted image 20231230011324.png",
     "Pasted image 20231230012218.png"

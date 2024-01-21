@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e824914af3587c3e",
+        "id": "3a0e4f07e396edfe",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebbee175199b231",
+            "id": "8a4d36ee73cd7b31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
-                "mode": "source",
-                "source": false
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -49,7 +52,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d594fb7a40913197",
@@ -118,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+                "file": "首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+                "file": "首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端学习/Redis/Redis场景/分布式锁（很重要）.md"
+                "file": "首页/HOME.canvas"
               }
             }
           }
@@ -187,24 +191,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0ebbee175199b231",
+  "active": "8a4d36ee73cd7b31",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "template/周记模板.md",
+    "复盘/周报/2024/Weekly/2024-W03.md",
+    "首页/首页模块.md",
+    "后端学习/Redis/Redis场景/RedisHash槽.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+    "后端学习/Redis/Redis场景/多机部署.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "首页/HOME.canvas",
+    "template/日记模板.md",
     "后端学习/Redis/Redis场景/事务.md",
     "后端学习/Redis/Redis场景/消息队列.md",
-    "首页/HOME.canvas",
     "后端学习/Redis/redis面试题.md",
-    "后端学习/Redis/Redis场景/多机部署.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
     "后端学习/Redis/Redis场景/Redis集群.md",
     "后端学习/计算机网络/HTTP报文是什么样子的.md",
-    "后端学习/Redis/Redis场景/RedisHash槽.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-18.md",
-    "template/周记模板.md",
-    "template/日记模板.md",
     "template/默认模板.md",
-    "首页/首页模块.md",
     "后端学习/Redis/Redis场景/数据同步技术.md",
     "后端学习/计算机网络/HTTP传输大文件的方法.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
@@ -214,8 +219,6 @@
     "后端学习/计算机网络/http的网址.md",
     "复盘/日报/2024/Daily/01/2024-01-17.md",
     "复盘/日报/2023.12.30复盘.md",
-    "复盘/日报/delete.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-05.md",
     "首页",
     "复盘/日报/2024/Daily/01",
     "复盘/日报/2024/Daily",

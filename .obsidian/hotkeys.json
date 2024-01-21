@@ -26,7 +26,8 @@
   "obsidian-emoji-toolbar:emoji-picker:open-picker": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Mod"
       ],
       "key": "E"
     }
@@ -55,5 +56,6 @@
       "modifiers": [],
       "key": "F5"
     }
-  ]
+  ],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": []
 }

@@ -57,5 +57,13 @@
       "key": "F5"
     }
   ],
-  "obsidian-auto-link-title:auto-link-title-normal-paste": []
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageDown"
+    }
+  ]
 }

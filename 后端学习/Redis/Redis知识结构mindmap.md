@@ -1,0 +1,13 @@
+---
+mindmap-plugin: rich
+created: 2024-01-22
+updated: 2024-01-22
+Type: 总结
+Status: ⌛️ 等待
+tags:
+---
+
+# Redis知识结构
+``` json
+{"theme":"","mindData":[[{"id":"8a515b0d-5e32-cc41","text":"Redis知识结构","isRoot":true,"main":true,"x":4000,"y":4000,"isExpand":true,"layout":{"layoutName":"mindmap2","direct":"right"},"stroke":""},{"id":"17df2905-d5e4-346f","text":"底层原理","stroke":"#ed9799","x":4248,"y":3894.5,"layout":null,"isExpand":true,"pid":"8a515b0d-5e32-cc41"},{"id":"dd54f90b-bb0b-c2e7","text":"运用","stroke":"#f2bf18","x":4248,"y":4125.5,"layout":null,"isExpand":true,"pid":"8a515b0d-5e32-cc41"},{"id":"bd799757-575f-39b8","text":"数据结构","stroke":"#ed9799","x":4375,"y":3851,"layout":null,"isExpand":true,"pid":"17df2905-d5e4-346f"},{"id":"d30e5f45-772f-da54","text":"特性","stroke":"#ed9799","x":4375,"y":4021,"layout":null,"isExpand":true,"pid":"17df2905-d5e4-346f"},{"id":"a48f047f-4255-11d6","text":"作为缓存","stroke":"#f2bf18","x":4336,"y":4099,"layout":null,"isExpand":true,"pid":"dd54f90b-bb0b-c2e7"},{"id":"eb16f0df-88f8-b5c2","text":"分布式场景","stroke":"#f2bf18","x":4336,"y":4133,"layout":null,"isExpand":true,"pid":"dd54f90b-bb0b-c2e7"},{"id":"62fe2320-dfe1-1d7f","text":"消息队列","stroke":"#f2bf18","x":4336,"y":4167,"layout":null,"isExpand":true,"pid":"dd54f90b-bb0b-c2e7"},{"id":"4938f0a4-df80-ae01","text":"String","stroke":"#ed9799","x":4477,"y":3749,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"2038f0bb-c590-657c","text":"Set","stroke":"#ed9799","x":4477,"y":3783,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"b472d6b6-958f-93e8","text":"list","stroke":"#ed9799","x":4477,"y":3817,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"fd52f39f-5f40-2eff","text":"Zset","stroke":"#ed9799","x":4477,"y":3851,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"0c77757e-e754-b5c3","text":"hash","stroke":"#ed9799","x":4477,"y":3885,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"f5760da2-9625-c7c0","text":"hashTable","stroke":"#ed9799","x":4477,"y":3919,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"813b96aa-ce61-bc61","text":"跳表","stroke":"#ed9799","x":4477,"y":3953,"layout":null,"isExpand":true,"pid":"bd799757-575f-39b8"},{"id":"6b511a0f-31b8-835d","text":"IO多路复用","stroke":"#ed9799","x":4445,"y":3987,"isExpand":true,"layout":null,"pid":"d30e5f45-772f-da54"},{"id":"39f3a4d1-ae47-ab1e","text":"单线程","stroke":"#ed9799","x":4445,"y":4021,"layout":null,"isExpand":true,"pid":"d30e5f45-772f-da54"},{"id":"9ea516ba-83bf-c539","text":"内存淘汰策略","stroke":"#ed9799","x":4445,"y":4055,"layout":null,"isExpand":true,"pid":"d30e5f45-772f-da54"}]],"induceData":[],"wireFrameData":[],"relateLinkData":[],"calloutData":[]}
+```

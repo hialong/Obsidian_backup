@@ -26,8 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2dc08405f359987d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/周报/2024/Weekly/2024-W03.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/周报/2024/Weekly/2024-W03.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复盘/周报/2024/Weekly/2024-W03.md"
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md"
               }
             }
           }
@@ -196,12 +209,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8a4d36ee73cd7b31",
+  "active": "2dc08405f359987d",
   "lastOpenFiles": [
-    "后端学习/Mysql/mysql入门.md",
-    "复盘/周报/2024/Weekly/2024-W03.md",
-    "template/周记模板.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-21.md",
+    "复盘/周报/2024/Weekly/2024-W03.md",
+    "后端学习/Mysql/mysql入门.md",
+    "template/周记模板.md",
     "template/日记模板.md",
     "资源/旅行/南京旅游攻略一天半.md",
     "资源/旅行/未命名思维导图.md",
@@ -215,7 +230,6 @@
     "首页/HOME.canvas",
     "首页/首页模块.md",
     "后端学习/Redis/Redis场景/多机部署.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
     "后端学习/Redis/Redis场景/事务.md",
     "后端学习/Redis/Redis场景/消息队列.md",
     "后端学习/Redis/redis面试题.md",
@@ -227,7 +241,6 @@
     "后端学习/Redis/Redis场景/数据同步技术.md",
     "后端学习/计算机网络/HTTP传输大文件的方法.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
-    "后端学习/计算机网络/HTTP状态码.md",
     "首页",
     "复盘/日报/2024/Daily/01",
     "复盘/日报/2024/Daily",

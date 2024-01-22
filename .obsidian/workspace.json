@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d594fb7a40913197",
@@ -97,14 +96,6 @@
             }
           },
           {
-            "id": "2b844983bb28f37d",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "295079f97f927bb5",
             "type": "leaf",
             "state": {
@@ -115,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -196,15 +187,14 @@
       "random-note:开始漫游笔记": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "remotely-save:Remotely Save": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-memos:Memos": false,
-      "float-search:Search Obsidian In Modal": false
+      "float-search:Search Obsidian In Modal": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "295079f97f927bb5",
+  "active": "2561ae8e607e4c78",
   "lastOpenFiles": [
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
     "后端学习/Redis/Redis知识结构mindmap.md",

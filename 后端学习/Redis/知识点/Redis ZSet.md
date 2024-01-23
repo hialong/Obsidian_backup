@@ -1,8 +1,8 @@
 ---
 Created: 2024-01-17
-Updated: 2024-01-17
+Updated: 2024-01-22
 Type: knowledge
-Status: 🌱 完成
+Status: 🎃已完成
 截止日期: 
 目标: 
 领域: 
@@ -27,7 +27,8 @@ tags:
 简单看一些增删改查的场景
 	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240106211735.png)
 	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240106212228.png)
-	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240106212304.png)
+	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240106212304.png) ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240122233906.png)
+
 
 
 
@@ -49,4 +50,6 @@ tags:
 	
 ![image-20231221002636300](D:\\study\img\image-20231221002636300.png) ^b8687e
 
-上面的跳表提供了跳表范围查询等能力，hashtable则是提供了O(1)复杂度的查询分数的能力
+上面的跳表提供了跳表范围查询等能力，hashtable 则是提供了 O(1)复杂度的查询分数的能力
+
+这里的搭配是指，使用 hashTable 储存 member 值对应的 score 值，如果只要得到对应的 score 值，只需要 zcore key member 直接快速得到 score 值，而 skiplist 是有序的排列，所以能快速的按照 score 值进行查找，删除，插入的操作，搭配使用就比如先通过 hashTable 得到 score 值，然后在 skiplist 中查找 score 区间元素

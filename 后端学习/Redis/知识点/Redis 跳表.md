@@ -1,8 +1,8 @@
 ---
 Created: 2024-01-17
-Updated: 2024-01-17
+Updated: 2024-01-22
 Type: knowledge
-Status: 🌱 完成
+Status: 🎃已完成
 截止日期: 
 目标: 
 领域: 
@@ -23,6 +23,7 @@ tags:
  - 数据结构
    	
     ![image-20231220001631362.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/image-20231220001631362.png)
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240122230212.png)
 
 
 查找的话，先查二级索引，超过了要查的索引（比如查8，然后这时候跳到了10，那就跳回去从6往一级索引找），再往下查一级索引，一直定位到要查找的节点
@@ -32,10 +33,10 @@ tags:
 跳表的表头结构
 ```C
 typedef struct zskiplist {
-  struct zskiplistNode *header, *tail;
-  //节点数量
-  unsigned long length;
-  int level;
+    struct zskiplistNode *header, *tail;
+    //节点数量
+    unsigned long length;
+    int level;
 } zskiplist;
 ```
 1. 查询节点总数的复杂度

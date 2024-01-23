@@ -79,14 +79,23 @@ OK
 
 - RAW
 
-  字节头和内容是分开的，使用在长的字符串上，字节头和内容是分开的（有个阈值，超过阈值就用这个来存储字符串，目前比较新版本是 44（5.0.5））
+  sds和RedisObject是分开的，使用在长的字符串上，字节头和内容是分开的（有个阈值，超过阈值就用这个来存储字符串，目前比较新版本是 44（5.0.5））
 
 ![image-20231217211908559](C:\Users\92502\AppData\Roaming\Typora\typora-user-images\image-20231217211908559.png)
 
 ### 	关于 sdshdr
 
 ​	![image-20231217212109893](D:\\study\img\image-20231217212109893.png)
-
+另外要注意的是，Redis 中的 SDS 分为 sdshdr 8, sdshdr 16, sdshdr 32, sdshdr 64, 字段属性一样，但是对应不同大小的字符串, 以 sdshdr8 为例，**这里的 8 代表可以用 8 个 bite 记录字符串长度** 8 位可以表示的数字范围是 ±2 的 8 次方（包括负数）然后一个 char 是8比特大小，即一个字节，sdshar8表示的是 char 的长度，也就是说 embstr 只能用 sdshdr 8 (最合适是的，也有特殊的 sdshdr 5 啥的，就是特殊情况了)
+```C
+// from Redis 7.0.8
+struct __attribute__ ((__packed__)) sdshdr8{
+    unit8_t len;/*used*/
+    unit8_t alloc;/*excluding the header and null terminator*/
+    unsigned char flags; /* 3 Lsb of type, 5 unused bits*/
+    char buf[]
+};
+```
 ### 一些面试题
 
 ##### 浮点型

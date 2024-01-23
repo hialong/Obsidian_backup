@@ -2,7 +2,7 @@
 Created: 2024-01-17
 Updated: 2024-01-17
 Type: knowledge
-Status: 🌱 完成
+Status: 🎃已完成
 截止日期: 
 目标: 
 领域: 
@@ -28,7 +28,7 @@ tags:
         -  SADD 
     -  查询
         -  SISMEMBR : 查询是否为成员
-        -  SISMEMBRS : 返回集合中所有成员的列表 
+        -  SMEMBRS : 返回集合中所有成员的列表 
         -  SCCARD： 返回集合中成员个数
         -   SSCAN : 遍历，后面跟下标和count，还可以用match进行模糊查询
         -  SINTER : 以前面的集合判断交集
@@ -52,10 +52,10 @@ Set的编码方式：
 - intset更节约内存 ^20a417
 	- 如果集群元素都是整数，且元素数量不超过512个，就采用inset编码，
 
-intSet结构如下图，结构紧凑，内存占用少，==但是需要查询的时候，要二分查询==
+intSet 结构如下图，结构紧凑，内存占用少，==但是需要查询的时候，要二分查询==, 也就是时间复杂度是 O（logN）
 	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240105010432.png)
 
-#RedisHashTable 
+#RedisHashTable [[Redis hashTable 底层以及操作]]
 
 如果不满足intSet的条件，就要用HashTable，结构如下图，hashTable查询元素性能很高，O(1)时间就能查到一个数据是否存在
 	![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240105010603.png) ^35d9bd

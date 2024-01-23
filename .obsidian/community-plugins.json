@@ -18,5 +18,6 @@
   "templater-obsidian",
   "obsidian-linter",
   "homepage",
-  "obsidian-markmind"
+  "obsidian-markmind",
+  "vscode-editor"
 ]

@@ -11,14 +11,11 @@
             "id": "050fe780dc5c254c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 185.5,
-                  "zoom": -0.16075455143129758
-                }
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/HOME.canvas"
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md"
               }
             }
           }
@@ -185,9 +182,10 @@
   },
   "active": "050fe780dc5c254c",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-07.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-23.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
     "首页/HOME.canvas",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-07.md",
     "首页/首页模块.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-14.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-16.md",

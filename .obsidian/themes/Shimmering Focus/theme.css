@@ -1,7 +1,7 @@
 /* ───────────────────────────────────────────────────
 SHIMMERING FOCUS
 by @pseudometa
-Version 3.4.604
+Version 3.4.612
 MIT License
 https://github.com/chrisgrieser/shimmering-focus
 ──────────────────────────────────────────────────── */
@@ -510,6 +510,8 @@ body {
 	--table-header-background: var(--bg5);
 	--table-header-background-hover: var(--bg5);
 	--table-row-alt-background: var(--b-row);
+	/* needs to be fix at 1.3, otherwise glitchy when changing table cells */
+	--table-line-height: 1.3;
 
 	/* Blockquote */
 	--blockquote-border-thickness: 8px;
@@ -698,6 +700,11 @@ body .markdown-rendered tbody tr:nth-child(odd):hover {
 /* Obsidian 1.5: Active Table Cells (requires Obsidian installer 1.1.9) */
 body.highlight-active-cell .table-cell-wrapper:has(.cm-s-obsidian) {
 	outline: 2.5px solid var(--color-accent);
+}
+
+/* FIX lists in tables looking off */
+.table-cell-wrapper .list-bullet {
+	float: none;
 }
 
 /* ───────────────────────────────────────────────── */
@@ -2835,6 +2842,16 @@ body:not(.show-ribbon, .is-mobile) .side-dock-settings .side-dock-ribbon-action:
 	background-color: var(--bg5);
 }
 
+.theme-dark .status-bar {
+	border-top: 3px ridge var(--text-faint);
+	border-left: 3px ridge var(--text-faint);
+}
+
+.theme-light .status-bar {
+	border-top: 2px ridge var(--text-faint);
+	border-left: 2px ridge var(--text-faint);
+}
+
 .status-bar-item:empty {
 	display: none;
 }
@@ -2851,11 +2868,12 @@ body:not(.show-ribbon, .is-mobile) .side-dock-settings .side-dock-ribbon-action:
 
 /* signature icon */
 body:not(.hide-signature-icon) .status-bar::after {
+	margin-top: -1px;
 	padding-right: 6px;
-	padding-left: 6px;
+	padding-left: 4px;
 	font-family: "Recursive S", sans-serif;
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 800;
 	content: "⟡";
 }
 
@@ -3502,6 +3520,11 @@ body:not(.no-active-line-highlight) .is-live-preview .cm-active .list-bullet::af
 	background-color: var(--active-line-color);
 }
 
+/* disable active line highlight */
+.no-active-highlight-in-longform :is(.writing, .longform-leaf) .cm-active.cm-active.cm-active {
+	background: none;
+}
+
 /* ───────────────────────────────────────────────── */
 /* <<< Empty Note / New Tab Page
 ──────────────────────────────────────────────────── */
@@ -4056,7 +4079,7 @@ body:not(.classic-inline-backlinks) :is(.writing, .longform-leaf) .embedded-back
 	background-color: transparent;
 }
 
-body:not(show-outline-buttons) .workspace-leaf-content[data-type="outline"] .nav-header{
+body:not(show-outline-buttons) .workspace-leaf-content[data-type="outline"] .nav-header {
 	display: none;
 }
 
@@ -4605,11 +4628,6 @@ body .another-quick-switcher__item__description {
 
 /* enlarge floating window */
 .prompt.another-quick-switcher__floating-prompt {
-	/* stylelint-disable-next-line declaration-no-important */
-	top: auto !important;
-	/* stylelint-disable-next-line declaration-no-important */
-	left: auto !important;
-	width: var(--file-line-width);
 	max-height: 88vh;
 }
 
@@ -5561,16 +5579,20 @@ button.longform-remove-step-button.longform-remove-step-button.longform-remove-s
 
 /* stylelint-enable no-duplicate-selectors */
 
-.longform-leaf :is(.markdown-preview-view, .mod-cm6.cm-s-obsidian),
-.writing:is(.markdown-preview-view, .mod-cm6.cm-s-obsidian) {
+.longform-leaf :is(.markdown-preview-view, .cm-s-obsidian),
+.writing:is(.markdown-preview-view, .cm-s-obsidian) {
 	background-color: var(--longform-bg);
+}
+
+:is(.writing, .longform-leaf) .table-cell-wrapper .cm-s-obsidian {
+	background-color: unset;
 }
 
 /* font family and size */
 .writing.markdown-preview-view,
 :is(.writing, .longform-leaf) :is(.markdown-preview-view, .cm-contentContainer) {
-	--font-text: var(--longform-font-text-theme);
 	/* for table cells */
+	--font-text: var(--longform-font-text-theme);
 	font-family: var(--longform-font-text-theme);
 	font-size: var(--longform-font-size);
 	letter-spacing: var(--longform-letter-spacing);
@@ -5595,7 +5617,7 @@ body:not(.longform-left-aligned) :is(.writing, .longform-leaf) {
 }
 
 /* stuff not to justify */
-body:not(.longform-left-aligned) :is(.writing, .longform-leaf):is(.HyperMD-codeblock,
+body:not(.longform-left-aligned) :is(.writing, .longform-leaf) :is(.HyperMD-codeblock,
 	.HyperMD-header,
 	.inline-title,
 	.cm-hmd-frontmatter,
@@ -5621,13 +5643,13 @@ body:not(.longform-left-aligned) :is(.writing, .longform-leaf):is(.HyperMD-codeb
 }
 
 /* line height */
-:is(.writing, .longform-leaf) table,
-:is(.writing, .longform-leaf) .cm-line:not(.HyperMD-header),
-:is(.writing, .longform-leaf) .cm-line:not(.HyperMD-header)> :not(.cm-header, .cm-hmd-frontmatter) {
+/* long selector needed to target only lines outside of a table */
+:is(.writing, .longform-leaf) .view-content>.cm-s-obsidian>div>.cm-scroller>.cm-sizer>.cm-contentContainer>.cm-content>.cm-line:not(.HyperMD-header) {
 	line-height: calc(var(--longform-base-line-height) + 0.35);
 }
 
-:is(.writing, .longform-leaf) :is(h1, h2, h3, h4, h5, h6, .cm-line.HyperMD-header, .inline-title),
+:is(.writing, .longform-leaf) :is(table, h1, h2, h3, h4, h5, h6, .inline-title),
+:is(.writing, .longform-leaf) .table-wrapper .cm-line,
 body:not(.is-popout-window) :is(.writing, .longform-leaf) .cm-line> :is(.cm-header, .cm-hmd-frontmatter) {
 	line-height: var(--longform-base-line-height);
 }
@@ -5646,15 +5668,6 @@ body.longform-tasks-different.longform-tasks-different.longform-tasks-different.
 /* fix for code block header hack */
 .app-container :is(.writing, .longform-leaf) pre[class*="language-"]::before {
 	line-height: calc(var(--longform-base-line-height) + 0.3);
-}
-
-/* disable active line highlight */
-.no-active-highlight-in-longform :is(.writing, .longform-leaf) .cm-active.cm-active.cm-active:not(.HyperMD-quote, .HyperMD-codeblock) {
-	background: none;
-}
-
-.no-active-highlight-in-longform :is(.writing, .longform-leaf) .cm-active.cm-active:not(.HyperMD-quote, .HyperMD-header, .HyperMD-codeblock)::before {
-	content: none;
 }
 
 /* ───────────────────────────────────────────────── */

@@ -1,6 +1,6 @@
 {
   "searchViewState": {
-    "query": "tag:#RedisHashTable",
+    "query": "写时复制",
     "matchingCase": false,
     "explainSearch": false,
     "collapseAll": false,

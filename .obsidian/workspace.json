@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "479bfb9f3b4b0845",
+        "id": "ccc3294f8e6737a2",
         "type": "tabs",
         "children": [
           {
-            "id": "26f1972f6d9d8315",
+            "id": "a50a8205e6af40ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,14 +33,6 @@
         "type": "tabs",
         "dimension": 47.34195402298851,
         "children": [
-          {
-            "id": "8d3d701de9f4432e",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
           {
             "id": "1de1a10cb87cbb58",
             "type": "leaf",
@@ -110,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,12 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md"
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md"
               }
             }
           },
           {
-            "id": "dbac14f977924dcd",
+            "id": "5acc4dc7338d3d3e",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -187,18 +179,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "26f1972f6d9d8315",
+  "active": "a50a8205e6af40ec",
   "lastOpenFiles": [
+    "首页/HOME.canvas",
+    "template/日记模板.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
+    "资源/img/Paste image 1706403603086image.png",
+    "后端学习/Mysql/mysql入门.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+    "复盘/周报/2024/Weekly/2024-W04.md",
+    "template/周记模板.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
-    "后端学习/Mysql/mysql入门.md",
-    "首页/HOME.canvas",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",
     "后端学习/Redis/Redis知识结构mindmap.md",
-    "资源/img/Paste image 1706403603086image.png",
     "资源/img",
     "后端学习/Redis/知识点/Redis持久化.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-25.md",
@@ -216,10 +211,6 @@
     "后端学习/Redis/知识点/Redis内存淘汰策略.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
     "后端学习/Redis/知识点/Redis单线程，还是多线程？.md",
-    "后端学习/Redis/知识点/IO多路复用.md",
-    "后端学习/Redis/Redis场景/Redis集群.md",
-    "后端学习/Redis/Redis场景/RedisHash槽.md",
-    "后端学习/Redis/Redis场景/秒杀和限流.md",
     "后端学习/Mysql",
     "资源/旅行",
     "资源",

@@ -8,7 +8,6 @@
   "float-search",
   "better-search-views",
   "remotely-save",
-  "obsidian-quiet-outline",
   "easy-typing-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
@@ -20,5 +19,9 @@
   "obsidian-markmind",
   "vscode-editor",
   "tasks-calendar-wrapper",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "obsidian-quiet-outline",
+  "obsidian-minimal-settings",
+  "file-explorer-note-count",
+  "obsidian-task-collector"
 ]

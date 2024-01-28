@@ -53,8 +53,10 @@
   "file-explorer:new-file-in-new-pane": [],
   "obsidian-tasks-plugin:edit-task": [
     {
-      "modifiers": [],
-      "key": "F5"
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
     }
   ],
   "obsidian-auto-link-title:auto-link-title-normal-paste": [],
@@ -64,6 +66,15 @@
         "Ctrl"
       ],
       "key": "PageDown"
+    }
+  ],
+  "workspace:new-tab": [],
+  "obsidian-task-collector:task-collector-mark": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
     }
   ]
 }

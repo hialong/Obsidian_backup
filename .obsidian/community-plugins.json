@@ -12,12 +12,13 @@
   "easy-typing-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
-  "obsidian-outliner",
   "obsidian-auto-link-title",
   "calendar",
   "templater-obsidian",
   "obsidian-linter",
   "homepage",
   "obsidian-markmind",
-  "vscode-editor"
+  "vscode-editor",
+  "tasks-calendar-wrapper",
+  "obsidian-outliner"
 ]

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a50a8205e6af40ec",
+            "id": "d00565ee5ff1fdc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,14 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1126b05e95b76ff",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
               "state": {}
             }
           }
@@ -102,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,17 +145,17 @@
             }
           },
           {
-            "id": "6a1c3dbbb956f822",
+            "id": "39c177748d14e9e0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md"
+                "file": "后端学习/Mysql/mysql入门.md"
               }
             }
           },
           {
-            "id": "5acc4dc7338d3d3e",
+            "id": "9b1d50366f78dd61",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -179,38 +187,38 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a50a8205e6af40ec",
+  "active": "d00565ee5ff1fdc4",
   "lastOpenFiles": [
     "首页/HOME.canvas",
-    "template/日记模板.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
-    "资源/img/Paste image 1706403603086image.png",
     "后端学习/Mysql/mysql入门.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
     "复盘/周报/2024/Weekly/2024-W04.md",
-    "template/周记模板.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
+    "template/日记模板.md",
+    "后端学习/Redis/Redis场景/Redis集群.md",
+    "后端学习/Redis/Redis知识结构mindmap.md",
+    "后端学习/Redis/Redis场景/多机部署.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-15.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
+    "后端学习/Redis/Redis场景/数据同步技术.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+    "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
+    "后端学习/Redis/Redis场景/Redis缓存基础.md",
+    "后端学习/Redis/知识点/Redis持久化.md",
+    "后端学习/计算机与网络/监听回调.md",
+    "后端学习/计算机与网络/网络部分基础.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
+    "后端学习/Java/未命名.md",
+    "后端学习/Java/JAVA基础巩固.md",
+    "template/周记模板.md",
+    "资源/img/Paste image 1706403603086image.png",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",
-    "后端学习/Redis/Redis知识结构mindmap.md",
     "资源/img",
-    "后端学习/Redis/知识点/Redis持久化.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-25.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
-    "后端学习/计算机网络/HTTP传输大文件的方法.md",
+    "后端学习/计算机与网络/HTTP传输大文件的方法.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-23.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-07.md",
-    "首页/首页模块.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-14.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-16.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-18.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-15.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-13.md",
-    "后端学习/Redis/知识点/Redis内存淘汰策略.md",
-    "后端学习/Redis/知识点/RedisString的编码以及操作.md",
-    "后端学习/Redis/知识点/Redis单线程，还是多线程？.md",
     "后端学习/Mysql",
     "资源/旅行",
     "资源",

@@ -1,11 +1,11 @@
 ---
 created: 2024-01-21
-updated: 2024-01-21
+updated: 2024-01-31
 Type: knowledge
 Status: ⌛️ 等待
 tags:
 ---
-## mysql 语法
+## mysql 基础语法
 
 ```sql
 -- 去重多余结果
@@ -20,7 +20,15 @@ select * from xxx where  a>b and cday > '1990-01-01'
 ```
 1. 运算符顺序 (`+-*/`)，乘除大于加减（可以括号改变顺序）
 2. 逻辑符顺序（and, or） and 运算优先评估（可以括号改变顺序）
+3. 时间可以直接写
 
 ```sql
-
+-- in语法
+select * from Customer where state in ('va','la','ga')
+-- between语法
+select * from Customer where points between 1000 and 3000
+select * from Customer where birthday between '1990-01-01' and '2000-01-01'
+-- 模糊查询
+select * from Customer where last_name like "%abc%" 
 ```
+

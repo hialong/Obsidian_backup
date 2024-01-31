@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端学习/Mysql/mysql入门.md",
+                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端学习/Mysql/mysql入门.md",
+                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端学习/Mysql/mysql入门.md",
+                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端学习/Mysql/mysql入门.md"
+                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md"
               }
             }
           },
@@ -189,8 +189,8 @@
   },
   "active": "d00565ee5ff1fdc4",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Mysql/mysql入门.md",
+    "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "首页/HOME.canvas",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
     "复盘/周报/2024/Weekly/2024-W04.md",

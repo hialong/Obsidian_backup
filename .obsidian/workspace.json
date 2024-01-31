@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d594fb7a40913197",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md",
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端学习/Redis/Redis场景/Redis缓存基础.md"
+                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md"
               }
             }
           },
@@ -191,6 +192,7 @@
   "lastOpenFiles": [
     "后端学习/Mysql/mysql入门.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
+    "后端学习/Redis/Redis场景/Redis缓存基础.md",
     "首页/HOME.canvas",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
     "复盘/周报/2024/Weekly/2024-W04.md",
@@ -204,7 +206,6 @@
     "后端学习/Redis/Redis场景/数据同步技术.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
-    "后端学习/Redis/Redis场景/Redis缓存基础.md",
     "后端学习/Redis/知识点/Redis持久化.md",
     "后端学习/计算机与网络/监听回调.md",
     "后端学习/计算机与网络/网络部分基础.md",

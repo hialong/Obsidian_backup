@@ -11,7 +11,7 @@ tags:
 -- 去重多余结果
 select distinct state from customer
 ```
-- [*] 未完待续，课程看完了 p 8  [2- 选择子句 | The SELECT Clause\_哔哩哔哩\_bilibili](https://bilibili.com/video/BV1UE41147KC/?p=8&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-01-31
+- [x] 未完待续，课程看完了 p 8  [2- 选择子句 | The SELECT Clause\_哔哩哔哩\_bilibili](https://bilibili.com/video/BV1UE41147KC/?p=8&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)，注：新看完了8课 📅 2024-01-31 ✅ 2024-01-31
 ```sql
 -- 查询语法
 select * from xxx
@@ -28,7 +28,67 @@ select * from Customer where state in ('va','la','ga')
 -- between语法
 select * from Customer where points between 1000 and 3000
 select * from Customer where birthday between '1990-01-01' and '2000-01-01'
--- 模糊查询
-select * from Customer where last_name like "%abc%" 
+
 ```
 
+### 模糊查询
+1. 可以用 `%` 来匹配任意长的字符，
+2. 用 `_` 匹配单个字符
+```sql
+-- 模糊查询
+select * from Customer where last_name like "%abc%" 
+select * from Customer where last_name like "a____c" 
+```
+
+### 正则表达式搜索
+一个新的关键字，正则 `REGEXP`
+```sql
+-- 下面两个表达等价
+select * from customer where last_name like '%field%'
+select * from customer where last_name regexp 'field'
+
+```
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240131212858.png)
+
+关于正则
+1. 使用 `^xx` 表示以 `xx` 开头 
+2. 使用 `xx$` 表示以 `xx` 结尾
+3. 使用 `a|b` 表示或条件
+4. 使用 `[abcx]e` 表示中括号里面的任意字母均可以出现在 e 前面，例如 `ae`、`be`、`xe`
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240131214544.png)
+例子：
+```sql
+--查询以field结尾或包含mac或以rose开头的
+SELECT * from customer where last_name regexp 'field$|mac|^rose';
+SELECT * from customers where last_name regexp '(field|mac)$';
+```
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240131214045.png)
+
+```sql
+-- 正则查法
+SELECT * FROM customers WHERE LAST_NAME REGEXP '[a-h]e';
+```
+
+### 查询 null 数据 IS NULL
+```SQL
+SELECT * from customers where phone IS NULL
+```
+
+### 查询排序
+`order by` 按顺序排序
+```sql
+-- 多列排序，先排前面的，再排后面的
+SELECT  * FROM customers ORDER BY state desc, first_name desc;
+-- 排序不需要在sql查询的列里
+SELECT  first_name,last_name FROM customers ORDER BY state desc, first_name desc;
+-- 可以用别名排序，或者加的一个列
+SELECT  first_name,last_name, 10 as points FROM customers ORDER BY points, state desc;
+-- 可以用列来排序，这里的1，2指的是查询的first_name last_name,但是尽量避免这种写法，防止前面查询的顺序会变换导致查询的顺序变化
+SELECT  first_name,last_name, 10 as points FROM customers ORDER BY 1,2;
+-- 他也可以是一个表达式
+SELECT *,quantity * unit_price as total_price from order_items ORDER BY quantity * unit_price;
+SELECT *,quantity * unit_price as total_price from order_items ORDER BY total_price;
+```
+
+- [ ] sql看完 p16 下次看 p17 了[11- LIMIT子句 | The LIMIT Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=17&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)

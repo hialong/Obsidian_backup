@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ccc3294f8e6737a2",
+        "id": "c50acc55dca55b0a",
         "type": "tabs",
         "children": [
           {
-            "id": "d00565ee5ff1fdc4",
+            "id": "e5d35ce69d5a7115",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
+                "file": "后端学习/Mysql/mysql入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,12 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md"
+                "file": "后端学习/Mysql/mysql入门.md"
               }
             }
           },
           {
-            "id": "9b1d50366f78dd61",
+            "id": "7b2fcbb2b582ad8c",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -188,12 +188,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d00565ee5ff1fdc4",
+  "active": "295079f97f927bb5",
   "lastOpenFiles": [
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
+    "后端学习/Redis/redis面试题.md",
+    "后端学习/计算机与网络/HTTP报文是什么样子的.md",
+    "后端学习/计算机与网络/HTTP状态码.md",
+    "后端学习/计算机与网络/网络部分基础.md",
+    "首页/HOME.canvas",
+    "复盘/日报/2024/Daily/02",
     "后端学习/Mysql/mysql入门.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
-    "首页/HOME.canvas",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
     "复盘/周报/2024/Weekly/2024-W04.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
@@ -208,7 +214,6 @@
     "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
     "后端学习/Redis/知识点/Redis持久化.md",
     "后端学习/计算机与网络/监听回调.md",
-    "后端学习/计算机与网络/网络部分基础.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
     "后端学习/Java/未命名.md",
     "后端学习/Java/JAVA基础巩固.md",
@@ -217,10 +222,6 @@
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",
     "资源/img",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-25.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-24.md",
-    "后端学习/计算机与网络/HTTP传输大文件的方法.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-23.md",
     "后端学习/Mysql",
     "资源/旅行",
     "资源",
@@ -229,7 +230,6 @@
     "复盘/日报/2024/Daily",
     "复盘/日报/2024",
     "复盘/周报/2024/Weekly",
-    "复盘/周报/2024",
     "Pasted image 20240105002129.png",
     "Pasted image 20231230011324.png",
     "Pasted image 20231230012218.png"

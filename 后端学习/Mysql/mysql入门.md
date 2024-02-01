@@ -91,4 +91,5 @@ SELECT *,quantity * unit_price as total_price from order_items ORDER BY quantity
 SELECT *,quantity * unit_price as total_price from order_items ORDER BY total_price;
 ```
 
-- [ ] sql看完 p16 下次看 p17 了[11- LIMIT子句 | The LIMIT Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=17&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)
+- [ ] sql 看完 p16 下次看 p17 了 [11- LIMIT子句 | The LIMIT Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=17&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)
+

@@ -1,21 +1,52 @@
 {
-  "mapMarkers": [],
+  "mapMarkers": [
+    {
+      "id": "ezaros-world-region",
+      "lastAccessed": 1706884998374,
+      "markers": [
+        {
+          "id": "ID_bb7ada8b0b39",
+          "type": "default",
+          "loc": [
+            48.05793108594207,
+            200.7873185888462
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "资源/map/testmap.md",
+        "首页/首页模块.md",
+        ""
+      ]
+    }
+  ],
   "defaultMarker": {
     "type": "default",
-    "iconName": "map-marker",
+    "iconName": "adjust",
     "color": "#dddddd",
     "transform": {
       "size": 6,
       "x": 0,
       "y": -2
     },
-    "isImage": false
+    "isImage": false,
+    "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAj1JREFUSEuNVe112zAMPNLeI9okcps9/PG6h+M9+hx5j6RRJqm8h030HSPQoEzK1R/piSAOOBwAh/942o00S4+NCJ7h0EAwiMPpz9F1j667OYOXnbyOTtvRrnPAmd8C7AEMAHrncXr/7fqSrzuAFO23A/t0Anwx6h872bjv82YEiW8HnN6P7tVeSgDTSwIcvI8RAgHtGDFD7+HAjJJDE9Sa5hYoArz8klYCPg1ydw049J2LAHSw8PhrzjNqSlk7jxVpqwGoLzpSGmh8DsDggSZlVCliBjBGyAzorPSkiC8XDJNs7uwdcNBapBoQxHu0TrAeOX6kwOl5VhMekuIbRVfs3QIH8jajpGJ2WlR7b64GWSTVrAT9VbBllIWAhmvAKmWQlHTF3tBTVAptLwEdL0+kzaMYHM8zijQCFmYsOJtoY2XJvmCTTTSvosiyXnjstbunMq01T3I0UdpggelYA7uTaRxmt/GQyXJSh0QDaYrzCmAHpyAUdOzqGxEV9WRRVoqa+K/OIqu/Gs+UNgRN1idGTSUNz45rM6dIQVZ0VYvOq1pXPgTQi9rpnENTGuZavgjAwnGohYC+FiF7QHfD3GarLhw2C5WlvbFcotGtReeaCTNLhTc2mlURIDYKcBbg6ePotswIHnElSsCaTcQ3z37u5C2+t/Kpo8NSVgXgerQbLV4iSEDLrAjKtwLYrB4CkBpSxEy42TSjSNsSTVyhguePN7ciAG3GRn2ym/Cu0fhDObXf9p9VlRVAyYa2/wAb5LooKQigiAAAAABJRU5ErkJggg=="
   },
   "markerIcons": [],
   "color": "#dddddd",
   "lat": 39.983334,
   "long": -82.98333,
-  "notePreview": false,
+  "notePreview": true,
   "layerMarkers": true,
   "previousVersion": "6.0.2",
   "version": {
@@ -32,8 +63,8 @@
   "mapViewParameters": {},
   "enableDraw": true,
   "defaultUnitType": "imperial",
-  "defaultTile": "https://www.zeldadungeon.net/breath-of-the-wild-interactive-map?z={z}&x={x}&y={y}",
-  "defaultTileDark": "https://www.zeldadungeon.net/breath-of-the-wild-interactive-map?z={z}&x={x}&y={y}",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
   "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
   "defaultTileSubdomains": "a,b,c,d"
 }

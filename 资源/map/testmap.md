@@ -9,7 +9,7 @@ tags:
 
 ```leaflet
 id: ezaros-world-region
-image: [[Pasted Image 20240109221118.png]]
+image: [[fantacyMap.jpg]]
 bounds:
  - [0,0]
  - [192,256]

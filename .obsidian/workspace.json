@@ -4,18 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "c0ceb1519eb687dd",
+        "id": "35e17fc39c9ab008",
         "type": "tabs",
         "children": [
           {
-            "id": "3bcec9dcfe1809db",
+            "id": "3be8471d49f7b94d",
             "type": "leaf",
             "state": {
-              "type": "obsidian-leaflet-map-view",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 66,
+                  "y": -370,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "76736d98180f3b05",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 66,
+                  "y": -370,
+                  "zoom": 0
+                }
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "首页/首页模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "首页/首页模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "首页/首页模块.md"
+              }
             }
           },
           {
@@ -181,10 +208,13 @@
       "obsidian-leaflet-plugin:打开 Leaflet 地图": false
     }
   },
-  "active": "3bcec9dcfe1809db",
+  "active": "76736d98180f3b05",
   "lastOpenFiles": [
+    "首页/首页模块.md",
     "首页/HOME.canvas",
     "资源/map/testmap.md",
+    "资源/map/fantacyMap.jpg",
+    "资源/map/fantacyMap.jfif",
     "资源/map",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-02.md",
     "后端学习/Mysql/mysql入门.md",
@@ -210,7 +240,6 @@
     "后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
     "后端学习/Redis/知识点/Redis持久化.md",
     "后端学习/计算机与网络/监听回调.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
     "资源/img/Paste image 1706403603086image.png",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",
@@ -221,7 +250,6 @@
     "首页",
     "复盘/日报/2024/Daily/01",
     "复盘/日报/2024/Daily",
-    "复盘/日报/2024",
     "Pasted image 20240105002129.png",
     "Pasted image 20231230011324.png",
     "Pasted image 20231230012218.png"

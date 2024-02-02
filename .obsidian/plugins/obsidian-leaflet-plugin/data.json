@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1706887042564,
+      "lastAccessed": 1706891111682,
       "markers": [
         {
           "id": "ID_5b281aba5b7a",
@@ -74,7 +74,6 @@
       "overlays": [],
       "shapes": [],
       "files": [
-        "资源/map/testmap.md",
         "首页/首页模块.md",
         ""
       ]
@@ -176,7 +175,8 @@
     "imageOverlay": [],
     "isMapView": false,
     "layers": [
-      "[[fantacyMap.jpg]]"
+      "[[fantacyMap.jpg]]",
+      "[[newMap.png]]"
     ],
     "linksFrom": [],
     "linksTo": [],

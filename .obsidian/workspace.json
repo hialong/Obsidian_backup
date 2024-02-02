@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c50acc55dca55b0a",
+        "id": "c0ceb1519eb687dd",
         "type": "tabs",
         "children": [
           {
-            "id": "e5d35ce69d5a7115",
+            "id": "3bcec9dcfe1809db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "obsidian-leaflet-map-view",
+              "state": {}
             }
           }
         ]
@@ -111,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,13 +144,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "7b2fcbb2b582ad8c",
+            "id": "d4825dff31a6bed6",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -185,11 +177,15 @@
       "templater-obsidian:Templater": false,
       "vscode-editor:新建代码文件": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "obsidian-leaflet-plugin:打开 Leaflet 地图": false
     }
   },
-  "active": "e5d35ce69d5a7115",
+  "active": "3bcec9dcfe1809db",
   "lastOpenFiles": [
+    "首页/HOME.canvas",
+    "资源/map/testmap.md",
+    "资源/map",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-02.md",
     "后端学习/Mysql/mysql入门.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
@@ -197,7 +193,6 @@
     "后端学习/计算机与网络/HTTP报文是什么样子的.md",
     "后端学习/计算机与网络/HTTP状态码.md",
     "后端学习/计算机与网络/网络部分基础.md",
-    "首页/HOME.canvas",
     "复盘/日报/2024/Daily/02",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
@@ -216,8 +211,6 @@
     "后端学习/Redis/知识点/Redis持久化.md",
     "后端学习/计算机与网络/监听回调.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-20.md",
-    "后端学习/Java/未命名.md",
-    "后端学习/Java/JAVA基础巩固.md",
     "资源/img/Paste image 1706403603086image.png",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",
@@ -229,7 +222,6 @@
     "复盘/日报/2024/Daily/01",
     "复盘/日报/2024/Daily",
     "复盘/日报/2024",
-    "复盘/周报/2024/Weekly",
     "Pasted image 20240105002129.png",
     "Pasted image 20231230011324.png",
     "Pasted image 20231230012218.png"

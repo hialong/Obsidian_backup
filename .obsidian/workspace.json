@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35e17fc39c9ab008",
+        "id": "ca9256f000c6ca8f",
         "type": "tabs",
         "children": [
           {
-            "id": "3be8471d49f7b94d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "首页/HOME.canvas",
-                "viewState": {
-                  "x": 66,
-                  "y": -370,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "76736d98180f3b05",
+            "id": "aa33630d87257cdf",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -37,8 +22,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/首页模块.md"
+                "file": "首页/HOME.canvas"
               }
             }
           },
@@ -208,8 +192,9 @@
       "obsidian-leaflet-plugin:打开 Leaflet 地图": false
     }
   },
-  "active": "76736d98180f3b05",
+  "active": "aa33630d87257cdf",
   "lastOpenFiles": [
+    "后端学习/Redis/知识点/Redis List底层以及操作.md",
     "首页/首页模块.md",
     "首页/HOME.canvas",
     "资源/map/testmap.md",

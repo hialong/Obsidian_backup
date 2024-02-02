@@ -2,20 +2,70 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1706884998374,
+      "lastAccessed": 1706887042564,
       "markers": [
         {
-          "id": "ID_bb7ada8b0b39",
-          "type": "default",
+          "id": "ID_5b281aba5b7a",
+          "type": "Redis",
           "loc": [
-            48.05793108594207,
-            200.7873185888462
+            50.31002076316149,
+            200.39908679242455
+          ],
+          "link": "RedisString的编码以及操作",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Redis的基础，String",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38393bab896b",
+          "type": "java",
+          "loc": [
+            37.53876875652607,
+            168.69135783337654
           ],
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": null,
           "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09d88a9b1b19",
+          "type": "Mysql",
+          "loc": [
+            45.05086303924657,
+            194.01287299668
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db99d8f8eb19",
+          "type": "Redis",
+          "loc": [
+            50.15890257190415,
+            201.24728140402442
+          ],
+          "link": "Redis List底层以及操作",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Redis的第数据结构list",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -39,10 +89,62 @@
       "x": 0,
       "y": -2
     },
-    "isImage": false,
-    "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAj1JREFUSEuNVe112zAMPNLeI9okcps9/PG6h+M9+hx5j6RRJqm8h030HSPQoEzK1R/piSAOOBwAh/942o00S4+NCJ7h0EAwiMPpz9F1j667OYOXnbyOTtvRrnPAmd8C7AEMAHrncXr/7fqSrzuAFO23A/t0Anwx6h872bjv82YEiW8HnN6P7tVeSgDTSwIcvI8RAgHtGDFD7+HAjJJDE9Sa5hYoArz8klYCPg1ydw049J2LAHSw8PhrzjNqSlk7jxVpqwGoLzpSGmh8DsDggSZlVCliBjBGyAzorPSkiC8XDJNs7uwdcNBapBoQxHu0TrAeOX6kwOl5VhMekuIbRVfs3QIH8jajpGJ2WlR7b64GWSTVrAT9VbBllIWAhmvAKmWQlHTF3tBTVAptLwEdL0+kzaMYHM8zijQCFmYsOJtoY2XJvmCTTTSvosiyXnjstbunMq01T3I0UdpggelYA7uTaRxmt/GQyXJSh0QDaYrzCmAHpyAUdOzqGxEV9WRRVoqa+K/OIqu/Gs+UNgRN1idGTSUNz45rM6dIQVZ0VYvOq1pXPgTQi9rpnENTGuZavgjAwnGohYC+FiF7QHfD3GarLhw2C5WlvbFcotGtReeaCTNLhTc2mlURIDYKcBbg6ePotswIHnElSsCaTcQ3z37u5C2+t/Kpo8NSVgXgerQbLV4iSEDLrAjKtwLYrB4CkBpSxEy42TSjSNsSTVyhguePN7ciAG3GRn2ym/Cu0fhDObXf9p9VlRVAyYa2/wAb5LooKQigiAAAAABJRU5ErkJggg=="
+    "isImage": true,
+    "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA0lJREFUSEu1lUtME1EUhs90Xm3B8ghICaWMWCGgQcJGEI1sfMRHQCCRGAws1ER3rlz4oBEXGE3QRBMjLtiw0ihRYzQSQ4yPRBcsAEUBaZVS2gAzLe20M3NnxtwmJQQotEbv9t57vvOf8597CfjPi/jP8SFlwLfLmXVAgavMKbiSSS4lwDdnJmcpt/ZrJGih4dnGZCApAdx3Cnvtxyva/B5/JPBy/HxJp9C7kYqkAT+uZLZvO1PbAQBcWBRhfmTmgzjia91IRVIAXHfuREsPmxV0oKgXaMYMyapYBcB1JlWow9IJhj5ioA0eS9n2/Tl7G8qVhSegqQhYUwZgFf5nY68kMXJuPRWrAO67RUPWOkcOQRA2ehMLkH4wVmbE9wNFm0BFUVBVBAybDnIwOu0dGHNpshaSgpEba7lrFWCyK++27eiOJsZitCmyCAA6EEAASbNAECTougpIiWJ9QJI0GEg6lkDYE5gVFnhJmxH77GemLsWbv2YPxjtzHxU17mym0imQpRCwxoxVZtFUBaRoAEjKCAbKBDwvAFIUJH6ceeO44D28LgBveh4Wd+XWFF80mPTYWRwovuLBKdoMclQFfnERSEULLw78vlV6bcG5PJuELsLNzi4vuL25mqtXkQwkxSzdw6pUWQUliiAgikCrBp8w4Gopuy4MrpS6rk1/3+f68w9srceXcGNx5hTFxmJoSAc+EAI0F3EvfvK0rxU85sREk4gVZDnynmbtslbiwCTFAkWzgBQJkCICLk8oLENo2Pfa3jpxKFGchIDvV7OdJadr2uKTK0syMCwDaWZzzEm6pgE/J0DkV3CosGms6q8AuU1lHZIkga7rKDIRDE9/nbfkFWWgLbuLfdjGeNgWxr0e+7ExW8oA9+PS91S2qVD5FfgiT/Iv3k0Zc1TD/M20NLO7drvlraU0z0Llm5vEuaBPGHRVJ5rmxD1Y8e73nS0Y5Bywz+tVhpq7/VX4fWLtGU6mIJ2zHRnlUlaw/EJ3g5XbUcE8zcyGyu+j0c+tPf5d8X0MSuSgdV20HHCn0ercU2fsUBCCn5Py65P3/Aldk9IcxA9jQIGNqmRNqFjg9eenHviW3pp/9uHgQLhUF/pnk/qLN3yLNsos2f0/1bd/KATQyfcAAAAASUVORK5CYII="
   },
-  "markerIcons": [],
+  "markerIcons": [
+    {
+      "type": "Redis",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "java",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABWCAYAAABRo7HKAAAAAXNSR0IArs4c6QAAB95JREFUeF7tXGtuGzcQJiUdIQryrzKcSxR1UPsktYG66C1q3yKoC9Q5SWTERS8RI+t/QZQjSGIxXHJFcfkYPnZJ1dKfPMTlDj/OfPPgUJQcP1kRoFlnG3ky9urVOZnNGvr1azPyq62vO2xA37xZkM3mI5lOL2oB9f8A6BcynZ4cAc1go+z16xvC2B+EkCu6Wt1nmDJ5isPW0Pn8CyFkQQi5p6vVVTIaGSY4WEC5Q6L0o8BgSVeriwx4JE9xkICy1hmBdsrPUUNTVIHN56CZ590clN7Sb99uUubM9ezBaSibz/8mhFxqABydUoxGWMBs6Gp1EjPfEM8cjIb2zFyiUZG5g0jVAyocEJj5jjNV1aooqK8eUBEaAZgQa/Y/lWln1YAqWZCN6tCxp9ByiFsXZLtd0u/fl0PwZ7WAWvlyh4LTEXEAt9tLwtjPClU0hLGrIcGsDlBh4pCbm/lSAsrYhQ6MAiI8r3/Q2pyqudU4JS2VtK9LA7M2nq0CUARftgArYHq9PyFNiTppcUAtwbquoXv8h9DmYrl9UUAHAdPAr6m8GPJ8MUARWgbr2NfMfpVJXesoXtwHbhFADeU3k5y90MgRTlWTz5cBdHd0Ydvwnrax+RwqTJA19T+FzVwVqAyg8zlzmo4pzjSX7WCaakp3RQJ7r7lb8nO2Oz/a34uXXhxxmi4hVi5kZq2uhjvlLo9u8k7vbtNOl3d/8RrqAsfiXDw08bI5lGeQZj50V5BsHOqgCV/MOMT3o5s8B9QWNjnM15NVVaOlZQCVTV56Jd4RT3oyq2qcUxFAhdkHHwc7C8+VHIeUA9Sspc5CsMc5VaGlxQB1cKmTDz1xbHEuLQqoBVSMltqOlUc76rBFCMUBtYDq1lJ7LFvc7KsAVAH1F3EG7z2+sDioo4aqpiPi0xZUj9e2xLLFjj6K5fK+7EQ4HTgKXrh6543OqYK6aDUmv6epLUe2LTiWGx4GQIub++D10MXv//KepNl6vWB0sqB0y//NGP2BUva8nszum/c/Wu8YCbMGR9O7kKBxaJQzOr3+53In06TZTCdLlzw+68oKKIA32655IyxjVG2BUeVoKGUfPv/5Dt1tDClnr0tk/zgkiDdBzulmA5SiN+1KOZeb6fQqFthkk0cICII2m+n0IlZIAx1Af33UKSdoJdcktm0YpS1X97v7ouVNAvTtr5/O2e4mhs0imqe7s2wdxpwGPB103FrW6wWZtD1SQDFPd2fGazdCIUyJwvLp7iz4ZkkSoKfXj6YChwnYhhB6C1qxns06zsRorORhOSkHCkDSOFnRNL2XtKGMXX3+652zhfH0+lHeeerk30ynJxgZ1QWPBSiGz7OPoZTdYvn67W+fbhjjFKB86NXT3U9BN/SSAHWYS3ZwAiYMdnwwt4m+QjYka2DfEj1vbrV5zgA8gocChQCID74wzDVzVYBKQaUzAH4TAEsPau6Rx2EnOVcC98wf25Kljxdx07ejqjD5IIF5RDBZQPAMz0nnos8hnVaoMwiRxTS2CqeEWYTYeR7oU8YucmoV5v2YMcIXqHdH4bGocC/JKbmEFULCnczO3GNIHg/I9jzUI8u5T68f9++O8sA/bvMHA9RkQmIBwIVLytiHGG01BO1qqBPs4U2xdMrGDwIoMoPiZiVA7oJuKJpIzYEMR/w91LmhshwRnegtkqhnbZYzCKDwMpMZYcw34xhnhmT26uTelqJi5RoMUFl96mcfWNGix3nN3rDZqPQUI9FggMqXt85pez5Q4M8pA0qC8KcvzTRnduHppQvYwQHVX24I/mGIjARMCUAX2Hf8uiVLiFdDYlUl6mgThEin6NPSMoBCITpzpuNbKAAasgG++UZ3SvoLdSeQEppwlRYnBPI4ZewNKgqoxaOKsIne+gJyWRMFLoYzIMsRi9cZxWpdyHOjmPzp9aP71kcrsVoE6Xya9ccHLKtM1fwQ8ExjawI0dS3q80kHbSmCRAEKmRCc19hMD1JLQugDmPLI8WiU2ed0WEGAOrhQ3VQ1zHmQseGAwHIQU5ySyOehGuY9e/JpLxpQTyqJ1oxdHEplY5j71xv2V9BV5xmbND5n5lu8/F4pkESV7NT3oAC1FBG6eWJLXZ3nUTpMTCDEVKWwYOq10FSnhgTUeVycvKvYxeceZ0pFRwEUwZ3JVZrcYPnms5UYU60NpaHI+iaaR32LHep7xTFK/t57Vap2wmQoQGEgQkulcLwiD2ETdIoMyX8+4NXqvqOBjU+TA8wgQGGwcE6ywcq3HhXg7ggYvLPakhNbsHC1SorsChs9eGuhPO6G8qCnnScYUHjAZzZYlLVx2N+hTznf75k3pjFCRjjYPie0yetAaYVj2MFsi43cFN9jbQKAKERzims7C+WvnKHPmaIB9QAM4GJNzgdEzPddAoAFUL5EAxL+OygszAaoadVqdV6U3eAUU6/OYzVbpYVeFV9yM4bnTLJa+rO8/KrPNSigMao15jOeJreoitUggOpNsrGePDe4rTl3jWxW3k8JoQYB1MBH8nTyGapC8H3oIVsouFjw1HlTgJTzDAqoKqxWQ1UvCnAHolTsIchWukcmeyGVvAYj51a6S6QTxHKynOI+5wnoaIDqGiY1SDkjMt3GCFVM33jR3k0fctxJMr2sGKCBUYGudS4tFKkvvKFNf4emlz3a8G3p8fswBKrS0DDR6xx9BDTzvvwHofIHoju0NVEAAAAASUVORK5CYII=",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Mysql",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
   "color": "#dddddd",
   "lat": 39.983334,
   "long": -82.98333,
@@ -60,7 +162,56 @@
   "displayOverlayTooltips": true,
   "configDirectory": null,
   "mapViewEnabled": true,
-  "mapViewParameters": {},
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": 1.5,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "[[fantacyMap.jpg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[fantacyMap.jpg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.5,
+    "zoomFeatures": false,
+    "id": "ezaros-world-region",
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        192,
+        256
+      ]
+    ],
+    "unit": "miles",
+    "lat": 96,
+    "long": 128,
+    "filterTag": []
+  },
   "enableDraw": true,
   "defaultUnitType": "imperial",
   "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",

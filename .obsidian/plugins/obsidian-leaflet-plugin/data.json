@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1706939305949,
+      "lastAccessed": 1706948466457,
       "markers": [
         {
           "id": "ID_b828b9aa18e8",
@@ -209,14 +209,17 @@
           "id": "ID_c8485919a91b",
           "type": "Redis_归纳",
           "loc": [
-            48.098529179076436,
-            201.50351611864934
+            49.81485474816265,
+            202.23413975020745
           ],
           "link": "Redis知识结构mindmap",
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            25.27926746877593,
+            -6.2268568435203315
+          ],
           "description": "Redis 之归纳！Redis建国之日！",
           "minZoom": 1,
           "maxZoom": 10,
@@ -226,14 +229,18 @@
           "id": "ID_1899dbcb48ba",
           "type": "Redis_场景",
           "loc": [
-            47.170632993187574,
-            198.05326549804346
+            47.94662526566601,
+            201.50754526758226
           ],
+          "link": "Redis缓存基础",
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
-          "description": null,
+          "percent": [
+            25.188443158447782,
+            -5.993328158208251
+          ],
+          "description": "Redis作为缓存的场景，是最重要的场景",
           "minZoom": 3,
           "maxZoom": 10,
           "tooltip": "hover"
@@ -254,6 +261,200 @@
             -6.065910583646372
           ],
           "description": "Redis 运行快的基础，单线程",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1a8acaf98aab",
+          "type": "Redis_特性",
+          "loc": [
+            48.88099086408575,
+            203.56434830558115
+          ],
+          "link": "Redis内存淘汰策略",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "内存淘汰策略，提高性能",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4b986b3a995b",
+          "type": "Redis_特性",
+          "loc": [
+            46.56525226379797,
+            204.04184660503003
+          ],
+          "link": "Redis持久化",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            25.505230825628754,
+            -5.820656532974747
+          ],
+          "description": "Redis的默认快照和RDB是备用的容灾方式！",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca0a5bca6ab8",
+          "type": "Redis_场景",
+          "loc": [
+            47.14863052967999,
+            201.9236324983418
+          ],
+          "link": "缓存一致性怎么保证",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            25.240454062292724,
+            -5.893578816209999
+          ],
+          "description": "缓存如何保证一致性",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba59abfa39d9",
+          "type": "Redis_场景",
+          "loc": [
+            47.95461809103111,
+            200.3363687530677
+          ],
+          "link": "缓存异常场景",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            25.04204609413346,
+            -5.9943272613788885
+          ],
+          "description": "缓存的四大异常以及对应的解决办法",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9ebdaeaa988",
+          "type": "Redis_场景",
+          "loc": [
+            47.6764617731141,
+            197.93784889848698
+          ],
+          "link": "分布式锁（很重要）",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.742231112310872,
+            -5.959557721639262
+          ],
+          "description": "非常重要的分布式锁，是Redis建国的坚实基础！",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6969eb08e91b",
+          "type": "Redis_场景",
+          "loc": [
+            47.47887904404146,
+            199.21067518979123
+          ],
+          "link": "多机部署",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.901334398723904,
+            -5.934859880505183
+          ],
+          "description": "提升缓存容灾能力",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7998887a0bf8",
+          "type": "Redis_场景",
+          "loc": [
+            47.037588984179806,
+            197.83912705490428
+          ],
+          "link": "事务",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.729890881863035,
+            -5.879698623022476
+          ],
+          "description": "实现分布式锁的事务，LUA脚本",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d9eb6a3b59c8",
+          "type": "Redis_场景",
+          "loc": [
+            47.94157355196809,
+            203.89020329183307
+          ],
+          "link": "Redis集群",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            25.486275411479134,
+            -5.992696693996011
+          ],
+          "description": "将多个Redis包装成一个服务对外，提升性能",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb3b0b7b6a9b",
+          "type": "Redis_知识点",
+          "loc": [
+            49.777871928166746,
+            197.33539622923925
+          ],
+          "link": "IO多路复用",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.666924528654906,
+            -6.222233991020843
+          ],
+          "description": "多路复用的一个知识点",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6ad899c8a8ab",
+          "type": "Redis_归纳",
+          "loc": [
+            49.101158707892765,
+            202.13246521259197
+          ],
+          "link": "redis面试题",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "实战指挥室之纸上谈兵！",
           "minZoom": 3,
           "maxZoom": 10,
           "tooltip": "hover"

@@ -2,23 +2,46 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1706891111682,
+      "lastAccessed": 1706939305949,
       "markers": [
         {
-          "id": "ID_5b281aba5b7a",
-          "type": "Redis",
+          "id": "ID_b828b9aa18e8",
+          "type": "Redis_知识点",
           "loc": [
-            50.31002076316149,
-            200.39908679242455
+            48.42932453276223,
+            197.23337122809986
+          ],
+          "link": "Redis Set的操作以及底层",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.654171403512482,
+            -6.053665566595279
+          ],
+          "description": "Redis set的底层以及操作",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b281aba5b7a",
+          "type": "Redis_知识点",
+          "loc": [
+            49.962057927933145,
+            200.44888481472248
           ],
           "link": "RedisString的编码以及操作",
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            25.05611060184031,
+            -6.245257240991643
+          ],
           "description": "Redis的基础，String",
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": 3,
+          "maxZoom": 10,
           "tooltip": "hover"
         },
         {
@@ -33,8 +56,8 @@
           "command": false,
           "percent": null,
           "description": null,
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": 1,
+          "maxZoom": 10,
           "tooltip": "hover"
         },
         {
@@ -49,33 +72,197 @@
           "command": false,
           "percent": null,
           "description": null,
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": 1,
+          "maxZoom": 10,
           "tooltip": "hover"
         },
         {
           "id": "ID_db99d8f8eb19",
-          "type": "Redis",
+          "type": "Redis_知识点",
           "loc": [
-            50.15890257190415,
-            201.24728140402442
+            49.88806616138843,
+            201.28954220862596
           ],
           "link": "Redis List底层以及操作",
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            25.161192776078245,
+            -6.236008270173554
+          ],
           "description": "Redis的第数据结构list",
-          "minZoom": null,
-          "maxZoom": null,
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7b293bf9690b",
+          "type": "default",
+          "loc": [
+            50.670217747091684,
+            201.29416717512245
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 1,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbab2bfadbb9",
+          "type": "default",
+          "loc": [
+            50.69185829461077,
+            201.24104177700207
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 1,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ab899a9a8c9",
+          "type": "Redis_知识点",
+          "loc": [
+            49.078400068158565,
+            199.88587433101083
+          ],
+          "link": "Redis Hash",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.985734291376353,
+            -6.134800008519821
+          ],
+          "description": "Redis hash 作为字典场景被使用",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8fa28e90bf8",
+          "type": "Redis_内结构",
+          "loc": [
+            48.28729501083311,
+            198.3597661330164
+          ],
+          "link": "Redis hashTable 底层以及操作",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.79497076662705,
+            -6.035911876354139
+          ],
+          "description": "更底层的结构，构成了Set、Zset、以及Hash",
+          "minZoom": 5,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8a879080b0b",
+          "type": "Redis_内结构",
+          "loc": [
+            48.690542770342375,
+            199.2722952455847
+          ],
+          "link": "Redis 跳表",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            24.909036905698088,
+            -6.086317846292797
+          ],
+          "description": "Redis的跳表结构，构成了Zset",
+          "minZoom": 5,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7999c9f8cafb",
+          "type": "Redis_知识点",
+          "loc": [
+            49.28404435996907,
+            198.5433040267242
+          ],
+          "link": "Redis ZSet",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Redis的Zset结构，积分，排名场景使用",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c8485919a91b",
+          "type": "Redis_归纳",
+          "loc": [
+            48.098529179076436,
+            201.50351611864934
+          ],
+          "link": "Redis知识结构mindmap",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Redis 之归纳！Redis建国之日！",
+          "minZoom": 1,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1899dbcb48ba",
+          "type": "Redis_场景",
+          "loc": [
+            47.170632993187574,
+            198.05326549804346
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_191b8a583ba8",
+          "type": "Redis_特性",
+          "loc": [
+            48.527284669170974,
+            204.71283167744113
+          ],
+          "link": "Redis单线程，还是多线程？",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            25.58910395968014,
+            -6.065910583646372
+          ],
+          "description": "Redis 运行快的基础，单线程",
+          "minZoom": 3,
+          "maxZoom": 10,
           "tooltip": "hover"
         }
       ],
       "overlays": [],
       "shapes": [],
       "files": [
-        "首页/首页模块.md",
-        ""
+        "首页/首页模块.md"
       ]
     }
   ],
@@ -93,7 +280,7 @@
   },
   "markerIcons": [
     {
-      "type": "Redis",
+      "type": "Redis_知识点",
       "iconName": "ad",
       "color": "#dddddd",
       "alpha": 1,
@@ -105,9 +292,11 @@
       },
       "isImage": true,
       "imageUrl": "data:image/png;base64,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",
-      "tags": [],
-      "minZoom": null,
-      "maxZoom": null
+      "tags": [
+        "Redis"
+      ],
+      "minZoom": 3,
+      "maxZoom": 10
     },
     {
       "type": "java",
@@ -123,8 +312,8 @@
       "isImage": true,
       "imageUrl": "data:image/png;base64,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",
       "tags": [],
-      "minZoom": null,
-      "maxZoom": null
+      "minZoom": 1,
+      "maxZoom": 10
     },
     {
       "type": "Mysql",
@@ -140,8 +329,84 @@
       "isImage": true,
       "imageUrl": "data:image/png;base64,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",
       "tags": [],
-      "minZoom": null,
-      "maxZoom": null
+      "minZoom": 1,
+      "maxZoom": 10
+    },
+    {
+      "type": "Redis_归纳",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "Redis"
+      ],
+      "minZoom": 1,
+      "maxZoom": 10
+    },
+    {
+      "type": "Redis_内结构",
+      "iconName": "adjust",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "Redis"
+      ],
+      "minZoom": 1,
+      "maxZoom": 10
+    },
+    {
+      "type": "Redis_场景",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "Redis"
+      ],
+      "minZoom": 3,
+      "maxZoom": 10
+    },
+    {
+      "type": "Redis_特性",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [
+        "Redis"
+      ],
+      "minZoom": 3,
+      "maxZoom": 10
     }
   ],
   "color": "#dddddd",
@@ -156,7 +421,7 @@
     "patch": 2
   },
   "warnedAboutMapMarker": false,
-  "copyOnClick": false,
+  "copyOnClick": true,
   "displayMarkerTooltips": "hover",
   "displayOverlayTooltips": true,
   "configDirectory": null,

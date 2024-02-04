@@ -8,27 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33cbbcda50652b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1c5822f935b6956c",
             "type": "leaf",
             "state": {
               "type": "obsidian-leaflet-map-view",
               "state": {}
             }
+          },
+          {
+            "id": "8b5f4b54ed1973bf",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.4881906116187213
+                }
+              }
+            }
+          },
+          {
+            "id": "1adc2673e270f36c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端学习/Mysql/mysql入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "后端学习/Mysql/mysql入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "后端学习/Mysql/mysql入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,11 +174,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "后端学习/Mysql/mysql入门.md"
+              }
             }
           },
           {
-            "id": "156956a88274903c",
+            "id": "fbadf297f6e4a6d6",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -194,14 +213,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1c5822f935b6956c",
+  "active": "1adc2673e270f36c",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
+    "后端学习/Redis/知识点/RedisString的编码以及操作.md",
+    "首页/HOME.canvas",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
     "后端学习/计算机与网络/HTTP重定向和跳转.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "后端学习/Mysql/mysql入门.md",
-    "首页/HOME.canvas",
     "复盘/周报/2024/Weekly/2024-W05.md",
     "首页/首页模块.md",
     "资源/map/FreeCity.png",
@@ -229,7 +249,6 @@
     "后端学习/Redis/Redis场景/Redis集群.md",
     "后端学习/Redis/Redis场景/多机部署.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-15.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-17.md",
     "资源/img/Paste image 1706403603086image.png",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",

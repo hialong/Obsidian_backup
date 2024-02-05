@@ -118,7 +118,7 @@ select * from orders JOIN customers on orders.customer_id = customers.customer_i
 USE sql_hr;
 SELECT e.employee_id,e.first_name,m.first_name as manger FROM employees e JOIN employees m ON e.reports_to=m.employee_id;
 ```
-- [ ] mysql 看 21 [4- 多表连接 | Joining Multiple Tables\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=21&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)
+- [ ] mysql 看 21 [4- 多表连接 | Joining Multiple Tables\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=21&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a) ⏫ 📅 2024-02-05
 #### 多表连接
 
 ### 多数据库连接

@@ -91,5 +91,35 @@ SELECT *,quantity * unit_price as total_price from order_items ORDER BY quantity
 SELECT *,quantity * unit_price as total_price from order_items ORDER BY total_price;
 ```
 
-- [ ] sql 看完 p16 下次看 p17 了 [11- LIMIT子句 | The LIMIT Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=17&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-02-04
+- [x] sql 看完 p16 下次看 p17 了 [11- LIMIT子句 | The LIMIT Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=17&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-02-04 ✅ 2024-02-04
 
+### limit 的用法
+
+```sql
+-- 前面相当于offset 6  往后查三位
+select * from customers limit 6,3
+```
+
+
+### JOIN 关键字
+#### 单 join 另一张表
+
+```sql
+-- 单join
+select * from orders JOIN customers on orders.customer_id = customers.customer_id
+
+```
+
+1. 如果搜索的是**两张表里面的共有列**会报错：列不明确。例如 `select customer_id，order_id from orders JOIN customers on orders.customer_id = customers.customer_id` 正确的写法应该是给 customer_id 加上明确的表名
+2. 可以给表赋别名，但是赋别名之后就必须要用别名了，否则报错，就像这样 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240204232449.png)
+
+#### 自连接，join 自己
+```sql
+USE sql_hr;
+SELECT e.employee_id,e.first_name,m.first_name as manger FROM employees e JOIN employees m ON e.reports_to=m.employee_id;
+```
+- [ ] mysql 看 21 [4- 多表连接 | Joining Multiple Tables\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=21&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)
+#### 多表连接
+
+### 多数据库连接
+只需要给查询的数据前面加上数据库的名字就可以了

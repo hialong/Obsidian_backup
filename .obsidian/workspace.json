@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ead8cdad12b22908",
+        "id": "d7177eed4bdb9231",
         "type": "tabs",
         "children": [
           {
-            "id": "48f2e148fe5359f7",
+            "id": "65e5da40e0e7345c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "首页/HOME.canvas",
-                "viewState": {
-                  "x": 66,
-                  "y": -370,
-                  "zoom": 0
-                }
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,12 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/首页模块.md"
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md"
               }
             }
           },
           {
-            "id": "fbadf297f6e4a6d6",
+            "id": "f13fa95fb25990e0",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -192,10 +189,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "48f2e148fe5359f7",
+  "active": "65e5da40e0e7345c",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
     "首页/HOME.canvas",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
     "后端学习/Mysql/mysql入门.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
@@ -226,7 +224,6 @@
     "复盘/周报/2024/Weekly/2024-W04.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
     "template/日记模板.md",
-    "后端学习/Redis/Redis场景/Redis集群.md",
     "资源/img/Paste image 1706403603086image.png",
     "Paste image 1705934150311image.png",
     "Pasted Image 20240109221118.png",

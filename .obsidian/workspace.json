@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端学习/算法/哈希相关.md",
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "412202d45905b286",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端学习/算法/哈希相关.md",
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端学习/算法/哈希相关.md",
+                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,11 +188,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "27828b65dd7209b5",
+  "active": "412202d45905b286",
   "lastOpenFiles": [
-    "后端学习/计算机与网络/监听回调.md",
-    "后端学习/算法/哈希相关.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
+    "首页/首页模块.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
+    "后端学习/算法/哈希相关.md",
+    "后端学习/计算机与网络/监听回调.md",
     "后端学习/算法",
     "后端学习/Mysql/mysql入门.md",
     "首页/HOME.canvas",
@@ -194,7 +205,6 @@
     "后端学习/计算机与网络/HTTP重定向和跳转.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "复盘/周报/2024/Weekly/2024-W05.md",
-    "首页/首页模块.md",
     "资源/map/FreeCity.png",
     "资源/map/FreeCity.png.crdownload",
     "后端学习/Redis/Redis知识结构mindmap.md",
@@ -215,10 +225,9 @@
     "后端学习/Redis/Redis场景/Redis缓存基础.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-28.md",
     "复盘/周报/2024/Weekly/2024-W04.md",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
     "资源/img/Paste image 1706403603086image.png",
-    "Paste image 1705934150311image.png",
-    "Pasted Image 20240109221118.png",
+    "资源/img/Paste image 1705934150311image.png",
+    "资源/img/Pasted Image 20240109221118.png",
     "资源/img",
     "后端学习/Mysql",
     "资源/旅行",

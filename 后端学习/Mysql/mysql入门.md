@@ -133,14 +133,27 @@ SELECT c.customer_id,c.first_name,o.order_id from customers c join orders o on c
 可以看到，leftjoin 返回了左边表的所有的数据，即便是不满足条件（没有 orderid 与之对应）
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240206224647.png)
 
-### 多数据库连接
-只需要给查询的数据前面加上数据库的名字就可以了
 
-### 复合连接条件
-目前看是就是join多加了一个条件，需要在 where 语句后面进行连接上 and 就行
+#### 多表外连接
+ 多表外连接比较复杂
+ 
+```sql
+-- 查找客户，订单以及对应的托运人
+-- 下面的写法，会导致显示不完整,原因是join 的写法，我们join shipper这个表的时候，出现了内连接的写法，我们应该换成left join
+SELECT
+	c.customer_id,
+	c.first_name,
+	o.order_id 
+FROM
+	customers c
+	LEFT JOIN orders o ON c.customer_id = o.customer_id
+	JOIN shippers sh ON o.shipper_id = sh.shipper_id;
+```
+这是上面错误写法的返回结果 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207143319.png)
+而这是正确写法的返回 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207143405.png)
 
-### 隐式连接
-下面是隐式连接的写法，但是一旦忘记写 where 语句，那么，会造成交叉连接，推荐使用显式连接法，这样有问题会报错
+#### 隐式连接
+下面是隐式连接的写法，但是一旦忘记写 where 语句，那么，会造成交叉连接 [[#交叉连接（cross join）]]，推荐使用显式连接法，这样有问题会报错
 ```sql
 -- 显式语法
 SELECT * from orders o JOIN customers c ON o.customer_id = c.customer_id;
@@ -151,7 +164,51 @@ SELECT * from orders o,customers c WHERE o.customer_id = c.customer_id;
 SELECT * from orders o,customers c ;
 ```
 
-- [ ] sql 未完待续，下次看 P25 [8- 多表外连接 | Outer Join Between Multiple Tables](https://www.bilibili.com/video/BV1UE41147KC?p=25&vd_source=eb319c6e317591be75da0554d1d79e3a)
+- [ ] sql 未完待续，下次看 P25-p35 [8- 多表外连接 | Outer Join Between Multiple Tables](https://www.bilibili.com/video/BV1UE41147KC?p=25&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-02-07
+#### USING 关键字
+
+我们可以用简洁的写法 USING 关键字代替 join 后面的 ON 条件 [[#JOIN 关键字]], 写法如下，如果 on 后面的条件是一样的字段名称，那么我们就能用 using 来直接表达，==如果后面有多个条件，我们也可以在 using 后面的括号里面用逗号隔开==
+```sql
+SELECT
+	c.customer_id,
+	c.first_name,
+	o.order_id 
+FROM
+	customers c
+	LEFT JOIN orders o 
+	-- ON c.customer_id = o.customer_id
+	USING (customer_id)
+	LEFT JOIN shippers sh ON o.shipper_id = sh.shipper_id;
+```
+但是注意
+>[!faq] 能在条件列名不同时候使用吗？
+>USING 关键字只能在对应表的列名称完全一样时使用
+
+#### 自然连接（Natural join）
+自然连接指的就是，根据你 join 的两个表的**相同名字的字段**，数据库会自己看着办
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207150842.png)
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207150944.png)
+但是这种连接会出现很多意外，不推荐使用，但是自己写可以写
+
+#### 交叉连接（cross join）
+- [ ] 什么是笛卡尔积--数据库
+交叉连接会出现笛卡尔积的形式
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207151653.png)
+
+==实际的应用场景应该是你需要一些表数据的所有排列组合的时候才会用到 cross join==
+交叉连接还有一种隐式写法，不需要显式的写出 `cross join` 如下
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207151953.png)
+去掉 cross join 改为 from 后面多写几个表名就行了 [[#隐式连接]]
+### 多数据库连接
+只需要给查询的数据前面加上数据库的名字就可以了
+
+### 复合连接条件
+目前看是就是join多加了一个条件，需要在 where 语句后面进行连接上 and 就行
+>[!warn] 注意
+>你需要返回的列的数量一定要一致，否则就会报错，且列名是基于第一段查询的
+### Unions 关键字
+Unions 关键字是用来联合多个查询条件的![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207153921.png)
+
 ## 总结
 对以上学习进行一个小总结
 
@@ -170,4 +227,4 @@ SELECT * from orders o,customers c ;
 6. `JOIN` 关键字，分为内连接 `inner join` 和两个外连接 `left outer join` 和 `right outer join` (inner 和 outer 都可以省略)，内连接和外连接最大的不同就是 [[#JOIN 关键字]]
 	1. 内连接如果没有满足的条件，就会不返回，
 	2. 外连接，以左连接为例，会返回所有的左边的表的信息，以及满足 on 后面条件的右边的表的信息
-- [ ]  看完 p30 再做一遍总结，到时候刚好第三章看完
+- [ ] 看完 p30 再做一遍总结，到时候刚好第三章看完 📅 2024-02-07

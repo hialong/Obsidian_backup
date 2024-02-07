@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1707147298268,
+      "lastAccessed": 1707285344176,
       "markers": [
         {
           "id": "ID_b828b9aa18e8",
@@ -458,6 +458,179 @@
           "minZoom": 3,
           "maxZoom": 10,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_399b59bafaf8",
+          "type": "CS_基础",
+          "loc": [
+            98.88163287955406,
+            64.87138206106476
+          ],
+          "link": "网络部分基础",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.108922757633096,
+            -12.360204109944258
+          ],
+          "description": "网络协议以及网络之间的流程",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fbf8fa5b5b19",
+          "type": "CS_HTTP",
+          "loc": [
+            96.18769610751914,
+            64.46881064489786
+          ],
+          "link": "HTTP状态码",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.058601330612232,
+            -12.023462013439893
+          ],
+          "description": "状态码就是交流的过程中简洁的表达",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a88aea19d88b",
+          "type": "CS_HTTP",
+          "loc": [
+            96.30107469447091,
+            65.39239060609533
+          ],
+          "link": "Http的实体数据",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.174048825761917,
+            -12.037634336808864
+          ],
+          "description": "报文中传输的一些东西",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dacb8adb3beb",
+          "type": "CS_HTTP",
+          "loc": [
+            96.47311250652655,
+            64.82917693474083
+          ],
+          "link": "HTTP报文是什么样子的",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.103647116842604,
+            -12.059139063315818
+          ],
+          "description": "HTTP协议最基础的部分，报文",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b9dbb9384bb9",
+          "type": "CS_HTTP",
+          "loc": [
+            95.97953560447641,
+            66.00569840096374
+          ],
+          "link": "http的网址",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.250712300120467,
+            -11.997441950559551
+          ],
+          "description": "服务端和客户端之间怎么交流的",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b7949ebc9e8",
+          "type": "CS_基础",
+          "loc": [
+            98.74174730768586,
+            65.25297420118626
+          ],
+          "link": "监听回调",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "计算机中，如何实现回调这个操作的呢？",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_38e8a85acb49",
+          "type": "CS_HTTP",
+          "loc": [
+            95.6305532806689,
+            65.60058592916342
+          ],
+          "link": "HTTP重定向和跳转",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.200073241145427,
+            -11.953819160083613
+          ],
+          "description": "HTTP的状态码配合消息头的使用",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ca1938ab0b98",
+          "type": "CS_HTTP",
+          "loc": [
+            95.91469020925872,
+            65.02351304304354
+          ],
+          "link": "HTTP传输大文件的方法",
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            8.127939130380442,
+            -11.98933627615734
+          ],
+          "description": "HTTP能力",
+          "minZoom": 3,
+          "maxZoom": 10,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5af808cbb8eb",
+          "type": "CS_归纳",
+          "loc": [
+            96.5567301297556,
+            54.43940195820082
+          ],
+          "layer": "%5B%5BfantacyMap.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "还没写，等归纳好了来放",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
@@ -608,6 +781,61 @@
       ],
       "minZoom": 3,
       "maxZoom": 10
+    },
+    {
+      "type": "CS_基础",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABWCAYAAABRo7HKAAAAAXNSR0IArs4c6QAADmRJREFUeF7tnW1sFMcZgN89n+3DxjkTbDAfEUZ2WsAlOCqtQovEEfojpJUoUfsrlbALQk3PqDJqm0ZCsd2iQtK0CIFLFRHZVvOvUZClFkxb8FlCAtKgGgcrtMHKIlnBxGcw8UcP++62emd39ubmZndnz2vfRfJJSIjbm5199p33ewYFFj+eElA8HW1xMFgE6rEQLAJdBOoxAY+Hy3sJ1T7eUA3xeDX4IASgrQPw9UFSU5XNdyIes/BkuLwFqn1UGwIf9Fo/paYCKF1K3Z1WT0h4NEjeASUSmYh3gIISKfPJL7B5BZSXytHRxHB398TQJ/+dDU5NJesRb4EPhlet9qtb6gOwe3fp9hRyrVOpG2qUeQXzeU3eAGVhIsi3fvcgSiFaAUC4m7cUDx04UL5Dvyb3UPMCKFnmyfiniOTs2fG+/n8/NgDJyVJpqa//5794sqKysmAtALTlUq/mHCgL88KFqSt/++sks4wJ0IgCSh9AMhIHv+qDREgBQOANLG6U1pOnViJQ/OQMau6B3qrtRQM0cDPW//bbj4ieND6qAlrj6cik0D36Sai8ugASHQAp44WS+sablfUAmgpJpTEXrlVOgWqDTzcAaB0imO2RifUyC74p9ESrBloLvXbtWv+VX722fDtoEFG+dmenzBheXpNjoDWfAijVTeH77DOpCSjY+afIuCr7oDzU735v6RXiASRh50JLac6AaoO16JC3HD82dmV4OG7qTQW0nVbL3Aowv/xT+lRTlbohKUmXfXlO1+USqMYvdQWUttORL7KKfAyoxFPAj7n0F9hA5QSoNljTAaA0vPrL0X7G11Rl9aaVlPw0VNagAKChIgHA/gPB6DNbissXUko9A5qWxNCIWyP+KCRUbMiUTvdLnb8Bv/QZq99JrtWUauGkyJy8SbrMCajhQ6I/aFpZdsIY8fAPYDjfwEpnRYWvp7Wt8jr4/J3KxtvSxogfG72Gf/x9akN398Sr9LuDB4P9z2wJ1NvNJX0cTQVNUUGDtmwMWtZAqVGhk8EJ3/tsNvrBv2KP2NhbJBG4HBNJoE44bNsW6H/5R0+Uo8VHdwcU6JOFq7teyR0o9XivkXvxa0ePjlUBgFgauQmxuYE1qwuWIvzUJVon+Arb3Lxk10DZyAZvTBMYbsNFAWi1qAgCTz1VOLJrVwmg7iOSgnCTEGGlhUDUtH0YEIyNJaDnwmT/x7dnAuMPkxucrLDT9yndS8G6y2a5B2pENjgxF3E3LmMpiWEeWF271j/84oulutSg5OKHgfjB9VgFK+lOsNx8j17C/gPl1bqKIjq2Tan7RNfFNh9XQDVnmAgOY++7cfB18s45/v7y5emq99+fYCUJQdnmPouKYGRTXfF/lgSU4MDADDhloQAA54F/yLiBgBJ96/crKsDnX88uXzRiTG4AX3jaPNLzA3LhrDRQGibiBMVxt9Ll5ENqg7XaiT886B8amqV6qrM9MtGID4bjGg+3zwmwSF0ooHRhAoUGBU2hpSENFJrxV0+3r8A72EqZfX6AuAmOgYILoHqYKIAZaY9MOMbMVPf+7NB90yBpAI1/jEyYy4h6DaOjif2YWHbSy6YEoTrgrDLv6IfD5SMbNxX1yCShLfMDyNQhnJUCyiZ/uVBR2hk3rHFLU/hzU5cmoGA9VQvUa3Br5NKNSLpVDofKUELJMq5/trjvwP5yTTZhwkLllr5tZUAOqBHZ4MTsJMxOWSOwc+cm6i/9c3oPva49MqHoL0vrGB1N+q2kkmbm9+wpq7HK5LORES3esVBMJ5/To1Zz5iWc+rNOy94VUD4BjECcrB79Hg3SiRMPyqn+LC31vffGm5WDGBScOzfRzYKmv8kscejf2JVIUBL37i3bsXy5T33vL5MnI5HpE8Z4uh71Fe6U9StZCWdyA6DU3bF8bikgNPbmgErpThPoYK12uPn+yMwMoNMNmGLbujVQLZI4K5D8y7t8afr2xYtTMd7qp34fXMeqGF2PBl6TcX/wXmxuIBXGghdA9VQbZ5CkgVKDxOY98Y2zaTsKi+g6s+gmJ//4onvOT1bzPimCxRHovzf8ONiz9evFIzKGiQfqsYQKgbowSLWtaLnbWqNmuMmj4gptciSZq2SM2cYNRd3hpmXBbAxTCqi96yS35I0uDk5C5YHequ290DPlFxTgSJotvRTsmmXaD+z0q1vDFA6VYSqQ5AgYoB5YeaPMi5NlpUwmu06jKy73SSCwemluGNN/bSOtaktrhb+y0heXMU7hUBkmrImbZ5ZVQGm008FSEooDWoAhkY4VDPzNaDRRyxselMrQ8yU39u4tM10oL4HSsSykVd22LTBOsls2Fp+LtKCltWKYxPUObpc8UHGF0nLZU5jHfhv1U8tOHzT1tucDY6a0CnS3Wv9s8V1i/Cwin2yWO95ZHqjFsheGj4l4x8BArJyrs5tPupBA8aZcVdWch+5RBLFFMiPGD4fKtEwBsF/uroCSZS+uVJpSqrtHs70DNx+PW8FM10fzL6F4Bza64+9YU1PY33x4GSa3zdZIVjrx+tPtK6USI+6BGsAwTOSWUefpUyu7sJ9TkDwBDNtYwKkwbuGBYnXgxo3HsZkZ7Tl6dx3qk5gBazsUHokwWaqUMZKs8UsveXpzmsbjoiY1HC4PzM5qI7xkhkIlzT/4YdkJdtmZCn5heKbVr1DdbN5cNHL82IMKNk1IA4rDzZ9fo7BNL8RFF4proNTi89abrxPp4q/tPNW+qhrbbfIFKKlfvRwcf6Up2sj3RhUVKSZMnL+5kiSl0/WSN6XUMFCi5U2voT4qSvToaPw3rIrIpYSyaTxRQpnOny1By4aqWQNlDZSorsQ6/CKgupJfuA+bw+XzoiKoc2nlyWrJs0AFEZCK5QhaDvmyAj3yegVgROW26yQroDSDb7PkTaj5sOTtJJTNebJrZkGXPA1DWf8OJ8DlJUnDLBqlsbF4R8vrUXO+udShu75T0r33+2Uk48TDzIlRom4TrzsREhLj/FM1FCo5ybtNufRD9Sit5I6ReDbLxjSbxKqwbHSp6yWvDWY2yWIb4qkzqzsxShI4/SQZcfVqzGxxySVQNEp8qxDb+vhKONpZAAmzLVI2y5TyblwYW1oK4ZtkaW2Jhp4iqGznSC6B8o9rwmR8TTb0RCl1Y6BcSSg2KuCEWCddXFsXSqr5LPmSHDFDTs5x5yueTFnGcXeJNFCLkBNElU+6vRCjqaO/jpo1HUo0H4C+9FLZ7ed3lWywSt8JS9ASIag8UKOviVvulglmtgvknbPjKluQ87rsYaW1rBLMBw8Gx0l3n83WG1ZK0xodvOgcMRz5jOXuVAKxg4pjpvQT2QHn6ceqM1DX38W22Xo6EdatYlaV7bKXklCr/USyjQ7ot1olnL2WVrsindEp/YJdowL7VtllL7v/SRLo/JeRvZBWp35VmkyWDSeFQB068FwBzbZzhIaqrHcgiKyyLiljCPzO2UcZzbd4j9nZZBXbrbJ7d+kl2c214s4RL+ryRrNY1kCNdB8bhaAuW7W6sII3WFS3ytTqrUBis61ueAL17Es8cmT5tapV/otzA+pJK46+ryjbRgdi1G7V9h4/Puan1p5tFrNrpRGBtQEJpDvk0LI92EJ+5syj64ODMXNHCEkbukgWiyufngDVdSiCYaXMycqzCh4LfAM3Y3uYEgkp7rHRlVM74ze/EQiKljbeB5d3c/OyWNUq/3NgNCOwQPQXWLFVVn/imGzlk43u5t59Z31AgPRGV9Sjo2OJP4s6T1L7nbR9dn2iIr8K++8bGoIj+naYjIZbs/ODzTLJ+Gd8JiqVFLc/NULKKNElizsw+HYc1Fcyu4dpB166hKfv7eT91nufxTM66vicZUPDE1XY6g1JpYvfqMVKmBv9yZeR2c47J5UhD9ToHMEHEpy8kJalt5IAzAVwro3ZEomRiR+SDRpouK1R8kQc805k94kG0Ed79lkLjVfJ6E+j/QYbxMy29fT+Ky83LXDH/1j4fOaD+UBT8UgLdmsNGiauCy9t+4vVi6DO/5o1hQWR3umlkttqcDgCpnJFgdrSshyo/qS7TvA7fIlkBYKGu0/S9lJxx25IGTRpCSU3NRodyBZCY+PXRzcf18zH5isK8dvfWvLVjZuKq8jmK31nHVE7H34YUyXhyqjMjGuY5gf9O0nvwBVQEVSZRlfZJ6IQ0ZobRoacHsbu+9RfaiJE93dSuDf7YyDqiJa9N70uc2sifuPc00R/7xpoCmo8bRcy3Tx76dI0jIwkIPa/pOW2Qb4pIr0NXN9bKbN5loeLc8N5sClDUQMGCw//Hljiiz79lcJHGa3ouP+pwN8ou8mBoHf7BtnrTXcH98dbHK3Gb6sWbe82FH+3bAQjmjOF++67X2y/dnV6P72GFgSt5pE5lvwLFc1jTkAz4eJS1LD1Zh35Djf8K1o10X2pNdEn2ABB2nbcnjUieiC265jNEAEeMsAeQEDnpR+IcNfQk2m7nrMRNs+Aurk5bYv0+ogMfkshlU7ZdJ2bZ7C6NjdALXv2vTvEJaWX5Q3KlxYo0QZGoMD5s7anidk9sDhUdHbEvYDIjpETCTU9hUS8Q1DIkwpl2YfgYToV4LyGmBdACVRj/1O2+QEcg4+7s2mS9RJwziSUPgTtk3KbH3A8LEBy17GXMOfsh3oxGTactcgPYNKji+YG8NQHHyjV7AGCOI+0JIZkmOjF/Pkxci6hpj6d44Gs+jGX5OPY3TEfIFNu9nyO7mJs9vgi2fyA4EignJ/DnBcSaupTJueK/4a1o/PnpyYfPkyaKTt6cFVFZUEiLfaWaJNx8X6zvjSvgDLL3/L4t8wnlTv+J2tCLn+Yd0BNaUWXSoEW6/Ps3Z345ZJL1pfnLVATrPlfV2BSGxMviip7xEXWVObww7wHOodny8lPF4F6jH0R6CJQjwl4PNyihHoM9P8+QAv8NgRmBwAAAABJRU5ErkJggg==",
+      "tags": [
+        "HTTP"
+      ],
+      "minZoom": 3,
+      "maxZoom": 10
+    },
+    {
+      "type": "CS_HTTP",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABWCAYAAABRo7HKAAAAAXNSR0IArs4c6QAABKhJREFUeF7tnE1W4zAMx6V0yntzA2AznZPQngS4BAwrYMXAJUpPQjkJrIAbzHuURvPsNGlq0sR25Hy0ymKGhaPEP/8ty7IaBLlYCSCrNTEGApRZBAJUgDITYDYnChWgzASYzYlCBSgzAWZzolABykyA2ZwodJ+A/rs7HP2IojNAOlH9JoIRAoz03wCv6n9EeKUY9d8Qxc8HFx+PzIyczHVKoRsACcZOPVk1VqA1ZKDZcgnzn1cfCeyGrk4AzUACXXP3WwOO6Xx49THntl1kr1WgIUGanSXCxyXFt6EV2xrQxf3xDQRQZJkKtVoBZ8PLt5tQam0cqFblAKfg6SM5QCiwy5gmIdTaKNAuwEwHREcJSLfcUUFjQBd3h2OI8IlDYVw2QriARoB2EebmoOAtl18NDjRZyfGFS1Uh7HCGVsGBLh6OntpcgGwHgGuhCgq0LzDzC9XB5ftv20FoNLDvvt8sxqY2AAd/3s59oQZT6Of90UuayPB9uTbuq+tPgwD9/Hs8RaSzNoCwPBNhPrx4n/jYCgJ0cX9EPi/TqXtimvgkVNiBfj4cniHhtFNwfF7GU6X8QHvqOwuZe6iUFejOqDOj676DqgV0nc9URxJ02sdVvdQbeEx7Z6ApxJ0EaNBVIZRroO8EtI2ksM96wnqPox+1Aqp2PRThdOemtBV5Nz9aCXQvVZkD7boVLQXat+SGleBcGzkuTIVAu3RU4dp/7vauC1MhUFHm5rAML98rXWN6x7eG++4zixSuD/QI50jxrGp/vwG0rzlM7mleZq+qYGIT6C5kiRqgW3ZamgGVqe4zEt9j1BzQHchh+jCpe48RVmmgHFkiQjpX5YPp+w0ifMp2VgjzryVl5zS65lPVNcU0+VrVedr0Sx1Hf8VkfYg2GMBY5WbNdyt6lmoLhNc+u8F88J8A5chhGnvevE1zt5G6FwXHtr5IxcZqkFySFZlQLPfj9eLvZPproCxHFh5AlXJwmVQiq8sMSXTUsbpoACOtoHit9Kp7IIrG6UzI29bgVpXQ357pWRWYHu4hx3TXffYAak49M4CuHGjDf20N+0reDWBzYanDQ0NlO6HsK1BjUOoAVQJBtm2mANUTDlkWpD5PeW6FhgKqHH/qI82VfNsmog0fqhbGfNFt/SnPtd20DE2SqKK4vr4poGUxb901JdiUz4c8KnjPq7SrQDlqWfdyUUoGdPMigl8c9Vh7CZRt3SjwHRKH2iQRHNogW1K5r3GoAyybpsjhiPu99bTBZN8mSY5w/LBAFJrslNQ/dYNZUehawRpommv0Sa5mpkSha4WyqdTe1exsy+xMqV62emf5OHdMzuWdkW2/ITleNi45TvYnrI90im4XqB5QV3lVqb7zYGfekq/Q21pV1uQHVhj61JoJ86eMlWV6Mv0rFiHjE0aVQPXWdK9r7LcA3VLZbAU03U2pEpp9+DlNmf+o+k6JNdD0IXqbqmqGAE/78KUGLudaBTJ9jjPQ/AumcCGOTjCi5CN/uQ/+cXWmaTv5DxUC4bPLB15qAW26o314ngBlHiUBKkCZCTCbE4UKUGYCzOZEoQKUmQCzOVGoAGUmwGxOFCpAmQkwm/sPXnL8EA0pNkcAAAAASUVORK5CYII=",
+      "tags": [
+        "HTTP"
+      ],
+      "minZoom": 3,
+      "maxZoom": 10
+    },
+    {
+      "type": "CS_归纳",
+      "iconName": "ad",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": true,
+      "imageUrl": "data:image/png;base64,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",
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
     }
   ],
   "color": "#dddddd",
@@ -642,7 +870,8 @@
     "isMapView": false,
     "layers": [
       "[[fantacyMap.jpg]]",
-      "[[newMap.png]]"
+      "[[newMap.png]]",
+      "[[FreeCity.png]]"
     ],
     "linksFrom": [],
     "linksTo": [],

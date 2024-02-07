@@ -164,7 +164,7 @@ SELECT * from orders o,customers c WHERE o.customer_id = c.customer_id;
 SELECT * from orders o,customers c ;
 ```
 
-- [ ] sql 未完待续，下次看 P25-p35 [8- 多表外连接 | Outer Join Between Multiple Tables](https://www.bilibili.com/video/BV1UE41147KC?p=25&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-02-07
+- [x] sql 未完待续，下次看 P25-p35 [8- 多表外连接 | Outer Join Between Multiple Tables](https://www.bilibili.com/video/BV1UE41147KC?p=25&vd_source=eb319c6e317591be75da0554d1d79e3a) 📅 2024-02-07 ✅ 2024-02-07
 #### USING 关键字
 
 我们可以用简洁的写法 USING 关键字代替 join 后面的 ON 条件 [[#JOIN 关键字]], 写法如下，如果 on 后面的条件是一样的字段名称，那么我们就能用 using 来直接表达，==如果后面有多个条件，我们也可以在 using 后面的括号里面用逗号隔开==
@@ -208,7 +208,7 @@ FROM
 >你需要返回的列的数量一定要一致，否则就会报错，且列名是基于第一段查询的
 ### Unions 关键字
 Unions 关键字是用来联合多个查询条件的![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240207153921.png)
-
+- [ ]  实际上只看到了 P 30 明天再看
 ## 总结
 对以上学习进行一个小总结
 

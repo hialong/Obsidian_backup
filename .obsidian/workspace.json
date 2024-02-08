@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+                "file": "后端学习/Mysql/mysql的更新和删除.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+                "file": "后端学习/Mysql/mysql的更新和删除.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+                "file": "后端学习/Mysql/mysql的更新和删除.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,11 +190,16 @@
   },
   "active": "97fc45817f15dca3",
   "lastOpenFiles": [
+    "后端学习/Mysql/mysql查询.md",
+    "后端学习/Mysql/mysql的更新和删除.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
-    "后端学习/Mysql/mysql入门.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
-    "后端学习/算法/哈希相关.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
+    "后端学习/算法/哈希相关.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-02.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
     "首页/HOME.canvas",
     "后端学习/计算机与网络/HTTP状态码.md",
@@ -204,10 +209,8 @@
     "后端学习/计算机与网络/监听回调.md",
     "首页/首页模块.md",
     "后端学习/算法",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
     "后端学习/计算机与网络/HTTP重定向和跳转.md",
     "复盘/周报/2024/Weekly/2024-W05.md",
     "资源/map/FreeCity.png",
@@ -220,10 +223,7 @@
     "后端学习/Redis/知识点/Redis List底层以及操作.md",
     "资源/map/fantacyMap.jfif",
     "资源/map",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-02.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
     "后端学习/Redis/redis面试题.md",
-    "后端学习/计算机与网络/HTTP报文是什么样子的.md",
     "复盘/日报/2024/Daily/02",
     "资源/img/Paste image 1706403603086image.png",
     "资源/img/Paste image 1705934150311image.png",

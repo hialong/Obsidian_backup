@@ -16,14 +16,17 @@
             }
           },
           {
-            "id": "97fc45817f15dca3",
+            "id": "e4e7039d250b47ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
-                "mode": "source",
-                "source": false
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.1814150234133618
+                }
               }
             }
           }
@@ -120,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
+                "file": "首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
+                "file": "首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,15 +158,33 @@
             }
           },
           {
-            "id": "34f861ee502330f9",
+            "id": "983e5aa38f6ab3d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "首页/HOME.canvas"
+              }
+            }
+          },
+          {
+            "id": "ed8569db3deceaa9",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
+          },
+          {
+            "id": "739f5641fe902ad9",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -188,7 +209,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "97fc45817f15dca3",
+  "active": "e4e7039d250b47ab",
   "lastOpenFiles": [
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
     "后端学习/Mysql/mysql之数据汇总.md",

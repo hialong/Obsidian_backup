@@ -4,34 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9fcf48f307cc2fe1",
+        "id": "52e2e91888d4ac8a",
         "type": "tabs",
         "children": [
           {
-            "id": "b54c3283909c0420",
+            "id": "633e96e45baaf937",
             "type": "leaf",
             "state": {
-              "type": "obsidian-leaflet-map-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "e4e7039d250b47ab",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -1.1814150234133618
-                }
+                "file": "后端学习/Mysql/mysql之数据汇总.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,14 +34,6 @@
         "dimension": 47.34195402298851,
         "children": [
           {
-            "id": "1de1a10cb87cbb58",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "d1126b05e95b76ff",
             "type": "leaf",
             "state": {
@@ -61,8 +41,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d594fb7a40913197",
@@ -123,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "后端学习/Mysql/mysql之数据汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "后端学习/Mysql/mysql之数据汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,33 +137,15 @@
             }
           },
           {
-            "id": "983e5aa38f6ab3d4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "首页/HOME.canvas"
-              }
-            }
-          },
-          {
-            "id": "ed8569db3deceaa9",
+            "id": "5acc4dc7338d3d3e",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
-          },
-          {
-            "id": "739f5641fe902ad9",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -209,10 +170,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e4e7039d250b47ab",
+  "active": "633e96e45baaf937",
   "lastOpenFiles": [
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-13.md",
     "后端学习/Mysql/mysql之数据汇总.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-12.md",
+    "首页/HOME.canvas",
+    "template/默认模板.md",
+    "template/日记模板.md",
+    "template/周记模板.md",
+    "后端学习/计算机与网络/监听回调.md",
+    "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
     "后端学习/Mysql/mysql查询.md",
     "后端学习/Mysql/mysql的更新和删除.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
@@ -223,26 +191,19 @@
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
-    "首页/HOME.canvas",
     "后端学习/计算机与网络/HTTP状态码.md",
     "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "后端学习/Redis/Redis场景/多机部署.md",
     "后端学习/Redis/Redis场景/消息队列.md",
-    "后端学习/计算机与网络/监听回调.md",
     "首页/首页模块.md",
     "后端学习/算法",
     "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
     "后端学习/Redis/知识点/RedisString的编码以及操作.md",
     "后端学习/计算机与网络/HTTP重定向和跳转.md",
-    "复盘/周报/2024/Weekly/2024-W05.md",
     "资源/map/FreeCity.png",
     "资源/map/FreeCity.png.crdownload",
-    "后端学习/Redis/Redis知识结构mindmap.md",
-    "后端学习/Redis/Redis场景/秒杀和限流.md",
-    "资源/map/testmap.md",
     "资源/map/newMap.png",
     "资源/map/fantacyMap.jpg",
-    "后端学习/Redis/知识点/Redis List底层以及操作.md",
     "资源/map/fantacyMap.jfif",
     "资源/map",
     "复盘/日报/2024/Daily/02",

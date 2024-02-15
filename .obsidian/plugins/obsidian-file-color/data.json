@@ -1,0 +1,37 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "RmERlndYMXgn9NkX1KDuz",
+      "name": "red",
+      "value": "#ec7979"
+    },
+    {
+      "id": "HG_I_iQNdKnqzpUX36gzc",
+      "name": "blue",
+      "value": "#56abfb"
+    },
+    {
+      "id": "WvDSCLLYCPgPS8pnvJNrc",
+      "name": "green",
+      "value": "#7af5e7"
+    },
+    {
+      "id": "SkiArt2aBT3ItQyhGJlO7",
+      "name": "yellow",
+      "value": "#ece488"
+    },
+    {
+      "id": "d9TRbbCOj-0OSJYbunr6s",
+      "name": "orange",
+      "value": "#f9cb7b"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "复盘",
+      "color": "RmERlndYMXgn9NkX1KDuz"
+    }
+  ]
+}

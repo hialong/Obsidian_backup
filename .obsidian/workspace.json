@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f9f5058e6dc44bc0",
+        "id": "9ef758be0c969dde",
         "type": "tabs",
         "children": [
           {
-            "id": "0104e50ba17028d0",
+            "id": "6f9e065873307a97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "首页/首页模块.md",
-                "mode": "source",
-                "source": false
+                "file": "首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.9617549798650495
+                }
               }
             }
           }
@@ -110,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/首页模块.md",
+                "file": "首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,41 +148,33 @@
             }
           },
           {
-            "id": "0a94f01ec7540776",
+            "id": "5c16362e82dd3444",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/首页模块.md"
+                "file": "首页/HOME.canvas"
               }
             }
           },
           {
-            "id": "225067421cc931cf",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "2f3f5ca47e53f092",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "1f91376c36ca64c1",
+            "id": "da75896063e4e26a",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
               "state": {}
             }
+          },
+          {
+            "id": "c5f84b193ccc5124",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,23 +190,24 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Memos": false,
       "float-search:Search Obsidian In Modal": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "vscode-editor:新建代码文件": false,
-      "obsidian-leaflet-plugin:打开 Leaflet 地图": false
+      "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "1f91376c36ca64c1",
+  "active": "6f9e065873307a97",
   "lastOpenFiles": [
+    "template/默认模板.md",
     "首页/HOME.canvas",
+    "未命名.canvas",
     "后端学习/Mysql/mysql之数据汇总.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-14.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-13.md",
     "复盘/日报/2024/Daily/02/复盘日志 2024-02-12.md",
-    "template/默认模板.md",
     "template/日记模板.md",
     "template/周记模板.md",
     "后端学习/计算机与网络/监听回调.md",

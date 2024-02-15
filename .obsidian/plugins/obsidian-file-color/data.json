@@ -1,6 +1,6 @@
 {
   "cascadeColors": true,
-  "colorBackground": true,
+  "colorBackground": false,
   "palette": [
     {
       "id": "RmERlndYMXgn9NkX1KDuz",
@@ -26,12 +26,37 @@
       "id": "d9TRbbCOj-0OSJYbunr6s",
       "name": "orange",
       "value": "#f9cb7b"
+    },
+    {
+      "id": "OHs3auQb_VYAm-8PfMkcu",
+      "name": "purple",
+      "value": "#df8af0"
     }
   ],
   "fileColors": [
     {
-      "path": "复盘",
+      "path": "0-复盘",
       "color": "RmERlndYMXgn9NkX1KDuz"
+    },
+    {
+      "path": "2-领域",
+      "color": "HG_I_iQNdKnqzpUX36gzc"
+    },
+    {
+      "path": "3-资源",
+      "color": "WvDSCLLYCPgPS8pnvJNrc"
+    },
+    {
+      "path": "4-归档",
+      "color": "SkiArt2aBT3ItQyhGJlO7"
+    },
+    {
+      "path": "5-输出",
+      "color": "d9TRbbCOj-0OSJYbunr6s"
+    },
+    {
+      "path": "6-template",
+      "color": "OHs3auQb_VYAm-8PfMkcu"
     }
   ]
 }

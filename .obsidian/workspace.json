@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9ef758be0c969dde",
+        "id": "2761195be81b2689",
         "type": "tabs",
         "children": [
           {
-            "id": "6f9e065873307a97",
+            "id": "c6573605bed1c041",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "3-资源/首页/HOME.canvas",
                 "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -0.9617549798650495
+                  "x": 66,
+                  "y": 191,
+                  "zoom": 0
                 }
               }
             }
@@ -32,32 +32,8 @@
     "type": "split",
     "children": [
       {
-        "id": "7e0f8584ea9d49c6",
-        "type": "tabs",
-        "dimension": 47.34195402298851,
-        "children": [
-          {
-            "id": "d1126b05e95b76ff",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "ff0d75f911e0cde8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "d594fb7a40913197",
         "type": "tabs",
-        "dimension": 52.65804597701149,
         "children": [
           {
             "id": "60a1caf02783b1c5",
@@ -91,6 +67,22 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "d1126b05e95b76ff",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff0d75f911e0cde8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -113,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "首页/HOME.canvas",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "首页/HOME.canvas"
+                "file": "3-资源/首页/HOME.canvas"
               }
             }
           },
@@ -174,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -199,51 +191,52 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6f9e065873307a97",
+  "active": "c6573605bed1c041",
   "lastOpenFiles": [
-    "template/默认模板.md",
-    "首页/HOME.canvas",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-15.md",
+    "3-资源/首页/首页模块.md",
+    "5-输出/test.md",
+    "3-资源/首页/HOME.canvas",
+    "5-输出/temp-dataview.md",
+    "6-template/其他/模板_应用.md",
+    "6-template/其他/模板_默认.md",
+    "6-template/PARA/模板_项目.md",
+    "6-template/PARA/模板_领域.md",
+    "6-template/周期笔记/模板_Daily.md",
+    "6-template/日记模板.md",
+    "6-template/默认模板.md",
+    "6-template/周期笔记/模板_Weekly.md",
+    "6-template/其他/模板_主题.md",
+    "6-template/PARA",
+    "6-template/周期笔记",
+    "6-template/其他",
+    "5-输出",
     "未命名.canvas",
-    "后端学习/Mysql/mysql之数据汇总.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-14.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-13.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-12.md",
-    "template/日记模板.md",
-    "template/周记模板.md",
-    "后端学习/计算机与网络/监听回调.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
-    "后端学习/Mysql/mysql查询.md",
-    "后端学习/Mysql/mysql的更新和删除.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
-    "后端学习/算法/哈希相关.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-02.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-03.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-04.md",
-    "复盘/日报/2024/Daily/02/复盘日志 2024-02-05.md",
-    "后端学习/计算机与网络/HTTP状态码.md",
-    "后端学习/Redis/Redis场景/分布式锁（很重要）.md",
-    "后端学习/Redis/Redis场景/多机部署.md",
-    "后端学习/Redis/Redis场景/消息队列.md",
-    "首页/首页模块.md",
-    "后端学习/算法",
-    "复盘/日报/2024/Daily/01/复盘日志 2024-01-31.md",
-    "资源/map/FreeCity.png",
+    "4-归档",
+    "2-领域",
+    "1-项目",
+    "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-14.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-13.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-12.md",
+    "6-template/周记模板.md",
+    "2-领域/后端学习/计算机与网络/监听回调.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-07.md",
+    "2-领域/后端学习/Mysql/mysql查询.md",
+    "2-领域/后端学习/Mysql/mysql的更新和删除.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
+    "2-领域/后端学习/算法/哈希相关.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-01.md",
+    "2-领域/后端学习/算法",
+    "4-归档/map/FreeCity.png",
     "资源/map/FreeCity.png.crdownload",
-    "资源/map/newMap.png",
-    "资源/map/fantacyMap.jpg",
+    "4-归档/map/newMap.png",
+    "4-归档/map/fantacyMap.jpg",
     "资源/map/fantacyMap.jfif",
-    "资源/map",
-    "复盘/日报/2024/Daily/02",
     "资源/img/Paste image 1706403603086image.png",
-    "资源/img/Paste image 1705934150311image.png",
-    "资源/img/Pasted Image 20240109221118.png",
-    "资源/img",
-    "后端学习/Mysql",
-    "资源/旅行",
-    "资源",
-    "首页",
+    "4-归档/img/Paste image 1705934150311image.png",
+    "4-归档/img/Pasted Image 20240109221118.png",
     "Pasted image 20240105002129.png",
     "Pasted image 20231230011324.png",
     "Pasted image 20231230012218.png"

@@ -1,14 +1,17 @@
 ---
 Created: 2024-01-17
 Updated: 2024-01-17
-Type: knowledge
-Status: 🎃已完成
+Type:
+  - knowledge
+Status:
+  - 🎃已完成
 截止日期: 
 目标: 
 领域: 
 tags:
   - Redis操作
   - RedisSet
+  - 数据结构
 ---
 
 

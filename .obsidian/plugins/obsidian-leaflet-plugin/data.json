@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "ezaros-world-region",
-      "lastAccessed": 1708357332634,
+      "lastAccessed": 1708359132111,
       "markers": [
         {
           "id": "ID_b828b9aa18e8",
@@ -366,16 +366,16 @@
           "id": "ID_6969eb08e91b",
           "type": "Redis_场景",
           "loc": [
-            47.47887904404146,
-            199.21067518979123
+            47.476100221853365,
+            199.16262943695844
           ],
           "link": "多机部署",
           "layer": "%5B%5BfantacyMap.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": [
-            24.901334398723904,
-            -5.934859880505183
+            24.895328679619805,
+            -5.934512527731671
           ],
           "description": "提升缓存容灾能力",
           "minZoom": 3,

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "15d357065926a42a",
+        "id": "69d8c3ed5cbea19f",
         "type": "tabs",
         "children": [
           {
-            "id": "f8e97187ffc754d9",
+            "id": "3e357203d03e9397",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -37,23 +37,22 @@
         "dimension": 47.34195402298851,
         "children": [
           {
+            "id": "03605acf7f8bf76e",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
             "id": "ff0d75f911e0cde8",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "915976807abe00e9",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d594fb7a40913197",
@@ -149,7 +148,7 @@
             }
           },
           {
-            "id": "7f81fff5186964b1",
+            "id": "278d157950fc8f42",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -174,18 +173,19 @@
       "workspaces:管理工作区布局": false,
       "daily-notes:打开/创建今天的日记": false,
       "float-search:Search Obsidian In Modal": false,
-      "remotely-save:Remotely Save": false,
-      "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "vscode-editor:新建代码文件": false,
       "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f8e97187ffc754d9",
+  "active": "3e357203d03e9397",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+    "3-资源/首页/HOME.canvas",
+    "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
     "2-领域/后端学习/算法/哈希相关.md",
     "2-领域/后端学习/Mysql/mysql的更新和删除.md",
@@ -217,7 +217,6 @@
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-14.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-13.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-12.md",
-    "2-领域/后端学习/计算机与网络/监听回调.md",
     "2-领域/后端学习/算法",
     "4-归档/map/FreeCity.png",
     "资源/map/FreeCity.png.crdownload",

@@ -11,5 +11,9 @@
   "shimmering-focus@@show-tab-list-button": false,
   "shimmering-focus@@show-new-tab-button": false,
   "shimmering-focus@@show-sidebar-toggle-buttons": true,
-  "minimal-style@@bold-color@@dark": "#45A577"
+  "minimal-style@@bold-color@@dark": "#45A577",
+  "list-callouts@@lc-bg-top": 0,
+  "list-callouts@@lc-bg-right": 0,
+  "list-callouts@@lc-bg-bottom": 0,
+  "list-callouts@@lc-bg-left": 28
 }

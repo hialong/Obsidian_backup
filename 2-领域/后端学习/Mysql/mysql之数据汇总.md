@@ -40,7 +40,7 @@ SELECT sum(invoice_total) as total_sales from invoices;
 SELECT client_id,sum(invoice_total) as total_sales from invoices GROUP BY client_id;
 ```
 
-默认情况下，表中数据是按照 group by 的列来进行排序的，但是可以使用 order by 来进行二次排序 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240218225306.png)
+默认情况下，表中数据是按照 group by 的列来进行排序的，但是可以使用 order by **来进行二次排序** ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240218225306.png)
 
 >[!note] 语句执行过程
 >FROM>WHERE>GROUP BY >SELECT >ORDER BY
@@ -59,21 +59,24 @@ GROUP BY state,city
 ORDER BY total_sales DESC;
 ```
 
-==小练习==
-按照时间和方法来聚合搜索当天的账单，并按照时间排序
-```sql
-select date,pm.name as method, sum(amount) total_payments from payments 
+- @ 
+>[!example] 小练习
+>按照时间和方法来聚合搜索当天的账单，并按照时间排序
+>```sql
+select date, pm. name as method, sum (amount) total_payments from payments 
 join payment_methods pm  where payment_method = payment_method_id
-GROUP BY date,payment_method
+GROUP BY date, payment_method
 order by date;
-```
+>```
+
+
 
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240218231428.png)
 
 
 ## Having 关键字
 
->[!faq] having 语句是用来干什么的？
+>[!faq]- having 语句是用来干什么的？
 >是用来在 groupBy 之后进行筛选的
 
 - [ ]  mysql 看到 p43 [3- HAVING子句 | The HAVING Clause\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1UE41147KC/?p=43&spm_id_from=pageDriver&vd_source=eb319c6e317591be75da0554d1d79e3a)

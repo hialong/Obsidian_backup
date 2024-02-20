@@ -16,11 +16,13 @@
   },
   {
     "color": "124, 77, 255",
-    "char": "~"
+    "char": "~",
+    "icon": "lucide-activity-square"
   },
   {
     "color": "0, 184, 212",
-    "char": "@"
+    "char": "@",
+    "icon": "lucide-atom"
   },
   {
     "color": "0, 200, 83",

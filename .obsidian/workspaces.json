@@ -185,7 +185,216 @@
         }
       },
       "active": "e67248b5144a9dc1"
+    },
+    "主页": {
+      "main": {
+        "id": "0a270b760ee1ce64",
+        "type": "split",
+        "children": [
+          {
+            "id": "b34d7ab14f13695d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e67248b5144a9dc1",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "3-资源/首页/HOME.canvas",
+                    "viewState": {
+                      "x": 566,
+                      "y": 80,
+                      "zoom": -0.34870793118799603
+                    }
+                  }
+                }
+              },
+              {
+                "id": "98b1a77254055621",
+                "type": "leaf",
+                "state": {
+                  "type": "obsidian-leaflet-map-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3ca1dd038d49a5b1",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "3-资源/首页/HOME.canvas",
+                    "viewState": {
+                      "x": 566,
+                      "y": 80,
+                      "zoom": -0.34870793118799603
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "1e106bec0da5ee09",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e0f8584ea9d49c6",
+            "type": "tabs",
+            "dimension": 47.34195402298851,
+            "children": [
+              {
+                "id": "03605acf7f8bf76e",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ff0d75f911e0cde8",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "d594fb7a40913197",
+            "type": "tabs",
+            "dimension": 52.65804597701149,
+            "children": [
+              {
+                "id": "60a1caf02783b1c5",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a51981405e2820fc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#RedisHashTable",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "295079f97f927bb5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "72b9348819d1720a",
+        "type": "split",
+        "children": [
+          {
+            "id": "06c2b54bcaa54a23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dbca5ff09d525cfd",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3-资源/首页/HOME.canvas",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "03821c3d2f1d5770",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3-资源/首页/HOME.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "c63c817ae65dc1d8",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "3d5dbcaaa6e2ee65",
+                "type": "leaf",
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 308.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "templates:插入模板": false,
+          "random-note:开始漫游笔记": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "float-search:Search Obsidian In Modal": false,
+          "homepage:Open homepage": false,
+          "vscode-editor:新建代码文件": false,
+          "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
+          "obsidian-memos:Memos": false,
+          "remotely-save:Remotely Save": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "03605acf7f8bf76e"
     }
   },
-  "active": "笔记"
+  "active": "主页"
 }

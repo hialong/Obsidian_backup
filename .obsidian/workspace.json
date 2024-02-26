@@ -35,6 +35,46 @@
             }
           },
           {
+            "id": "1cac1ae16f6016cf",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.34870793118799603
+                }
+              }
+            }
+          },
+          {
+            "id": "4056d5ac28cce731",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "9aa50f32227e9f6f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
             "id": "6c5585373e20090f",
             "type": "leaf",
             "state": {
@@ -47,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-22.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-22.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,7 +213,7 @@
             }
           },
           {
-            "id": "0bb1066b454e04e6",
+            "id": "b429d2673b777283",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -206,10 +246,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "094ea67cc0ab3210",
+  "active": "9aa50f32227e9f6f",
   "lastOpenFiles": [
-    "2-领域/后端学习/Mysql/mysql之数据汇总.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-22.md",
+    "2-领域/后端学习/Mysql/mysql之数据汇总.md",
     "2-领域/后端学习/Java/红黑树是什么？.md",
     "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
     "3-资源/首页/HOME.canvas",

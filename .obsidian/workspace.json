@@ -65,24 +65,12 @@
             }
           },
           {
-            "id": "9aa50f32227e9f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/后端学习/Mysql/mysql之数据汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6c5585373e20090f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+                "file": "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+                "file": "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+                "file": "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,12 +236,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9aa50f32227e9f6f",
+  "active": "6c5585373e20090f",
   "lastOpenFiles": [
-    "2-领域/后端学习/Mysql/mysql查询.md",
-    "3-资源/首页/HOME.canvas",
-    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-22.md",
     "2-领域/后端学习/Mysql/mysql之数据汇总.md",
+    "2-领域/后端学习/Mysql/mysql查询.md",
+    "2-领域/后端学习/Mysql/mysql的更新和删除.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-27.md",
+    "2-领域/后端学习/Mysql/复杂查询.md",
+    "3-资源/首页/HOME.canvas",
+    "3-资源/旅行/南京旅游攻略一天半.md",
+    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-22.md",
     "2-领域/后端学习/Java/红黑树是什么？.md",
     "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
     "2-领域/后端学习/算法/哈希相关.md",
@@ -271,11 +263,8 @@
     "6-template/默认模板.md",
     "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-06.md",
-    "2-领域/后端学习/Mysql/mysql的更新和删除.md",
     "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-18.md",
     "6-template/日记模板.md",
-    "6-template/周记模板.md",
-    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-08.md",
     "6-template/PARA",
     "6-template/周期笔记",
     "6-template/其他",

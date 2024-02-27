@@ -31,6 +31,11 @@
       "id": "OHs3auQb_VYAm-8PfMkcu",
       "name": "purple",
       "value": "#df8af0"
+    },
+    {
+      "id": "THpRldSLimnAKFALj-42c",
+      "name": "rick",
+      "value": "#a99393"
     }
   ],
   "fileColors": [
@@ -57,6 +62,10 @@
     {
       "path": "6-template",
       "color": "OHs3auQb_VYAm-8PfMkcu"
+    },
+    {
+      "path": "1-项目",
+      "color": "THpRldSLimnAKFALj-42c"
     }
   ]
 }

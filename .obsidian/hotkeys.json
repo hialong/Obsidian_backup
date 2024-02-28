@@ -102,5 +102,14 @@
       ],
       "key": "X"
     }
+  ],
+  "google-calendar:open-google-calendar-web-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
   ]
 }

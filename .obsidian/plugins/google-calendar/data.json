@@ -1,11 +1,11 @@
 {
-  "googleClientId": "wanc631@gmail.com",
-  "googleClientSecret": "chen",
+  "googleClientId": "1084073564314-ee93q4gh88g0e5iu7mngpntj6oqraekj.apps.googleusercontent.com",
+  "googleClientSecret": "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",
   "googleRefreshToken": "",
   "useCustomClient": true,
   "googleOAuthServer": "https://obsidian-google-calendar.vercel.app",
   "refreshInterval": 10,
-  "useNotification": false,
+  "useNotification": true,
   "showNotice": true,
   "autoCreateEventNotes": true,
   "autoCreateEventNotesMarker": "obsidian",
@@ -15,14 +15,14 @@
   "importEndOffset": 1,
   "optionalNotePrefix": "",
   "eventNoteNameFormat": "{{prefix}}{{event-title}}",
-  "defaultCalendar": "",
+  "defaultCalendar": "wanc631@gmail.com",
   "calendarBlackList": [],
   "insertTemplates": [],
   "useDefaultTemplate": false,
   "defaultTemplate": "",
-  "activateDailyNoteAddon": false,
+  "activateDailyNoteAddon": true,
   "dailyNoteDotColor": "#6aa1d8",
-  "useWeeklyNotes": false,
+  "useWeeklyNotes": true,
   "debugMode": false,
   "timelineHourFormat": 0,
   "atAnnotationEnabled": true,
@@ -84,7 +84,9 @@
       "type": "web",
       "theme": "auto",
       "view": "day",
-      "offset": 0
+      "offset": 0,
+      "width": -1,
+      "height": 500
     }
   }
 }

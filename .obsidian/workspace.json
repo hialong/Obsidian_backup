@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
+                "file": "2-领域/后端学习/Mysql/原理/索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
+                "file": "2-领域/后端学习/Mysql/原理/索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,10 +206,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "994bfe6643f39a91",
+  "active": "ddacad8bc0c6cf51",
   "lastOpenFiles": [
-    "2-领域/后端学习/Mysql/原理/索引.md",
     "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
+    "2-领域/后端学习/Mysql/原理/索引.md",
     "2-领域/后端学习/Java/红黑树是什么？.md",
     "2-领域/后端学习/Mysql/原理/orderby是怎么运作的.md",
     "3-资源/首页/HOME.canvas",

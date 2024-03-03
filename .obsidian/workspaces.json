@@ -192,49 +192,22 @@
         "type": "split",
         "children": [
           {
-            "id": "b34d7ab14f13695d",
+            "id": "0b09f1d62f98c520",
             "type": "tabs",
             "children": [
               {
-                "id": "e67248b5144a9dc1",
+                "id": "8ca57574ad2f0bb2",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "3-资源/首页/HOME.canvas",
-                    "viewState": {
-                      "x": 566,
-                      "y": 80,
-                      "zoom": -0.34870793118799603
-                    }
-                  }
-                }
-              },
-              {
-                "id": "98b1a77254055621",
-                "type": "leaf",
-                "state": {
-                  "type": "obsidian-leaflet-map-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "3ca1dd038d49a5b1",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "3-资源/首页/HOME.canvas",
-                    "viewState": {
-                      "x": 566,
-                      "y": 80,
-                      "zoom": -0.34870793118799603
-                    }
+                    "file": "2-领域/后端学习/Mysql/原理/索引.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -262,6 +235,35 @@
                 "state": {
                   "type": "calendar",
                   "state": {}
+                }
+              },
+              {
+                "id": "03821c3d2f1d5770",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "2-领域/后端学习/Mysql/原理/索引.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "dbca5ff09d525cfd",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "2-领域/后端学习/Mysql/原理/索引.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
                 }
               }
             ]
@@ -320,35 +322,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "dbca5ff09d525cfd",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3-资源/首页/HOME.canvas",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "03821c3d2f1d5770",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3-资源/首页/HOME.canvas",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                }
-              },
-              {
                 "id": "c63c817ae65dc1d8",
                 "type": "leaf",
                 "state": {
@@ -360,19 +333,35 @@
                 }
               },
               {
-                "id": "3d5dbcaaa6e2ee65",
+                "id": "a8cb0fec4d0882db",
                 "type": "leaf",
                 "state": {
                   "type": "tasks_timeline_view",
                   "state": {}
                 }
+              },
+              {
+                "id": "45ed34292807f95a",
+                "type": "leaf",
+                "state": {
+                  "type": "google-calendar-view-schedule",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cf3cab4b5b40ad77",
+                "type": "leaf",
+                "state": {
+                  "type": "google-calendar-view-day",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 308.5
+        "width": 383.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -388,12 +377,12 @@
           "homepage:Open homepage": false,
           "vscode-editor:新建代码文件": false,
           "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
-          "obsidian-memos:Memos": false,
           "remotely-save:Remotely Save": false,
-          "templater-obsidian:Templater": false
+          "templater-obsidian:Templater": false,
+          "obsidian-memos:Memos": false
         }
       },
-      "active": "03605acf7f8bf76e"
+      "active": "a8cb0fec4d0882db"
     }
   },
   "active": "主页"

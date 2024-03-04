@@ -50,5 +50,32 @@ select city,name,age from t where city='杭州' order by name limit 1000 ;
 6. 对 sort_buffer 中的数据按照字段 name 做快速排序；
 7. 按照排序结果**取前 1000 行**返回给客户端。
 
-暂且就把这个排序称之为全字段排序![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240305000721.png)
-- [ ] 未完待续 orderby 的原理
+暂且就把这个排序称之为全字段排序 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240305000721.png)
+
+### 排序动作的执行地
+
+上面我们看到我们是在 sort_buffer 中按照 name 进行排序的，这个排序的动作，可能在内存中完成，也可能需要使用外部排序，这个取决于，排序所需的内存和参数 sort_buffer_size 
+
+sort_buffer_size 就是 mysql 为排序开辟的内存（sort_buffer）的大小，这个看需要排序的数据量
+- ~ 如果要排序的数据量小于 sort_buffer_size，排序就在内存中完成。
+- ~ 但如果排序数据量太大，内存放不下，则不得不利用磁盘临时文件辅助排序。
+
+
+可以通过下面的方式确定一个排序语句是否使用了查询
+```sql
+/* 打开 optimizer_trace，只对本线程有效 */
+SET optimizer_trace='enabled=on';
+/* @a 保存 Innodb_rows_read 的初始值 */
+select VARIABLE_VALUE into @a from performance_schema.session_status where variable_name = 'Innodb_rows_read';
+/* 执行语句 */
+select city, name,age from t where city='杭州' order by name limit 1000;
+/* 查看 OPTIMIZER_TRACE 输出 */
+SELECT * FROM `information_schema`.`OPTIMIZER_TRACE`\G 
+/* @b 保存 Innodb_rows_read 的当前值 */
+select VARIABLE_VALUE into @b from performance_schema.session_status where variable_name = 'Innodb_rows_read';
+/* 计算 Innodb_rows_read 差值 */
+select @b-@a;
+
+```
+
+- [ ] 未完待续orderby

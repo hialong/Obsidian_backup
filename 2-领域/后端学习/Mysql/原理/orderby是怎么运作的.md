@@ -78,4 +78,4 @@ select @b-@a;
 
 ```
 
-- [ ] 未完待续orderby
+- [ ] 未完待续 orderby, 没时间看，跳过，看后面的，grouBY 也跳过了，后面再看

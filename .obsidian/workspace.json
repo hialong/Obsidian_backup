@@ -92,6 +92,21 @@
             }
           },
           {
+            "id": "781b1982d2889125",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.34870793118799603
+                }
+              }
+            }
+          },
+          {
             "id": "f27401ae5936afb0",
             "type": "leaf",
             "state": {
@@ -102,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -138,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +268,7 @@
             }
           },
           {
-            "id": "8555986744aef54e",
+            "id": "c2da42d003939fbc",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -287,10 +302,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c2128e6b3c97e2c5",
+  "active": "781b1982d2889125",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
+    "3-资源/首页/HOME.canvas",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-16.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-17.md",
     "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",

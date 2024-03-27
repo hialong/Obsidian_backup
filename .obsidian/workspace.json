@@ -107,6 +107,18 @@
             }
           },
           {
+            "id": "c43fbe22bcf62e82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f27401ae5936afb0",
             "type": "leaf",
             "state": {
@@ -117,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -153,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,8 +188,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d594fb7a40913197",
@@ -268,7 +279,7 @@
             }
           },
           {
-            "id": "c2da42d003939fbc",
+            "id": "1f5a80dd8695300b",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -302,13 +313,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "781b1982d2889125",
+  "active": "c43fbe22bcf62e82",
   "lastOpenFiles": [
-    "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
+    "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
+    "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-27.md",
     "3-资源/首页/HOME.canvas",
+    "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-16.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-17.md",
-    "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
     "2-领域/后端学习/Mysql/原理/count关键字.md",
     "2-领域/后端学习/Mysql/原理/orderby是怎么运作的.md",
     "2-领域/后端学习/Mysql/原理/索引.md",
@@ -332,7 +344,6 @@
     "2-领域/后端学习/Mysql/基础/mysql之数据汇总.md",
     "2-领域/后端学习/Mysql/基础",
     "3-资源/旅行/南京旅游攻略一天半.md",
-    "0-复盘/日报/2024/Daily/02/复盘日志 2024-02-27.md",
     "6-template/PARA",
     "6-template/周期笔记",
     "6-template/其他",

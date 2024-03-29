@@ -7,7 +7,7 @@ tags:
 ---
 ##  count(`*`) 和 count(1) 有什么区别？哪个性能最好？
 
-直接给结论![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240312221044.png)
+直接给结论 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240312221044.png)
 
 ## Count（）是什么
 

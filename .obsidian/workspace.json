@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cabc89e526a7444b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-复盘/日报/2024/Daily/04/复盘日志 2024-04-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +68,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
+                "file": "0-复盘/日报/2024/Daily/04/复盘日志 2024-04-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -67,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
+                "file": "0-复盘/日报/2024/Daily/04/复盘日志 2024-04-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +183,7 @@
             }
           },
           {
-            "id": "17a2eb41c32b20ac",
+            "id": "72a5f2c68c90eca8",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -204,9 +217,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b754693a521b713a",
+  "active": "cabc89e526a7444b",
   "lastOpenFiles": [
     "3-资源/首页/HOME.canvas",
+    "0-复盘/日报/2024/Daily/04/复盘日志 2024-04-01.md",
+    "0-复盘/日报/2024/Daily/04",
+    "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
     "2-领域/后端学习/Redis/Redis知识结构mindmap.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-30.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-31.md",
@@ -214,7 +230,6 @@
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-29.md",
     "2-领域/后端学习/Mysql/原理/count关键字.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-27.md",
-    "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-21.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-16.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-17.md",
@@ -232,7 +247,6 @@
     "2-领域/后端学习/Java/平衡多路查找树（B树）.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-03.md",
     "0-复盘/日报/2024/Daily/03",
-    "0-复盘/日报/2024/Daily/01/复盘日志 2024-01-09.md",
     "2-领域/后端学习/Mysql/原理",
     "2-领域/后端学习/Mysql/基础",
     "6-template/PARA",
@@ -242,7 +256,6 @@
     "未命名.canvas",
     "4-归档",
     "2-领域",
-    "1-项目",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",
     "4-归档/map/fantacyMap.jpg",

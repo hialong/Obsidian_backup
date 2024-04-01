@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-31.md",
+                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-30.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,6 +36,22 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "c595ece14eef056f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cf1876efc07f050",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "2-领域/后端学习/Redis/Redis知识结构mindmap.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-31.md",
+                "file": "2-领域/后端学习/Redis/Redis知识结构mindmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -83,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-31.md",
+                "file": "2-领域/后端学习/Redis/Redis知识结构mindmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +110,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d594fb7a40913197",
@@ -219,8 +236,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9660e1e8525514be",
+  "active": "1cf1876efc07f050",
   "lastOpenFiles": [
+    "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-30.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-31.md",
     "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Mysql/原理/索引.md",
@@ -249,7 +267,6 @@
     "0-复盘/日报/2024/Daily/01/复盘日志 2024-01-08.md",
     "0-复盘/日报/2024/Daily/01/复盘日志 2024-01-22.md",
     "2-领域/后端学习/Mysql/原理",
-    "2-领域/后端学习/Mysql/基础/mysql之数据汇总.md",
     "2-领域/后端学习/Mysql/基础",
     "6-template/PARA",
     "6-template/周期笔记",

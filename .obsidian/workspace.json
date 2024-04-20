@@ -68,6 +68,21 @@
             }
           },
           {
+            "id": "e2ff272d31cd7113",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.34870793118799603
+                }
+              }
+            }
+          },
+          {
             "id": "397cd780b537132c",
             "type": "leaf",
             "state": {
@@ -234,7 +249,7 @@
             }
           },
           {
-            "id": "8f463b54de37b2b2",
+            "id": "653eb514c44ff4de",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",

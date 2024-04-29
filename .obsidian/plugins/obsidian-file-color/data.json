@@ -36,6 +36,16 @@
       "id": "THpRldSLimnAKFALj-42c",
       "name": "rick",
       "value": "#a99393"
+    },
+    {
+      "id": "dOQVfwwjSQ_DSmWEOnpQn",
+      "name": "thick blue",
+      "value": "#5b6480"
+    },
+    {
+      "id": "SOEEO2To8JJuM9piB11MB",
+      "name": "",
+      "value": "#ffffff"
     }
   ],
   "fileColors": [
@@ -66,6 +76,10 @@
     {
       "path": "1-项目",
       "color": "THpRldSLimnAKFALj-42c"
+    },
+    {
+      "path": "2-领域/前端学习",
+      "color": "SOEEO2To8JJuM9piB11MB"
     }
   ]
 }

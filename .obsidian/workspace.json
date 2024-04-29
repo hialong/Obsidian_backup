@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
+                "file": "2-领域/前端学习/浏览器加载前端.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,29 +40,14 @@
                 "file": "3-资源/首页/HOME.canvas",
                 "viewState": {
                   "x": 566,
-                  "y": 80,
-                  "zoom": -0.34870793118799603
-                }
-              }
-            }
-          },
-          {
-            "id": "397cd780b537132c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
+                  "y": -38.42802741812645,
                   "zoom": -0.34870793118799603
                 }
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +197,7 @@
             }
           },
           {
-            "id": "4cd1607687d5f72f",
+            "id": "09bbe659203e4e25",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -246,16 +231,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "295079f97f927bb5",
+  "active": "e2ff272d31cd7113",
   "lastOpenFiles": [
-    "2-领域/后端学习/Mysql/基础/mysql查询.md",
+    "2-领域/前端学习/浏览器加载前端.md",
+    "2-领域/前端学习",
+    "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
+    "2-领域/后端学习/Mysql/基础/mysql查询.md",
     "2-领域/后端学习/Mysql/基础/mysql之数据汇总.md",
     "2-领域/后端学习/Mysql/原理/count关键字.md",
     "2-领域/后端学习/Mysql/原理/orderby是怎么运作的.md",
     "0-复盘/日报/2024/Daily/04/复盘日志 2024-04-25.md",
-    "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
     "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "2-领域/后端学习/虚机/上环境的一些命令.md",
@@ -275,8 +262,6 @@
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-16.md",
     "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-17.md",
     "2-领域/后端学习/Mysql/基础/mysql的更新和删除.md",
-    "0-复盘/日报/2024/Daily/03/复盘日志 2024-03-14.md",
-    "2-领域/后端学习/算法/哈希相关.md",
     "0-复盘/日报/2024/Daily/03",
     "2-领域/后端学习/Mysql/原理",
     "2-领域/后端学习/Mysql/基础",
@@ -285,7 +270,6 @@
     "6-template/其他",
     "5-输出",
     "未命名.canvas",
-    "4-归档",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",
     "4-归档/map/fantacyMap.jpg",

@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "cd3ef826c3bbccdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/前端学习/ant.design.pro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "50822a9971a8a19c",
             "type": "leaf",
             "state": {
@@ -59,7 +71,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "file": "2-领域/前端学习/ant.design.pro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "file": "2-领域/前端学习/ant.design.pro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +221,7 @@
             }
           },
           {
-            "id": "c41750266d7c29fe",
+            "id": "2c7ed8f3d25ec2a3",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -243,13 +255,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e2ff272d31cd7113",
+  "active": "cd3ef826c3bbccdd",
   "lastOpenFiles": [
+    "2-领域/前端学习/浏览器加载前端.md",
+    "2-领域/前端学习/ant.design.pro.md",
     "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "2-领域/后端学习/虚机/上环境的一些命令.md",
     "1-项目/用户中心项目",
-    "2-领域/前端学习/浏览器加载前端.md",
     "2-领域/前端学习",
     "2-领域/后端学习/Mysql/基础/mysql的执行流程.md",
     "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",

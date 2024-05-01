@@ -54,6 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe5897146a52d161",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -206,7 +221,7 @@
             }
           },
           {
-            "id": "94e110b94c62fb35",
+            "id": "5c7de28053074dc2",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -240,7 +255,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "cd3ef826c3bbccdd",
+  "active": "5c7de28053074dc2",
   "lastOpenFiles": [
     "2-领域/前端学习/浏览器加载前端.md",
     "2-领域/后端学习/Java/mybatis 分页.md",

@@ -44,6 +44,21 @@
             }
           },
           {
+            "id": "cb9372c887593349",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
             "id": "70c4c3e92b200246",
             "type": "leaf",
             "state": {
@@ -119,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/前端学习/浏览器加载前端.md",
+                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/前端学习/浏览器加载前端.md",
+                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +284,7 @@
             }
           },
           {
-            "id": "0018fdd659109c95",
+            "id": "a6588c05b72590fa",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -303,14 +318,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f9cf25319bca2a09",
+  "active": "a6588c05b72590fa",
   "lastOpenFiles": [
+    "2-领域/前端学习/浏览器加载前端.md",
     "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "2-领域/后端学习/虚机/上环境的一些命令.md",
     "2-领域/前端学习/ant.design.pro.md",
     "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
-    "2-领域/前端学习/浏览器加载前端.md",
     "2-领域/后端学习/Java/mybatis 分页.md",
     "1-项目/用户中心项目",
     "2-领域/前端学习",

@@ -7,7 +7,7 @@ tags:
 ---
 ##  整合 knifej
 
-springBoot 2 版本的时候用的 springfox 下的 swagger，但是 springboot3 不一样，改了很多，分两点讲
+springBoot 2 版本的时候用的 springfox 下的 swagger，但是 springboot3 不一样，踩了坑，改了很多，分两点讲
 
 ### springBoot 2
 

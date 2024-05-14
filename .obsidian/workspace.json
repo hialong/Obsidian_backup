@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "134d32298fefe68a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/前端学习/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cb9372c887593349",
             "type": "leaf",
             "state": {
@@ -158,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "file": "2-领域/前端学习/React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "file": "2-领域/前端学习/React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +320,7 @@
             }
           },
           {
-            "id": "1fc6437eace0c365",
+            "id": "69e1af69fca348f1",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -343,8 +355,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b4928de005db8572",
+  "active": "134d32298fefe68a",
   "lastOpenFiles": [
+    "3-资源/首页/HOME.canvas",
+    "2-领域/前端学习/React.md",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "2-领域/前端学习/ant.design.pro框架.md",
     "2-领域/后端学习/Redis/Redis知识结构mindmap.md",
@@ -369,9 +383,6 @@
     "2-领域/后端学习/Redis/知识点/Redis 跳表.md",
     "2-领域/后端学习/Redis/知识点/IO多路复用.md",
     "2-领域/后端学习/Mysql/原理/orderby是怎么运作的.md",
-    "2-领域/后端学习/Mysql/原理/count关键字.md",
-    "2-领域/后端学习/Mysql/原理/索引.md",
-    "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目",
     "2-领域/前端学习",
     "2-领域/后端学习/虚机",

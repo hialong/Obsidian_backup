@@ -31,4 +31,14 @@ tags:
 
 然后直接 intsall 就行了
 
-install 完成之后，你的本地 maven 仓库里面就会有这个
+
+## 怎么使用SDK
+install 完成之后，你的本地 maven 仓库里面就会有这个包，其他项目引用的时候就只需要你的 pom 中的 groupId，artificialid 类似下面这种![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240516205456.png)
+然后在目标项目里面进行配置 yml
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240516205541.png)
+
+然后关键的一点来了，注意要扫描包的路径里面加上这段路径![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240516205645.png)
+
+然后测试，直接自动注入就行，client 会带上 yml 中配置的key
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240516205706.png)
+发送成功![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240516205741.png)

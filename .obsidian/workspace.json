@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99185b712654a534",
+        "id": "4f08ea60387759bb",
         "type": "tabs",
         "children": [
           {
-            "id": "5f001f8c788097e9",
+            "id": "7520d89bb3d7b7b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,11 +204,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5f001f8c788097e9",
+  "active": "7520d89bb3d7b7b5",
   "lastOpenFiles": [
     "1-项目/用户中心项目/SpringCloud-gateway学习.md",
-    "1-项目/用户中心项目/RPC和HTTP.md",
     "3-资源/首页/HOME.canvas",
+    "1-项目/用户中心项目/RPC和HTTP.md",
     "1-项目/用户中心项目/自定义注解实现权限校验.md",
     "1-项目/用户中心项目/SDK开发.md",
     "spring.factories",
@@ -233,7 +233,6 @@
     "2-领域/后端学习/Redis/知识点/Redis Set的操作以及底层.md",
     "2-领域/后端学习/Redis/知识点/Redis List底层以及操作.md",
     "2-领域/后端学习/Redis/知识点/Redis hashTable 底层以及操作.md",
-    "2-领域/后端学习/Redis/知识点/Redis Hash.md",
     "1-项目/用户中心项目",
     "2-领域/前端学习",
     "2-领域/后端学习/虚机",

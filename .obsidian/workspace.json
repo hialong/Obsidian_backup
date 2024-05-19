@@ -8,78 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b754693a521b713a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/后端学习/Mysql/基础/函数、视图、储存、触发器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43d346fa2c0f1383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/前端学习/浏览器加载前端.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2ff272d31cd7113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/自定义注解实现权限校验.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4928de005db8572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "134d32298fefe68a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/SDK开发.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b1219f78849178a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/SDK开发.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5f001f8c788097e9",
             "type": "leaf",
             "state": {
@@ -90,111 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cb9372c887593349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3414e40616b3b4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -0.34870793118799603
-                }
-              }
-            }
-          },
-          {
-            "id": "70c4c3e92b200246",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/后端学习/Java/mybatis 分页.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3e2b86d7e1f3ab4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -0.34870793118799603
-                }
-              }
-            }
-          },
-          {
-            "id": "5786d0442218de0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/前端学习/ant.design.pro框架.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "100437daa2dd57a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f4db6d5a8ca8598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9cf25319bca2a09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/前端学习/浏览器加载前端.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,7 +169,7 @@
             }
           },
           {
-            "id": "c11a0e3bd1fd55a6",
+            "id": "2e5835aee29db91d",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -381,8 +206,9 @@
   },
   "active": "5f001f8c788097e9",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
+    "1-项目/用户中心项目/自定义注解实现权限校验.md",
     "1-项目/用户中心项目/SpringCloud-gateway学习.md",
+    "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/SDK开发.md",
     "spring.factories",
     "1-项目/用户中心项目/项目部署（阿里云）.md",

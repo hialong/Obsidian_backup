@@ -40,6 +40,9 @@ tags:
 - [ ] 学习令牌桶算法，漏桶算法，RedisLimitHandler
 ### 怎么配置？
 具体可见官方文档
+简单代码等：[Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
+
+详细配置信息
 [Configuring Route Predicate Factories and Gateway Filter Factories :Spring Cloud Gateway](https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway/configuring-route-predicate-factories-and-filter-factories.html)
 
 官方文档讲的很清晰，简单的配置 yml 就可以做到很多过滤、跳转方面的能力 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240518235449.png)

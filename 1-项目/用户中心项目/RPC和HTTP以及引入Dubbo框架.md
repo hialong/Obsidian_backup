@@ -73,3 +73,14 @@ Nacos 缺点:
 ### 对于现有的项目，应该如何引入？
 首先这个时候就不要去看 Dubbo 的官方文档，因为 Dubbo 的官方文档写的是用的 zookeeper 的配置，搜 Nacos，用 Nacos 做注册中心
 [Dubbo 融合 Nacos 成为注册中心](https://nacos.io/zh-cn/docs/use-nacos-with-dubbo.html)
+
+然后发现这个是 nacos 1.x 的，应该去看 nacos2.x 的，这个是最新的，看到里面说 nacos 里面 issue 更新了新的东西，不在强制依赖了 [Dubbo is not compatible with Nacos2 client. · Issue #7291 · apache/dubbo · GitHub](https://github.com/apache/dubbo/issues/7291) （所以用 Dubbo2 的应该也能用，dubbo 3 我先试试）
+
+#### 下载 nacos 2
+nacos 2.3.2 版本，官方文档直接下
+[Releases · alibaba/nacos](https://github.com/alibaba/nacos/releases)
+
+按照官方文档启动后[Nacos 快速开始](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)
+这个地址就是 nacos 的地址
+http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=&pageSize=&pageNo=
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240519231558.png)

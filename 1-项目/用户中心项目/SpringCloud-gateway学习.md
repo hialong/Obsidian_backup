@@ -48,3 +48,6 @@ tags:
 官方文档讲的很清晰，简单的配置 yml 就可以做到很多过滤、跳转方面的能力 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240518235449.png)
 添加请求头的能力
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240518235738.png)
+
+### 全局过滤器
+

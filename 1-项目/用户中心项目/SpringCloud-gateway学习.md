@@ -50,4 +50,8 @@ tags:
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240518235738.png)
 
 ### 全局过滤器
+首先打印日志的问题，这玩意很像前端的 Promise，是异步的，所以打印真正返回的日志比较麻烦，百度搜一下重写里面的方法就行，参考下篇
 
+获取返回日志参考这篇 [SpringCloud Gateway 打印请求响应日志、跨域全局配置\_gateway 打印相应数据-CSDN博客](https://blog.csdn.net/qq_19636353/article/details/126759522)
+
+- [ ] 未完待续

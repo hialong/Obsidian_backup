@@ -126,3 +126,45 @@ http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&na
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520151524.png)
 
 
+然后根据 issue 的提示，在 provider 里面添加了![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162515.png)
+最终调用成功
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162502.png)
+
+### 总结步骤
+
+首先就是选定自己的 privoder 和 consumer 了（我这边 springBoot 3.2.3 java 21 所以 Dubbo 的依赖需要 3.2.x 以后的版本）
+
+都加上这两个依赖
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162655.png)
+
+本地下载 nacos 按照官方流程启动单机模式就行
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162722.png)
+
+provider 类里记得加上 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162740.png)
+不然消费者调用不到服务者
+
+然后自己在 provider 里面创建一个接口类（或者抽出去，变成一个公共的服务也行，我这里偷懒先试试）![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162903.png)
+这是一个非常简单的接口，抄的样例里面的
+
+然后去实现他![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520162930.png)
+这里注意加上注解，@DubboService  @EnableDubbo 
+然后启动类上面记得加上![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163010.png)
+如果这里加上以后，报错，看这个 issue ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130114.png)
+接着是 yml 的配置
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163252.png)
+
+正常启动后，nacos 页面就能看到服务了![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163122.png)
+
+然后消费者的项目里面自己写一个接口，只要这个接口的包名跟 provider 里面的一模一样就行了 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163200.png)
+
+然后用注解自动调用
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163330.png)
+
+application 上面同样加注解![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163405.png)
+yml 配置如下
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163439.png)
+
+直接启动，由于我 Task 是用了@component 注解，会被自动扫到创建实例，然后自动 run，就能看到成功
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520163540.png)
+
+**所以按照这个思路进行改造吧！**

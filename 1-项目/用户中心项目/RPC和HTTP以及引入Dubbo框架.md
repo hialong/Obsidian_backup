@@ -103,5 +103,14 @@ http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&na
 好像我记得之前是 zookeeper 来着，因为实例上面写的就是说提供了 zookeeper ，不过问题不大，应该是小问题
 
 打interface包的时候出问题了，要升级 maven 版本![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520102854.png)
+### 详细步骤（大致详细吧）
 
-那么就升级到 3.8.8
+- ~ 那么就升级到 3.8.8 的maven
+
+- ~ 然后给原本的项目添加上依赖，模拟样例里面的 provider 
+结果项目启动不起来了，NoclassFounder
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520114509.png)
+
+- ~ ---找到原因了，多了一个 application  的主键，搞的我这个两个启动类了
+

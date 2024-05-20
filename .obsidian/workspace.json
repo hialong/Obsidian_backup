@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+                "file": "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+                "file": "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -67,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+                "file": "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,8 +206,11 @@
   },
   "active": "7520d89bb3d7b7b5",
   "lastOpenFiles": [
-    "1-项目/用户中心项目/SpringCloud-gateway学习.md",
+    "2-领域/后端学习/mybatis/mybatis 分页.md",
+    "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
     "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+    "2-领域/后端学习/mybatis",
+    "1-项目/用户中心项目/SpringCloud-gateway学习.md",
     "1-项目/用户中心项目/().md",
     "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/自定义注解实现权限校验.md",
@@ -232,8 +235,6 @@
     "2-领域/后端学习/Redis/知识点/Redis持久化.md",
     "2-领域/后端学习/Redis/知识点/Redis ZSet.md",
     "2-领域/后端学习/Redis/知识点/Redis Set的操作以及底层.md",
-    "2-领域/后端学习/Redis/知识点/Redis List底层以及操作.md",
-    "2-领域/后端学习/Redis/知识点/Redis hashTable 底层以及操作.md",
     "1-项目/用户中心项目",
     "2-领域/前端学习",
     "2-领域/后端学习/虚机",
@@ -242,7 +243,6 @@
     "2-领域/后端学习/Mysql/原理",
     "2-领域/后端学习/Mysql/基础",
     "6-template/PARA",
-    "6-template/周期笔记",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

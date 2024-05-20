@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1ee11c9c0f30bd47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,11 +204,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ee11c9c0f30bd47",
+  "active": "7520d89bb3d7b7b5",
   "lastOpenFiles": [
     "1-项目/用户中心项目/SpringCloud-gateway学习.md",
-    "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+    "1-项目/用户中心项目/().md",
+    "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/自定义注解实现权限校验.md",
     "1-项目/用户中心项目/SDK开发.md",
     "spring.factories",

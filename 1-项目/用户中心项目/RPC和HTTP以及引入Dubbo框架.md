@@ -121,3 +121,8 @@ http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&na
 
 
 成功启动了，nacos 里面终于能看到东西了呜呜呜![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130237.png)
+
+- ~ 现在的问题是消费者无法调用到服务者的方法，一直报错
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520151524.png)
+
+

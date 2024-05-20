@@ -114,3 +114,10 @@ http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&na
 
 - ~ ---找到原因了，多了一个 application  的主键，搞的我这个两个启动类了
 
+- ~ 还是报错，现在是报，然后我找 issue 看到了 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130042.png)
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130114.png)
+所以决定把 Dubbo 升级到 3.2.9 如下![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130142.png)
+
+
+成功启动了，nacos 里面终于能看到东西了呜呜呜![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520130237.png)

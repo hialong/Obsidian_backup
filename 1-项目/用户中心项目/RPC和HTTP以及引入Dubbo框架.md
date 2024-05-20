@@ -80,7 +80,28 @@ Nacos 缺点:
 nacos 2.3.2 版本，官方文档直接下
 [Releases · alibaba/nacos](https://github.com/alibaba/nacos/releases)
 
-按照官方文档启动后[Nacos 快速开始](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)
+按照官方文档启动后 [Nacos 快速开始](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)
+
+进入 nacos 的 bin 目录下 `startup.cmd -m standalone` 启动单机模式
 这个地址就是 nacos 的地址
 http://localhost:8848/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=&pageSize=&pageNo=
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240519231558.png)
+
+## 引入过程
+
+先看样例，找到 Dubbo 官网，下载官方样例，[GitHub - apache/dubbo-samples: samples for Apache Dubbo](https://github.com/apache/dubbo-samples/tree/master) 在 github 的 1-basic 里面，然后看一下
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520095646.png)
+大致分为三个模块，一个消费者，一个调用者，以及中间的接口提供层
+
+然后我在看文档的时候意外发现 Dubbo 的官网有怎么配置注册中心的样例[Nacos | Apache Dubbo](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/config-center/nacos/)![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520100535.png)
+
+那么直接来照着这个安装吧
+
+然后我发现实例代码里面也是 nacos 作为注册中心的，
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520101638.png)
+好像我记得之前是 zookeeper 来着，因为实例上面写的就是说提供了 zookeeper ，不过问题不大，应该是小问题
+
+打interface包的时候出问题了，要升级 maven 版本![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240520102854.png)
+
+那么就升级到 3.8.8

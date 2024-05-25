@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "5d1f210ec4df4535",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/RPC/RPC框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7b08cf3ff27620dc",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-项目/用户中心项目/请求限流的方式.md",
+                "file": "2-领域/后端学习/RPC/RPC框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-项目/用户中心项目/请求限流的方式.md",
+                "file": "2-领域/后端学习/RPC/RPC框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +242,7 @@
             }
           },
           {
-            "id": "5b2c46b4cce1038d",
+            "id": "841784d0e1c118ce",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -265,15 +277,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "18248977e9a6b49c",
+  "active": "5d1f210ec4df4535",
   "lastOpenFiles": [
+    "1-项目/用户中心项目/请求限流的方式.md",
+    "2-领域/后端学习/RPC/RPC框架.md",
+    "2-领域/后端学习/RPC",
+    "1-项目/RPC框架",
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/消息队列/消息队列.md",
     "1-项目/用户中心项目/SpringCloud-gateway学习.md",
     "2-领域/后端学习/Redis/Redis场景/多机部署.md",
     "2-领域/后端学习/Redis/Redis场景/数据同步技术.md",
     "2-领域/后端学习/Redis/Redis场景/Redis集群.md",
-    "1-项目/用户中心项目/请求限流的方式.md",
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/消息队列",
     "2-领域/后端学习/Redis/知识点/IO多路复用.md",
     "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
@@ -294,7 +309,6 @@
     "2-领域/前端学习/React.md",
     "2-领域/后端学习/mybatis/mybatis 分页.md",
     "2-领域/前端学习/浏览器加载前端.md",
-    "1-项目/用户中心项目/引入Echarts （react版本）.md",
     "2-领域/后端学习/mybatis",
     "spring.factories",
     "1-项目/用户中心项目",
@@ -302,8 +316,6 @@
     "2-领域/后端学习/虚机",
     "0-复盘/日报/2024/Daily/04",
     "0-复盘/日报/2024/Daily/03",
-    "2-领域/后端学习/Mysql/原理",
-    "2-领域/后端学习/Mysql/基础",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

@@ -19,3 +19,8 @@ tags:
 
 参考[Visual Studio 2022 如何完美应用IntelliJ IDEA样式和快捷键\_microsoft studio 可以用idea快捷键吗-CSDN博客](https://blog.csdn.net/Ai_Miku/article/details/131247018)
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240604174600.png)
+
+配置完成之后就可以按照之前的快捷键逻辑写代码了
+
+第一个 C++的 hello world 出现了
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240604191116.png)

@@ -23,12 +23,12 @@
   "obsidian-quiet-outline",
   "obsidian-minimal-settings",
   "file-explorer-note-count",
-  "obsidian-image-toolkit",
   "obsidian-file-color",
   "obsidian-list-callouts",
   "obsidian-leaflet-plugin",
   "google-calendar",
   "chronology",
   "webpage-html-export",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "attachment-flow-plugin"
 ]

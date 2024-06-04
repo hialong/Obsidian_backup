@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f08ea60387759bb",
+        "id": "5d18ad8200751b6d",
         "type": "tabs",
         "children": [
           {
-            "id": "1aed605a7684e46f",
+            "id": "9a618dbe19f320d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,17 +20,7 @@
             }
           },
           {
-            "id": "1899017295a4d1bf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/消息队列extra.md"
-              }
-            }
-          },
-          {
-            "id": "1be5291052f45c0e",
+            "id": "07ecbf550d98d251",
             "type": "leaf",
             "state": {
               "type": "canvas",
@@ -194,7 +184,7 @@
             }
           },
           {
-            "id": "690b12b075d94bad",
+            "id": "cf2dd47ed3577683",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -226,19 +216,19 @@
       "templater-obsidian:Templater": false,
       "chronology:Open Chronology": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-memos:Memos": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "1aed605a7684e46f",
+  "active": "9a618dbe19f320d7",
   "lastOpenFiles": [
-    "Excalidraw/消息队列extra.md",
+    "Excalidraw/主题和队列extra.md",
     "2-领域/后端学习/消息队列/消息队列.md",
+    "3-资源/首页/HOME.canvas",
     "资源/img/software-architecture.excalidrawlib",
     "资源/img",
     "资源",
     "Excalidraw",
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/C++学习/C++入门之工具.md",
     "2-领域/后端学习/C++学习",
     "2-领域/后端学习/Mysql/原理/mysql的锁.md",

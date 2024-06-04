@@ -1,0 +1,353 @@
+{
+  "main": {
+    "id": "0a270b760ee1ce64",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f08ea60387759bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7520d89bb3d7b7b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85526d7d70570303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Redis/知识点/IO多路复用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18248977e9a6b49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Redis/知识点/Redis持久化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aaa3d9cc1db28abd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Redis/知识点/Redis持久化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0901c4ee9bc94716",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Mysql/原理/索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0869bfca09c60755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Mysql/原理/mysql的锁.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d1f210ec4df4535",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/RPC/RPC框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b08cf3ff27620dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-项目/用户中心项目/项目微服务部署.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce38f65bc4d4dc02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e106bec0da5ee09",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e0f8584ea9d49c6",
+        "type": "tabs",
+        "dimension": 41.52298850574712,
+        "children": [
+          {
+            "id": "03605acf7f8bf76e",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff0d75f911e0cde8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "03821c3d2f1d5770",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-领域/后端学习/Mysql/原理/mysql的锁.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "dbca5ff09d525cfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-领域/后端学习/Mysql/原理/mysql的锁.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d594fb7a40913197",
+        "type": "tabs",
+        "dimension": 58.47701149425288,
+        "children": [
+          {
+            "id": "60a1caf02783b1c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a51981405e2820fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tip",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "295079f97f927bb5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "72b9348819d1720a",
+    "type": "split",
+    "children": [
+      {
+        "id": "06c2b54bcaa54a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c63c817ae65dc1d8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "45ed34292807f95a",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-schedule",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf3cab4b5b40ad77",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-day",
+              "state": {}
+            }
+          },
+          {
+            "id": "14e43b69ffaa227c",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3beb274ebebe1f51",
+            "type": "leaf",
+            "state": {
+              "type": "tasks_timeline_view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 383.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "random-note:开始漫游笔记": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "float-search:Search Obsidian In Modal": false,
+      "homepage:Open homepage": false,
+      "vscode-editor:新建代码文件": false,
+      "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false,
+      "chronology:Open Chronology": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "0869bfca09c60755",
+  "lastOpenFiles": [
+    "3-资源/首页/HOME.canvas",
+    "2-领域/后端学习/Mysql/原理/mysql的锁.md",
+    "2-领域/后端学习/Mysql/原理/索引.md",
+    "2-领域/后端学习/Redis/知识点/Redis持久化.md",
+    "1-项目/用户中心项目/请求限流的方式.md",
+    "1-项目/用户中心项目/项目微服务部署.md",
+    "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
+    "2-领域/后端学习/RPC/RPC框架.md",
+    "2-领域/后端学习/RPC",
+    "1-项目/RPC框架",
+    "2-领域/后端学习/消息队列/消息队列.md",
+    "1-项目/用户中心项目/SpringCloud-gateway学习.md",
+    "2-领域/后端学习/Redis/Redis场景/多机部署.md",
+    "2-领域/后端学习/Redis/Redis场景/数据同步技术.md",
+    "2-领域/后端学习/Redis/Redis场景/Redis集群.md",
+    "2-领域/后端学习/消息队列",
+    "2-领域/后端学习/Redis/知识点/IO多路复用.md",
+    "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
+    "2-领域/后端学习/Redis/Redis场景/缓存一致性怎么保证.md",
+    "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
+    "2-领域/后端学习/Redis/Redis场景/缓存应用.md",
+    "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
+    "2-领域/后端学习/Redis/Redis场景/事务.md",
+    "2-领域/后端学习/Redis/Redis场景/消息队列.md",
+    "2-领域/后端学习/Redis/Redis场景/Redis缓存基础.md",
+    "2-领域/后端学习/Redis/Redis场景/RedisHash槽.md",
+    "2-领域/后端学习/Redis/知识点/Redis hashTable 底层以及操作.md",
+    "1-项目/用户中心项目/项目部署（阿里云）.md",
+    "1-项目/用户中心项目/SDK开发.md",
+    "2-领域/后端学习/mybatis",
+    "spring.factories",
+    "1-项目/用户中心项目",
+    "2-领域/前端学习",
+    "2-领域/后端学习/虚机",
+    "0-复盘/日报/2024/Daily/04",
+    "0-复盘/日报/2024/Daily/03",
+    "未命名.canvas",
+    "4-归档/map/FreeCity.png",
+    "4-归档/map/newMap.png",
+    "4-归档/map/fantacyMap.jpg",
+    "资源/img/Paste image 1706403603086image.png",
+    "4-归档/img/Paste image 1705934150311image.png",
+    "4-归档/img/Pasted Image 20240109221118.png",
+    "Pasted image 20240105002129.png",
+    "Pasted image 20231230011324.png",
+    "Pasted image 20231230012218.png"
+  ]
+}

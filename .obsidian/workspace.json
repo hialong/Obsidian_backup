@@ -30,24 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "07ecbf550d98d251",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -0.34870793118799603
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +67,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/RPC/RPC框架.md",
+                "file": "2-领域/后端学习/C++学习/C++入门之工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -95,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/RPC/RPC框架.md",
+                "file": "2-领域/后端学习/C++学习/C++入门之工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +181,7 @@
             }
           },
           {
-            "id": "c392e5efb4b1546b",
+            "id": "84e844ccd8971876",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -233,8 +217,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "05e379393f15094c",
+  "active": "9a618dbe19f320d7",
   "lastOpenFiles": [
+    "2-领域/后端学习/RPC/RPC框架.md",
     "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/C++学习/C++入门之工具.md",
     "2-领域/后端学习/消息队列/消息队列.md",
@@ -250,7 +235,6 @@
     "1-项目/用户中心项目/请求限流的方式.md",
     "1-项目/用户中心项目/项目微服务部署.md",
     "1-项目/用户中心项目/RPC和HTTP以及引入Dubbo框架.md",
-    "2-领域/后端学习/RPC/RPC框架.md",
     "2-领域/后端学习/RPC",
     "1-项目/RPC框架",
     "1-项目/用户中心项目/SpringCloud-gateway学习.md",

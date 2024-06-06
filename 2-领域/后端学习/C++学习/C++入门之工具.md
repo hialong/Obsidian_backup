@@ -23,4 +23,4 @@ tags:
 配置完成之后就可以按照之前的快捷键逻辑写代码了
 
 第一个 C++的 hello world 出现了
-![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240604191116.png)
+![image.png|816](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240604191116.png)

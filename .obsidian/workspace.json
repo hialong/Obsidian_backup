@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "bb4d867786d0f025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Python入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "05e379393f15094c",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             }
           },
           {
-            "id": "caa9c123f1379c60",
+            "id": "2fcc0003a94d42ac",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -242,7 +254,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7964145a34358760",
+  "active": "bb4d867786d0f025",
   "lastOpenFiles": [
     "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Python入门.md",

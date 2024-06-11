@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-领域/后端学习/Python入门.md",
+                "file": "2-领域/后端学习/Mysql/面试题/mysql面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Python入门.md",
+                "file": "2-领域/后端学习/Mysql/面试题/mysql面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Python入门.md",
+                "file": "2-领域/后端学习/Mysql/面试题/mysql面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,8 +256,12 @@
   },
   "active": "bb4d867786d0f025",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
+    "0-复盘/日报/2024/Daily/06/复盘日志 2024-06-12.md",
+    "2-领域/后端学习/Mysql/面试题/mysql面试题.md",
+    "0-复盘/日报/2024/Daily/06",
     "2-领域/后端学习/Python入门.md",
+    "2-领域/后端学习/Mysql/面试题",
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/C++学习/C++入门之工具.md",
     "2-领域/后端学习/Redis/Redis场景/数据同步技术（Redis主从）.md",
     "2-领域/后端学习/Redis/Redis场景/Redis集群.md",
@@ -289,9 +293,6 @@
     "2-领域/后端学习/Redis/Redis场景/事务.md",
     "2-领域/后端学习/Redis/Redis场景/消息队列.md",
     "2-领域/后端学习/Redis/Redis场景/Redis缓存基础.md",
-    "2-领域/后端学习/Redis/Redis场景/RedisHash槽.md",
-    "2-领域/后端学习/mybatis",
-    "spring.factories",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

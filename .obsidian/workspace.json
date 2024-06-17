@@ -78,6 +78,21 @@
             }
           },
           {
+            "id": "99193d1b16cdf58c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.0681443244570263
+                }
+              }
+            }
+          },
+          {
             "id": "05e379393f15094c",
             "type": "leaf",
             "state": {
@@ -90,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Redis/知识点/Redis内存淘汰策略.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Redis/知识点/Redis内存淘汰策略.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +255,7 @@
             }
           },
           {
-            "id": "fe5bbdc27504e903",
+            "id": "6e872fe1153b7210",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -276,8 +291,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8339c8ef1890b83a",
+  "active": "99193d1b16cdf58c",
   "lastOpenFiles": [
+    "2-领域/后端学习/Redis/知识点/Redis内存淘汰策略.md",
     "0-复盘/日报/2024/Daily/01/复盘日志 2024-01-14.md",
     "3-资源/首页/HOME.canvas",
     "0-复盘/日报/2024/Daily/06/复盘日志 2024-06-12.md",
@@ -314,7 +330,6 @@
     "2-领域/后端学习/Redis/Redis场景/缓存应用.md",
     "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
     "2-领域/后端学习/Redis/Redis场景/事务.md",
-    "2-领域/后端学习/Redis/Redis场景/消息队列.md",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

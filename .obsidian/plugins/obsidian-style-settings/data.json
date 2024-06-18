@@ -15,5 +15,8 @@
   "list-callouts@@lc-bg-top": 0,
   "list-callouts@@lc-bg-right": 0,
   "list-callouts@@lc-bg-bottom": 0,
-  "list-callouts@@lc-bg-left": 28
+  "list-callouts@@lc-bg-left": 28,
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
+  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-default-dark"
 }

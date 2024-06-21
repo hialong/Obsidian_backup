@@ -42,9 +42,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99b0d2f3830dfa22",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.1405961188053166
+                }
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +209,7 @@
             }
           },
           {
-            "id": "f776b9255c89e86d",
+            "id": "6ccd7e05b39db26c",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -230,11 +245,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "60b7f07040ed46cd",
+  "active": "99b0d2f3830dfa22",
   "lastOpenFiles": [
+    "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "2-领域/后端学习/Redis/Redis场景/多机部署.md",
-    "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "2-领域/后端学习/Redis/Redis场景/缓存应用.md",
     "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
     "2-领域/后端学习/Redis/Redis场景/Redis缓存基础.md",

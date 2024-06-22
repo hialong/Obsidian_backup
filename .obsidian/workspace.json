@@ -42,24 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "99b0d2f3830dfa22",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -1.1405961188053166
-                }
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +194,7 @@
             }
           },
           {
-            "id": "6ccd7e05b39db26c",
+            "id": "c9e57bcb4027255b",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -217,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -245,8 +230,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "99b0d2f3830dfa22",
+  "active": "c9e57bcb4027255b",
   "lastOpenFiles": [
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "2-领域/后端学习/Redis/Redis场景/多机部署.md",
@@ -257,7 +243,6 @@
     "2-领域/后端学习/Redis/Redis场景/Redis集群.md",
     "2-领域/后端学习/Redis/Redis场景/RedisHash槽.md",
     "2-领域/后端学习/虚机/上环境的一些命令.md",
-    "3-资源/首页/HOME.canvas",
     "1-项目/用户中心项目/限制单用户登录.md",
     "2-领域/后端学习/RPC/RPC框架.md",
     "2-领域/后端学习/Redis/Redis场景/数据同步技术（Redis主从）.md",
@@ -280,7 +265,6 @@
     "2-领域/后端学习/Mysql/原理/索引.md",
     "2-领域/后端学习/Redis/知识点/Redis持久化.md",
     "1-项目/用户中心项目/请求限流的方式.md",
-    "1-项目/用户中心项目/项目微服务部署.md",
     "2-领域/后端学习/RPC",
     "1-项目/RPC框架",
     "2-领域/后端学习/消息队列",

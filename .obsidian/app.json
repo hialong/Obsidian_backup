@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "资源/img"
+  "attachmentFolderPath": "资源/img",
+  "focusNewTab": false
 }

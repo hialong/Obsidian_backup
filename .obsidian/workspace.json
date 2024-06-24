@@ -4,53 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5d18ad8200751b6d",
+        "id": "9e9d8362cdfd7ae1",
         "type": "tabs",
         "children": [
           {
-            "id": "cd9f495c21a9b606",
+            "id": "3c3f5940166647da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/用户中心项目/项目部署（阿里云）.md",
+                "file": "2-领域/后端学习/Java/spring/spring的启动流程.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "54b2d383714bbec0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -1.1405961188053166
-                }
-              }
-            }
-          },
-          {
-            "id": "45c37532d4bbcf21",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "3-资源/首页/HOME.canvas",
-                "viewState": {
-                  "x": 566,
-                  "y": 80,
-                  "zoom": -1.1405961188053166
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +55,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Java/spring/spring的启动流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Java/spring/spring的启动流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +169,7 @@
             }
           },
           {
-            "id": "254b8c1c736c1f14",
+            "id": "e20dad3541b6b694",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -208,11 +177,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,13 +206,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "45c37532d4bbcf21",
+  "active": "3c3f5940166647da",
   "lastOpenFiles": [
+    "3-资源/首页/HOME.canvas",
+    "2-领域/后端学习/Java/spring/spring的启动流程.md",
+    "2-领域/后端学习/Java/spring/@requestBody注解.md",
+    "1-项目/用户中心项目/限制单用户登录.md",
+    "2-领域/后端学习/Java/spring",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "1-项目/用户中心项目/项目微服务部署.md",
-    "1-项目/用户中心项目/限制单用户登录.md",
     "1-项目/用户中心项目/请求限流的方式.md",
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Redis/Redis场景/数据同步技术（Redis主从）.md",
     "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
@@ -264,17 +237,13 @@
     "0-复盘/日报/2024/Daily/06",
     "2-领域/后端学习/Mysql/面试题",
     "2-领域/后端学习/消息队列/消息队列.md",
-    "Excalidraw/主题和队列extra.md",
     "资源/img/software-architecture.excalidrawlib",
     "资源/img",
     "资源",
     "Excalidraw",
     "2-领域/后端学习/C++学习",
-    "2-领域/后端学习/Mysql/原理/mysql的锁.md",
-    "2-领域/后端学习/Mysql/原理/索引.md",
     "2-领域/后端学习/RPC",
     "1-项目/RPC框架",
-    "2-领域/后端学习/消息队列",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

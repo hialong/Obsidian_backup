@@ -18,5 +18,7 @@
   "list-callouts@@lc-bg-left": 28,
   "Appearance-dark@@card-layout-open-dark": true,
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
-  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-default-dark"
+  "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-default-dark",
+  "Components@@tab-autohide": false,
+  "Components@@Ribbon-autohide": true
 }

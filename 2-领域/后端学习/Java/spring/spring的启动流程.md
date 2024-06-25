@@ -18,4 +18,6 @@ spring 启动之前要了解一下 servlet 这个技术
 找到 servlet 的实现类或者说子类就能找到这个类，就是说实际上这个 dispathcer 间接实现了 servlet 的方法 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240624113620.png)
 
 
-
+### 调试
+调试过程中发现先进的 httpServlet 的 service 方法
+- [ ] 未完待续

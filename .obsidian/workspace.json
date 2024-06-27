@@ -57,9 +57,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06938e1935804b23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-领域/后端学习/Python/Python字符串的处理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -95,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Python/Python字符串的处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/首页/HOME.canvas",
+                "file": "2-领域/后端学习/Python/Python字符串的处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +221,7 @@
             }
           },
           {
-            "id": "2d093851b913ee9c",
+            "id": "44ef0889a48350a3",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -217,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -245,13 +257,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2d093851b913ee9c",
+  "active": "06938e1935804b23",
   "lastOpenFiles": [
+    "2-领域/后端学习/Python/Python入门.md",
+    "2-领域/后端学习/Python/Python字符串的处理.md",
+    "2-领域/后端学习/Python",
+    "3-资源/首页/HOME.canvas",
+    "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "2-领域/后端学习/Redis/Redis场景/RedisHash槽.md",
     "2-领域/后端学习/Redis/Redis场景/多机部署.md",
-    "3-资源/首页/HOME.canvas",
-    "2-领域/后端学习/Redis/Redis场景/秒杀和限流.md",
     "0-复盘/日报/2024/Daily/06/复盘日志 2024-06-24.md",
     "1-项目/用户中心项目/请求限流的方式.md",
     "2-领域/后端学习/消息队列/消息队列与分布式事务.md",
@@ -273,7 +288,6 @@
     "2-领域/后端学习/虚机/上环境的一些命令.md",
     "2-领域/后端学习/RPC/RPC框架.md",
     "2-领域/后端学习/C++学习/C++入门之工具.md",
-    "2-领域/后端学习/Python入门.md",
     "2-领域/后端学习/Redis/知识点/Redis内存淘汰策略.md",
     "0-复盘/日报/2024/Daily/06",
     "2-领域/后端学习/Mysql/面试题",
@@ -282,7 +296,6 @@
     "资源",
     "Excalidraw",
     "2-领域/后端学习/C++学习",
-    "2-领域/后端学习/RPC",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

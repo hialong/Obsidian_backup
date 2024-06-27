@@ -184,7 +184,16 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'abc'
 ```
 
-原来`int()`函数发现一个字符串并不是合法的数字时就会报错，程序就退出了。
+原来 `int()` 函数发现一个字符串并不是合法的数字时就会报错，程序就退出了。
+
+
+## 比较运算
+与 java 不一样的在于，他的与或非是英文的 and  or   not
+
+判断等于是用 ==
+
+位运算是
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240627230151.png)
 
 
 

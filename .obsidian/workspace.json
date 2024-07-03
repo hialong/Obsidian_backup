@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-资源/qizhi/新人培训.md",
+                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/qizhi/新人培训.md",
+                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/qizhi/新人培训.md",
+                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,8 +241,10 @@
   },
   "active": "4ccd392ce0441d94",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
+    "3-资源/qizhi/我的账号密码.md",
+    "3-资源/qizhi/配置vpn.md",
     "3-资源/qizhi/新人培训.md",
+    "3-资源/首页/HOME.canvas",
     "3-资源/qizhi/技术中心前端目录对应菜单表.md",
     "2-领域/后端学习/虚机/windows端口被占用了要怎么办.md",
     "1-项目/电网-调度/入库pdf并发送邮件思路.md",
@@ -270,7 +272,6 @@
     "1-项目/用户中心项目/项目微服务部署.md",
     "2-领域/后端学习/Redis/Redis场景/数据同步技术（Redis主从）.md",
     "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
-    "2-领域/后端学习/Redis/Redis场景/分布式锁（很重要）.md",
     "0-复盘/日报/2024/Daily/06",
     "2-领域/后端学习/Mysql/面试题",
     "资源/img/software-architecture.excalidrawlib",

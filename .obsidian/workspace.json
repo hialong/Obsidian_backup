@@ -67,9 +67,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e32027c67a8576cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,13 +251,15 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "4ccd392ce0441d94",
+  "active": "295079f97f927bb5",
   "lastOpenFiles": [
+    "3-资源/qizhi/需求",
+    "3-资源/qizhi/服务器.md",
+    "3-资源/qizhi/技术中心前端目录对应菜单表.md",
+    "3-资源/首页/HOME.canvas",
     "3-资源/qizhi/我的账号密码.md",
     "3-资源/qizhi/配置vpn.md",
     "3-资源/qizhi/新人培训.md",
-    "3-资源/首页/HOME.canvas",
-    "3-资源/qizhi/技术中心前端目录对应菜单表.md",
     "2-领域/后端学习/虚机/windows端口被占用了要怎么办.md",
     "1-项目/电网-调度/入库pdf并发送邮件思路.md",
     "2-领域/后端学习/Java/spring/spring的启动流程.md",
@@ -270,8 +284,6 @@
     "1-项目/用户中心项目/限制单用户登录.md",
     "2-领域/后端学习/Java/spring",
     "1-项目/用户中心项目/项目微服务部署.md",
-    "2-领域/后端学习/Redis/Redis场景/数据同步技术（Redis主从）.md",
-    "2-领域/后端学习/Redis/Redis场景/缓存异常场景.md",
     "0-复盘/日报/2024/Daily/06",
     "2-领域/后端学习/Mysql/面试题",
     "资源/img/software-architecture.excalidrawlib",

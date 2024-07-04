@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
+                "file": "3-资源/qizhi/我的账号密码.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
+                "file": "3-资源/qizhi/我的账号密码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/qizhi/技术中心前端目录对应菜单表.md",
+                "file": "3-资源/qizhi/我的账号密码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,11 +251,11 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "295079f97f927bb5",
+  "active": "e32027c67a8576cb",
   "lastOpenFiles": [
+    "3-资源/qizhi/技术中心前端目录对应菜单表.md",
     "3-资源/qizhi/需求",
     "3-资源/qizhi/服务器.md",
-    "3-资源/qizhi/技术中心前端目录对应菜单表.md",
     "3-资源/首页/HOME.canvas",
     "3-资源/qizhi/我的账号密码.md",
     "3-资源/qizhi/配置vpn.md",
@@ -289,7 +289,6 @@
     "资源/img/software-architecture.excalidrawlib",
     "资源/img",
     "资源",
-    "Excalidraw",
     "未命名.canvas",
     "4-归档/map/FreeCity.png",
     "4-归档/map/newMap.png",

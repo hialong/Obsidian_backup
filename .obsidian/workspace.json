@@ -79,9 +79,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7cc13642b26b59e5",
+            "type": "leaf",
+            "state": {
+              "type": "mindmapview",
+              "state": {
+                "file": "1-项目/电网-调度/入库pdf并发送邮件思路.md"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-资源/qizhi/我的账号密码.md",
+                "file": "1-项目/电网-调度/入库pdf并发送邮件思路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-资源/qizhi/我的账号密码.md",
+                "file": "1-项目/电网-调度/入库pdf并发送邮件思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,17 +261,18 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "e32027c67a8576cb",
+  "active": "7cc13642b26b59e5",
   "lastOpenFiles": [
+    "1-项目/电网-调度/方式信息维护以及常规电源项目逻辑.md",
+    "1-项目/电网-调度/入库pdf并发送邮件思路.md",
+    "3-资源/首页/HOME.canvas",
+    "3-资源/qizhi/我的账号密码.md",
     "3-资源/qizhi/技术中心前端目录对应菜单表.md",
     "3-资源/qizhi/需求",
     "3-资源/qizhi/服务器.md",
-    "3-资源/首页/HOME.canvas",
-    "3-资源/qizhi/我的账号密码.md",
     "3-资源/qizhi/配置vpn.md",
     "3-资源/qizhi/新人培训.md",
     "2-领域/后端学习/虚机/windows端口被占用了要怎么办.md",
-    "1-项目/电网-调度/入库pdf并发送邮件思路.md",
     "2-领域/后端学习/Java/spring/spring的启动流程.md",
     "2-领域/后端学习/Python/Python字符串的处理.md",
     "2-领域/后端学习/C++学习/C++入门之工具.md",

@@ -230,9 +230,24 @@
                 }
               }
             }
+          },
+          {
+            "id": "6a999d808780f940",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.0978916678510784
+                }
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -402,7 +417,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "4adcb340e3d36895",
+  "active": "6a999d808780f940",
   "lastOpenFiles": [
     "2-领域/后端学习/Java/本地读取文件和jar包内读取文件.md",
     "3-资源/首页/HOME.canvas",

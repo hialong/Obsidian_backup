@@ -284,9 +284,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7a65bc978aeb88a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.0978916678510784
+                }
+              }
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -314,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/mybatis/my-baitis-plus写sql的多种思路.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -326,7 +341,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/mybatis/my-baitis-plus写sql的多种思路.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -456,10 +471,10 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "00bee230282d3cca",
+  "active": "e7a65bc978aeb88a",
   "lastOpenFiles": [
-    "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
     "2-领域/后端学习/mybatis/my-baitis-plus写sql的多种思路.md",
+    "2-领域/后端学习/mybatis/Mybatis报错的可能.md",
     "1-项目/电网-调度/入库pdf并发送邮件思路.md",
     "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Python/Python字符串的处理.md",

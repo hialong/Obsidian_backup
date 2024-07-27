@@ -380,9 +380,24 @@
                 }
               }
             }
+          },
+          {
+            "id": "5a27a5fd423db1fe",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -1.0978916678510784
+                }
+              }
+            }
           }
         ],
-        "currentTab": 27
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -552,7 +567,7 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "830e8c67be1b5297",
+  "active": "5a27a5fd423db1fe",
   "lastOpenFiles": [
     "2-领域/后端学习/mybatis/my-baitis-plus写sql的多种思路.md",
     "3-资源/首页/HOME.canvas",

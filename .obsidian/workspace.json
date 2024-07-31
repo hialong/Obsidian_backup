@@ -52,9 +52,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "501565a0e84677bd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "3-资源/首页/HOME.canvas",
+                "viewState": {
+                  "x": 566,
+                  "y": 80,
+                  "zoom": -0.3809296449585799
+                }
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Java/spring/Spring的上下文.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Java/spring/Spring的上下文.md",
+                "file": "3-资源/首页/HOME.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,30 +219,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "random-note:开始漫游笔记": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
-      "daily-notes:打开/创建今天的日记": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
       "float-search:Search Obsidian In Modal": false,
       "homepage:Open homepage": false,
-      "vscode-editor:新建代码文件": false,
-      "obsidian-leaflet-plugin:打开 Leaflet 地图": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false,
       "chronology:Open Chronology": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-memos:Thino": false
     }
   },
-  "active": "3cf8d5a734edddae",
+  "active": "501565a0e84677bd",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Java/spring/Spring的上下文.md",
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/虚机/nexus私服搭建.md",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
     "2-领域/后端学习/虚机/Jekins/Jekins之阿里云实战.md",

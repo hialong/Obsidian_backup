@@ -80,3 +80,38 @@ java 的话，需要 **jdk，maven**，
 在“JDK”部分，添加 JDK 并设置路径为/usr/lib/jvm/java-11-openjdk-amd 64。
 在“Maven”部分，添加 Maven 并设置路径为/usr/share/maven。
 这样，你就可以在 Jenkins 中使用宿主机的 Java 和 Maven 环境了
+
+### 安装 java 环境
+
+直接一键安装
+（如果没有 yum 可以看看 agpt 啥的怎么安装的，反正安装了就 ok）
+```shell
+yum install java-1.8.0-openjdk* -y
+
+## 卸载java
+rpm -qa | grep java | xargs rpm -e --nodeps
+```
+
+或者官网安装 jdk参考文档 [【JVM系列】安装JDK 21 - 掘金](https://juejin.cn/post/7316202808984780827)
+这里我需要安装 jdk-21，所以学习一下
+
+### 官网方式安装 jdk 21
+先去官网[JDK Builds from Oracle](https://jdk.java.net/)
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801175224.png)
+
+点击下载页面，然后找到![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801175502.png)
+
+建议用 edge 下载，然后暂停，右键复制下载链接
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801180844.png)
+`https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz`
+
+然后直接虚拟机里面直接下
+```shell
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
+```
+
+下好了解压
+```shell
+tar -xzvf jdk-21_linux-x64_bin.tar.gz
+```
+

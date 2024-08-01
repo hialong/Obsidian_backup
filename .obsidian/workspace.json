@@ -8,29 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b84faf32ebede7ce",
-            "type": "leaf",
-            "state": {
-              "type": "mindmapview",
-              "state": {
-                "file": "1-项目/电网-调度/入库pdf并发送邮件思路.md"
-              }
-            }
-          },
-          {
-            "id": "27107ae13aaed7c4",
+            "id": "8bddd2d67a70639e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-领域/后端学习/Java/JAVA基础巩固.md",
+                "file": "2-领域/后端学习/虚机/Jenkins/Jenkins之阿里云实战.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0be8a86153c8cfde",
+            "id": "eaf3a558cdf34a20",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3cf8d5a734edddae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-领域/后端学习/Java/spring/Spring的上下文.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +59,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/Java/spring/Spring的上下文.md",
+                "file": "2-领域/后端学习/虚机/Jenkins/Jenkins之阿里云实战.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -94,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/Java/spring/Spring的上下文.md",
+                "file": "2-领域/后端学习/虚机/Jenkins/Jenkins之阿里云实战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,14 +201,16 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "3cf8d5a734edddae",
+  "active": "8bddd2d67a70639e",
   "lastOpenFiles": [
+    "资源/img/《Devos之Jenkins的CICD》.pdf",
+    "2-领域/后端学习/虚机/nexus私服搭建.md",
+    "2-领域/后端学习/虚机/Jenkins/Jenkins之阿里云实战.md",
+    "2-领域/后端学习/虚机/上环境的一些命令.md",
     "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/Java/spring/Spring的上下文.md",
-    "2-领域/后端学习/虚机/nexus私服搭建.md",
     "1-项目/用户中心项目/项目部署（阿里云）.md",
-    "2-领域/后端学习/虚机/Jekins/Jekins之阿里云实战.md",
-    "2-领域/后端学习/虚机/Jekins",
+    "2-领域/后端学习/虚机/Jenkins",
     "2-领域/后端学习/Java/JAVA基础巩固.md",
     "2-领域/后端学习/Java/开发过程中发现idea很卡.md",
     "2-领域/后端学习/mybatis/my-baitis-plus写sql的多种思路.md",
@@ -253,7 +232,6 @@
     "3-资源/qizhi/服务器.md",
     "3-资源/qizhi/配置vpn.md",
     "3-资源/qizhi/新人培训.md",
-    "2-领域/后端学习/Java/spring/spring的启动流程.md",
     "1-项目/电网-调度",
     "2-领域/后端学习/Python",
     "2-领域/后端学习/maven",

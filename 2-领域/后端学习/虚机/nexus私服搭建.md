@@ -25,7 +25,7 @@ chmod 777 /docker/nexus3
 
 ```
 
-启动的时候注意，不要占用 8081 等端口，否则阿里云直接卡死
+启动的时候注意，不要占用 8081 等端口，否则阿里云直接卡死（应该不是端口的问题，是nexus 3默认占用内存太大了，给阿里云卡死了）
 ```shell
 docker run -d --name nexus3 \
 --restart=always \

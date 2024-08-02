@@ -115,3 +115,51 @@ wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
 tar -xzvf jdk-21_linux-x64_bin.tar.gz
 ```
 
+随便把 jdk 移动到一个地方
+```shell
+mv jdk-21.0.4 /opt/
+```
+
+**写入环境变量**
+
+
+```shell
+
+vim ~/.bashrc
+
+#在后面加上这个
+export JAVA_HOME=/opt/jdk-21.0.4/
+export PATH=$JAVA_HOME/bin:$PATH
+
+# 然后运行这个，生效环境变量
+source ~/.bashrc
+```
+
+成功
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801230158.png)
+
+### maven
+
+下载，太慢了直接下文件也行的
+```shell
+wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
+```
+还是 vim ~/. bashrc
+
+然后写个整体的![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801232910.png)
+
+环境变量冒号隔开
+然后 `source ~/.bashrc`
+运行这个命令让环境变量生效就行了
+
+
+然后修改一下 maven 地址还有仓库啥的就行，找到里面的 conf 的 setting. xml
+主要是配置镜像。其他的没什么了
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240801234853.png)
+
+
+
+## git
+直接 yum install git 就行了
+`git --version ` 查看

@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-领域/后端学习/虚机/在alpine 中下载（java容器）.md",
+                "file": "1-项目/用户中心项目/项目微服务部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-领域/后端学习/虚机/在alpine 中下载（java容器）.md",
+                "file": "1-项目/用户中心项目/项目微服务部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-领域/后端学习/虚机/在alpine 中下载（java容器）.md",
+                "file": "1-项目/用户中心项目/项目微服务部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,8 +219,8 @@
   },
   "active": "cec49a723cec338a",
   "lastOpenFiles": [
-    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/虚机/在alpine 中下载（java容器）.md",
+    "3-资源/首页/HOME.canvas",
     "2-领域/后端学习/虚机/Jenkins/Jenkins之阿里云实战.md",
     "conflict-files-obsidian-git.md",
     "资源/img/《Devos之Jenkins的CICD》.pdf",

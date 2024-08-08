@@ -25,7 +25,7 @@ docker 里面的进去/etc/mysql/my. cnf 在 mysqlId 下面添加 skip-log-bin  
 将 SQL 文件移动到合适的位置后，在命令行中输入以下命令导入 SQL 文件：
 
 ```mysql
-mysql -u root -p database_name < file.sql
+mysql -uroot -pxxx database_name < file.sql
 ```
 
 Mysql
@@ -39,7 +39,7 @@ Copy
 有时候我们只需要导入 SQL 文件中的某几行数据，这时候可以使用以下命令导入部分 SQL 文件：
 
 ```mysql
-mysql -u root -p database_name < file.sql --lines=X-Y
+mysql -uroot -pxxx database_name < file.sql --lines=X-Y
 ```
 
 Mysql

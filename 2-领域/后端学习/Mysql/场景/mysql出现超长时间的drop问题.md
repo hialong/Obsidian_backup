@@ -11,3 +11,4 @@ tags:
 
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20240808143415.png)
 kill 加 id 删除被锁进程
+

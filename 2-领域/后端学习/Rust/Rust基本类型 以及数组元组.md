@@ -9,17 +9,22 @@ tags:
    1. 变量和可变性  
         1. 默认情况下，变量是不可变的  
         2. 声明变量时候加mut可以使得变量可变  
-        3. 常量  
-![image](672c469569d71d00000000fd/672c469569d71d00000000fc.png)  
+        3. 常量  ![672c469569d71d00000000fd.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672c469569d71d00000000fd.png)
+
+  
 shadowing 新声明变量可以重新声明原来存在的变量，可以隐藏之前的变量，新声明的变量类型可以跟之前的不同  
 标量和复合裂类型  
-整数类型  
-![image](672cdc95eba69a00000000ae/672cdc95eba69a00000000ad.png)  
-i表示有符号，U表示无符号的，比如i8就是的到正的  
-![image](672cdcd2eba69a00000000b8/672cdcd2eba69a00000000b7.png)  
-![image](672cdce7eba69a00000000c0/672cdce7eba69a00000000bf.png)  
-![image](672cdd0aeba69a00000000c3/672cdd0aeba69a00000000c2.png)  
-整数溢出，rust的环绕操作  
+整数类型  ![672cdc95eba69a00000000ad.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdc95eba69a00000000ad.png)
+
+  
+i表示有符号，U表示无符号的，比如i8就是的到正的  ![672cdcd2eba69a00000000b7.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdcd2eba69a00000000b7.png)
+
+  
+  下面是一些类型 ![672cdce7eba69a00000000bf.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdce7eba69a00000000bf.png)
+整数默认就是 i 32
+
+
+整数溢出，rust的环绕操作即，即如果你整数越界了，那么你的 256 会变成 0 257 会变成 1 
 浮点类型f32 f64双精度，f64作为默认的  
   
 布尔bool  

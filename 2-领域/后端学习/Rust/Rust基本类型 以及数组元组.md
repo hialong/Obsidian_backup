@@ -24,25 +24,33 @@ i表示有符号，U表示无符号的，比如i8就是的到正的  ![672cdcd2e
 整数默认就是 i 32
 
 
-整数溢出，rust的环绕操作即，即如果你整数越界了，那么你的 256 会变成 0 257 会变成 1 
+**整数溢出**，rust的环绕操作即，即如果你整数越界了，那么你的 256 会变成 0 257 会变成 1 直接从头再来，但是编译的时候应该会报异常的
 浮点类型f32 f64双精度，f64作为默认的  
   
-布尔bool  
-字符类型，单引号  
-![image](672cddc8eba69a00000000f4/672cddc8eba69a00000000f3.png)  
+**布尔bool**  
+
+
+**字符类型**，单引号  
+![672cddc8eba69a00000000f3.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cddc8eba69a00000000f3.png)
   
   
-复合类型  
-元组Tuple 长度固定，一旦声明无法修改，Tuple 中的各个元素类型不必相同  
-![image](672cdeaeeba69a0000000108/672cdeaeeba69a0000000107.png)  
+  
+## 复合类型  
+元组Tuple 长度固定，一旦声明无法修改，Tuple 中的各个元素类型不必相同  ![672cdeaeeba69a0000000107.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdeaeeba69a0000000107.png)
+
+  
 解构tuple值类似于js语法  
-![image](672cdf02eba69a0000000117/672cdf02eba69a0000000116.png)  
+![672cdf02eba69a0000000116.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdf02eba69a0000000116.png)
+  
 用点方法点index可以找到里面对应的值  
-![image](672cdf57eba69a0000000126/672cdf57eba69a0000000125.png)  
+![672cdf57eba69a0000000125.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdf57eba69a0000000125.png)
+  
 数组，里面的数组类型是一致的，长度也是固定的，不能随意修改  
-![image](672cdf98eba69a000000013a/672cdf98eba69a0000000139.png)  
+![672cdf98eba69a0000000139.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672cdf98eba69a0000000139.png)
+  
 如果你不知道应该使用数组还是vector，那么估计你应该使用vector   
-![image](672ce002eba69a0000000155/672ce002eba69a0000000154.png)  
+![672ce002eba69a0000000154.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672ce002eba69a0000000154.png)
+  
 用索引访问数组元素  
 以及咩办法再骗过编译器了  
-![image](672ce12aeba69a000000016d/672ce12aeba69a000000016c.png)
+![672ce12aeba69a000000016c.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/672ce12aeba69a000000016c.png)

@@ -72,27 +72,36 @@ String类型
   
 所以就解决了二次释放  
   
-![image](6730c30aeba69a000000027a/6730c30aeba69a0000000279.png)  
+![6730c30aeba69a0000000279.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c30aeba69a0000000279.png)
+  
 rust是性能优先的，但是如果真的想对heap上的数据进行深度拷贝，那么就可以使用clone方法  
-![image](6730c350eba69a0000000289/6730c350eba69a0000000288.png)  
-![image](6730c362eba69a0000000291/6730c362eba69a0000000290.png)  
+![6730c350eba69a0000000288.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c350eba69a0000000288.png)
+  
+![6730c362eba69a0000000290.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c362eba69a0000000290.png)
+  
 对于整数类型之类的简单数据类型，能够完全确定自己的大小和空间的，他们的深拷贝和浅拷贝不是很影响，都是复制存到stack上  
-![image](6730c40aeba69a00000002ae/6730c40aeba69a00000002ad.png)  
-![image](6730c452eba69a00000002b1/6730c452eba69a00000002b0.png)  
+![6730c40aeba69a00000002ad.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c40aeba69a00000002ad.png)
+  
+![6730c452eba69a00000002b0.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c452eba69a00000002b0.png)
+  
 所有权与函数  
 当函数拿到了String类型后，那么x的作用域就走到了函数中了，走完函数后，就会调用drop函数，销毁变量x 所以这里会报错  
-![image](6730c541eba69a00000002c8/6730c541eba69a00000002c7.png)  
+![6730c541eba69a00000002c7.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c541eba69a00000002c7.png)
+  
 但是简单数据类型就不会，因为传到函数的实际上是一个副本  
-![image](6730c58ceba69a00000002d0/6730c58ceba69a00000002cf.png)  
+![6730c58ceba69a00000002cf.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c58ceba69a00000002cf.png)
+  
 那么如何让函数使用某个值，但是不获得其所有权呢  
 那就是引用！！  
 引用和借用  
-![image](6730c845eba69a00000002fc/6730c845eba69a00000002fb.png)  
+![6730c845eba69a00000002fb.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c845eba69a00000002fb.png)
+  
 引用就类似于指针，但是引用在离开其作用域的时候，并不会销毁其指向的内存，因为他并没有其所有权  
 以引用作为函数参数的这个行为，叫**借用**  
 那么我们可以修改借用的东西吗?  
     答案是不行，和变量一样，引用默认也是不可变的  
     但是！如果你在前面加上mut关键字，那么就可以可变了  
-![image](6730c98eeba69a000000033a/6730c98eeba69a0000000339.png)  
+![6730c98eeba69a0000000339.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c98eeba69a0000000339.png)
+  
 但是要注意，对于特定的作用域内  
 某一块数据，只能有一个可变的引用

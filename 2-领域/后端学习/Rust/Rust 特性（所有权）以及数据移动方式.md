@@ -5,7 +5,7 @@ Type: knowledge
 Status: ⌛️ 等待
 tags:
 ---
-## 
+## 所有权
 所有权，能让rust无需gc就能保证内存安全  
   
 所有权  
@@ -46,7 +46,7 @@ String类型
 当拥有它的变量走出作用范围的时候（方法作用域结束），内存会立即的自动的交还给操作系统  
 在走出作用域的时候，会调用一个drop函数  
   
-** 变量和数据交互的方式  
+## 变量和数据交互的方式  
     1. Move  
         1. 第一种情况，简单的数据类型？比如  
 ![6730c0bdeba69a00000001f1.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730c0bdeba69a00000001f1.png)
@@ -105,3 +105,20 @@ rust是性能优先的，但是如果真的想对heap上的数据进行深度拷
   
 但是要注意，对于特定的作用域内  
 某一块数据，只能有一个可变的引用
+
+![6730cbe4eba69a00000003a0.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730cbe4eba69a00000003a0.png)
+  
+这样的好处是可在编译时候防止数据竞争  
+![6730cc1ceba69a00000003b0.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730cc1ceba69a00000003b0.png)
+  
+那么我们可以通过创建新的作用域，来允许非同时的创建多个可变引用  
+![6730cc56eba69a00000003bd.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730cc56eba69a00000003bd.png)
+  
+另外还有一个限制，不可以同时拥有一个可变引用和一个不可变引用，但是多个不可变的引用是可以的  
+![6730cd72eba69a00000003e1.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730cd72eba69a00000003e1.png)
+  
+悬空引用  
+![6730cd8deba69a00000003e9.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6730cd8deba69a00000003e9.png)
+  
+那么我们可以通过创建新的作用域，来允许非同时的创建多个可变引用  
+这样的代码是会报错的，因为这样返回的一个指针将会指向一个已经悬空的地址，所以如果想拿到引用，那么引用就必须一直有效

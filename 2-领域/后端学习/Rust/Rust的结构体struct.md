@@ -39,7 +39,8 @@ struct可以作为函数返回值
 这里比较复杂，可以想象想要实现某个接口，但是里面没有想要储存的数据  
 ![6738bed9eba69a00000001f3.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6738bed9eba69a00000001f3.png)
   
-![image](6738bf00eba69a00000001fc/6738bf00eba69a00000001fb.png)  
+![6738bf00eba69a00000001fb.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/6738bf00eba69a00000001fb.png)
+  
 struct 的数据所有权，  
      1. .简单来说就是实例用的是原始值不是引用，那么只要struct 是有效的，那么里面的字段就是有效的，  
     2. 也可以使用引用，但是这需要使用生命周期  

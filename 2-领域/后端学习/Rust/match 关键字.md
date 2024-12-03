@@ -34,4 +34,13 @@ match 的匹配非常严谨，但是也有些麻烦，如果想要对枚举类�
 
 **if let** 
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241204000240.png)
-相当于y
+相当于一个简单的 match 表达，放弃了穷举的可能
+
+同样也能实现一个 else
+```rust
+if let Coin::Quarter(v) = coin_state {  
+    println!("Dime!");  
+}else {   
+    println!("Not Dime!");  
+}
+```

@@ -20,7 +20,7 @@ match coin{
 
 并且能直接使用枚举类，并可以带有返回值的 !![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241203234358.png)
 
-match 配合 
+match 配合枚举还有一个好处，**就是如果你的 match 没有穷举所有的匹配**，那么就会编译不通过，如果不想处理所有的枚举，那么就可以使用下划线 `_` 表示 deefault
 
 ## 绑定值的模式
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241203235111.png)
@@ -28,3 +28,7 @@ match 配合
 
 匹配 Option 枚举这块直接看上一章[[定义枚举#Option 枚举]]
 
+## if  let
+
+match 的匹配非常严谨，但是也有些麻烦，如果想要
+if let 

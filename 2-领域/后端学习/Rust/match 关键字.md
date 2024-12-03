@@ -20,4 +20,11 @@ match coin{
 
 并且能直接使用枚举类，并可以带有返回值的 !![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241203234358.png)
 
+match 配合 
+
 ## 绑定值的模式
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241203235111.png)
+
+
+匹配 Option 枚举这块直接看上一章[[定义枚举#Option 枚举]]
+

@@ -17,3 +17,5 @@ match coin{
 	Coin::Quarter => 25,
 }
 ```
+
+并且能直接使用枚举类![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241203234252.png)

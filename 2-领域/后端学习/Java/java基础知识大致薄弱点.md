@@ -48,3 +48,9 @@ finalize 是基础类 java.lang.Object 的一个方法，它的设计目的是�
 
 所以，对于软引用、弱引用之类，垃圾收集器可能会存在二次确认的问题，以保证处于弱引用状态的对象，没有改变为强引用
 
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241206001735.png)
+
+关于这些引用的使用可以参考我写的这段代码![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241206001946.png)
+
+
+### 动态代理是基于什么原理？

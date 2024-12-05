@@ -31,4 +31,10 @@ final 可以用来修饰类、方法、变量，分别有不同的意义，final
 finally 则是 Java 保证重点代码一定要被执行的一种机制。我们可以使用 try-finally 或者 try-catch-finally 来进行类似关闭 JDBC 连接、保证 unlock 锁等动作。当然，特殊情况就是说他可能会在系统结束时候不生效
 
 finalize 是基础类 java.lang.Object 的一个方法，它的设计目的是保证对象在被垃圾收集前完成特定资源的回收。finalize 机制现在已经不推荐使用，**并且在 JDK 9 开始被标记为 deprecated**。
+>finalize 会吞掉 throwable 的异常，可以使用 java.lang.Cleaner 来替换掉原有的 finalize 实现
 
+
+###  强引用、软引用、弱引用、幻象引用
+
+这里主要强调几点，幻象引用也叫虚引用
+强引用就是垃圾回收不会碰的

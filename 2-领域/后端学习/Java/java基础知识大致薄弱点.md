@@ -64,4 +64,12 @@ finalize 是基础类 java.lang.Object 的一个方法，它的设计目的是�
 
 
 简单实现一个代理方法吧![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241206004610.png)
-注意红框的这里，直接生成了一个可以通过不同的参数调用不同的实现类的实例！多么完美！
+注意红框的这里，直接生成了一个可以通过不同的参数调用不同的实现类的实例！多么完美！打印结果如下![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241206004748.png)
+
+以上是他的好处和作用
+
+从 API 设计和实现的角度，这种实现仍然有局限性，**因为它是以接口为中心的**，相当于添加了一种对于被调用者没有太大意义的限制。我们实例化的是 Proxy 对象，而不是真正的被调用类型，这在实践中还是可能带来各种不便和能力退化。
+
+**我们知道 Spring AOP 支持两种模式的动态代理，JDK Proxy 或者 cglib**
+
+如果我们使用 cglib，你会发现，接口的依赖被克服了

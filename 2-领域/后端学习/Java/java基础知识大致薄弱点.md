@@ -128,3 +128,4 @@ hashtable 或者同步包装版本（利用 Collections 工具类的 synchronize
 ConcurrentHashMap 其实现是基于分离锁和 volatile 来实现的
 - 分离锁，就是将内部进行分段，Segment 里面存放 HashEntry 的数据，和 HashMap 类似
 	- 分段（Segment）：ConcurrentHashMap 将整个哈希表分成多个段（Segment），每个段是一个独立的哈希表，并且有自己的锁。**这样可以让多个线程同时访问不同的段**，从而减少锁争用，**提高并发性能**
+	- 大多数读取操作（如 get）是无锁的，使用 volatile 变量和 CAS（Compare-And-Swap）操作来保证可见性和一致性，关于 volatile

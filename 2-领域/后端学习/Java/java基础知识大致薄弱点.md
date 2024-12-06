@@ -74,3 +74,36 @@ finalize 是基础类 java.lang.Object 的一个方法，它的设计目的是�
 如果被调用者没有实现接口，而我们还是希望利用动态代理机制那么我们就可以使用 cglib
 如果我们使用 cglib，你会发现，接口的依赖被克服了
 cglib 动态代理采取的是创建目标类的子类的方式，因为是子类化，我们可以达到近似使用被调用者本身的效果。
+
+这里贴一下实现代理的方法和创建实例的方法
+```java
+public class MyMethodInterceptor implements MethodInterceptor {  
+    @Override  
+    public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {  
+        System.out.println("Before method: " + method.getName());  
+        Object result = proxy.invokeSuper(obj, args);  
+        System.out.println("After method: " + method.getName());  
+        return result;  
+    }  
+}
+
+public class TargetClass {  
+    public void someMethod() {  
+        System.out.println("Executing someMethod");  
+    }  
+}
+
+public class Main {  
+    public static void main(String[] args) {  
+        Enhancer enhancer = new Enhancer();  
+        enhancer.setSuperclass(TargetClass.class);  
+        enhancer.setCallback(new MyMethodInterceptor());  
+  
+        TargetClass proxy = (TargetClass) enhancer.create();  
+        proxy.someMethod();  
+    }  
+}
+
+```
+
+通过创建子类完成了动态的代理，不依赖接口

@@ -125,7 +125,13 @@ hashtable 或者同步包装版本（利用 Collections 工具类的 synchronize
 
 #### ConcurrentHashMap 是如何实现的？
 
-ConcurrentHashMap 其实现是基于分离锁和 volatile 来实现的
-- 分离锁，就是将内部进行分段，Segment 里面存放 HashEntry 的数据，和 HashMap 类似
+早期的ConcurrentHashMap 其实现是基于分离锁和 volatile 来实现的
+- 分离锁，就是将内部进行分段，Segment 里面存放 HashEntry 的数据，和 HashMap 类似，分段里面的 hash 相同的字段也是用链表形式存放的
 	- 分段（Segment）：ConcurrentHashMap 将整个哈希表分成多个段（Segment），每个段是一个独立的哈希表，并且有自己的锁。**这样可以让多个线程同时访问不同的段**，从而减少锁争用，**提高并发性能**
-	- 大多数读取操作（如 get）是无锁的，使用 volatile 变量和 CAS（Compare-And-Swap）操作来保证可见性和一致性，关于 volatile
+- HashEntry 内部使用 volatile 的 value 字段来保证可见性，也利用了不可变对象的机制以改进利用 Unsafe 提供的底层能力，比如 volatile access，去直接完成部分操作，以最优化性能，毕竟 Unsafe 中的很多操作都是 JVM intrinsic 优化过的
+	-  大多数读取操作（如 get）是无锁的，使用 volatile 变量和 CAS（Compare-And-Swap）操作来保证可见性和一致性，关于 volatile 可以看[[多线程相关#Volitale]]
+
+早期实现图如下
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241207004111.png)
+
+在构造的时候，Segemnt 的数量由所谓的con'c

@@ -116,3 +116,4 @@ AOP 通过（动态）代理机制可以让开发者从这些繁琐事项中抽�
 
 Java 提供了不同层面的线程安全支持。在传统集合框架内部，除了 Hashtable 等同步容器，还提供了所谓的同步包装器（Synchronized Wrapper），我们可以调用 Collections 工具类提供的包装方法，来获取一个同步的包装容器（如 Collections.synchronizedMap），但是它们都是利用非常粗粒度的同步方式，在高并发情况下，性能比较低下。
 
+我们知道 Hshtable 是一个线程安全的，简单来说就是将 put get size 等各种方法加上了 synchronized 导致了所有的并发操作都要竞争同一把锁，大大降低了并发操作的效率

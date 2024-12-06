@@ -134,4 +134,4 @@ hashtable 或者同步包装版本（利用 Collections 工具类的 synchronize
 早期实现图如下
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241207004111.png)
 
-在构造的时候，Segemnt 的数量由所谓的con'c
+在构造的时候，Segemnt 的数量由所谓的 concurrencyLevel 决定的，默认是 16，如果你用构造函数设置初始容量的话，

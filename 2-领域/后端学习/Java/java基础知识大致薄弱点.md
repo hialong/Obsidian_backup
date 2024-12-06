@@ -120,4 +120,9 @@ Java 提供了不同层面的线程安全支持。在传统集合框架内部，
 
 hashtable 或者同步包装版本（利用 Collections 工具类的 synchronizedMap 方法）都只是适合在非高度并发的场景下
 
-关于 Collections 的同步包装器要说一下
+关于 Collections 的同步包装器要说一下，实际上也就是用了 synchronized 方法作为互斥的 mutex
+
+
+#### ConcurrentHashMap 是如何实现的？
+
+

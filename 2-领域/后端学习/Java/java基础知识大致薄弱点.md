@@ -109,3 +109,7 @@ public class Main {
 通过创建子类完成了动态的代理，不依赖接口
 
 rpc 就是一种动态代理
+
+AOP 通过（动态）代理机制可以让开发者从这些繁琐事项中抽身出来，大幅度提高了代码的抽象程度和复用度。从逻辑上来说，我们在软件设计和实现中的类似代理，如 Facade、Observer 等很多设计目的，都可以通过动态代理优雅地实现。![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241207001940.png)
+
+### 如何保证集合是线程

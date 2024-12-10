@@ -20,6 +20,13 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 
 ## 深入
 
-### 有序 ma
+### 有序 map
+有序的 map 包括 linkedHashMap 和 TreeMap
+首先是 LinkedHashMap 
+
+
+linkedHashMap 通常提供的是一个遍历符合插入顺序，他的实现是通过为条目（键值对）维护一个双向链表。
+
+
 
 

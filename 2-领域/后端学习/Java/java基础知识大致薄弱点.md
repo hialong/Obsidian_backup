@@ -136,4 +136,6 @@ hashtable 或者同步包装版本（利用 Collections 工具类的 synchronize
 
 在构造的时候，Segemnt 的数量由所谓的 concurrencyLevel 决定的，默认是 16，如果你用构造函数设置初始容量的话，如果输入是类似 15 这种非幂值，会被自动调整到 16 之类 2 的幂数值。
 
-jdk 8 后的版本 concurrentHashMap
+**jdk 8 后的版本 concurrentHashMap 发生的变化**
+
+1. 总体结构上变得和 HashMap 的结构更相似了，同样是大的桶（bucket），内部也是一个一个所谓的链表结构

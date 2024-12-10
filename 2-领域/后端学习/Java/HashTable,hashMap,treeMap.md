@@ -42,3 +42,5 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 
 大致的内部结构如上图所示，实际上的数据结构被分成了一个个桶
 
+从源码来看，hashMap 的初始化似乎只是设置了一些初始值？![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211004509.png)
+所以有理由怀疑，实际的初始化会不会是在调用 put 方法的时候才初始化的？依据 lazy-load 原则，在首次使用时被初始化，似乎很有可能，那么就看看 put 的

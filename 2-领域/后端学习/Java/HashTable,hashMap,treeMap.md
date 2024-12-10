@@ -25,10 +25,13 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 首先是 LinkedHashMap 
 
 
-linkedHashMap 通常提供的是一个遍历符合插入顺序，他的实现是通过为条目（键值对）维护一个双向链表。通过特定构造函数，我们可以创建反映访问顺序的实例，所谓的 put、get、compute 等，都算作“访问”。
+**linkedHashMap** 通常提供的是一个遍历符合插入顺序，他的实现是通过为条目（键值对）维护一个双向链表。通过特定构造函数，我们可以创建反映访问顺序的实例，所谓的 put、get、compute 等，都算作“访问”。
 
 这种行为适用于一些特定应用场景
 例如，我们构建一个空间占用敏感的资源池，希望可以自动将最不常被访问的对象释放掉，这就可以利用 LinkedHashMap 提供的机制来实现
 
 
+例如这样![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211003822.png)
+
+而对于 treeMap 来说，他的整体顺序是由键的顺序关系决定的，通过 Comparator 或者 Comparable 来决定的
 

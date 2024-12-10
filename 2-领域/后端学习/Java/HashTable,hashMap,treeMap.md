@@ -55,4 +55,7 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 至于扩容的部分可以看这里![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211011430.png)
 - 门限值 threadhold等于（负载因子）x（容量），如果构建 HashMap 的时候没有指定它们，那么就是依据相应的默认常量值。
 - 门限通常是以倍数进行调整 （newThr = oldThr << 1），我前面提到，根据 putVal 中的逻辑，当元素个数超过门限大小时，则调整 Map 大小。
-- 扩容后，需要将老的数组中的元素重新放置到新的数组，这是扩容的一个主要开销来源
+- 扩容后，需要将老的数组中的元素重新放置到新的数组，这是扩容的一个主要开销来源![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211011622.png)
+另外可以看到超过门限值就扩容![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211011812.png)
+
+

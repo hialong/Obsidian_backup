@@ -35,3 +35,10 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 
 而对于 treeMap 来说，他的整体顺序是由键的顺序关系决定的，通过 Comparator 或者 Comparable 来决定的
 
+
+### HashMap 的源码分析
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211004102.png)
+
+大致的内部结构如上图所示，实际上的数据结构被分成了一个个桶
+

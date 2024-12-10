@@ -52,4 +52,7 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 可以看到在 put 的过程中，
 - 如果 tab 为 null，resize 方法会负责初始化它
 进入 resize 方法，可以了解到 resize 方法就是负责扩容和初始化的![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211010906.png)
-至于扩容的部分可以看这里
+至于扩容的部分可以看这里![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211011430.png)
+- 门限值 threadhold等于（负载因子）x（容量），如果构建 HashMap 的时候没有指定它们，那么就是依据相应的默认常量值。
+- 门限通常是以倍数进行调整 （newThr = oldThr << 1），我前面提到，根据 putVal 中的逻辑，当元素个数超过门限大小时，则调整 Map 大小。
+- 扩容后，需要将老的数组中的元素重新放置到新的数组，这是扩容的一个主要开销来源

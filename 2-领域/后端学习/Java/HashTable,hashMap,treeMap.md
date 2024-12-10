@@ -51,4 +51,4 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 
 可以看到在 put 的过程中，
 - 如果 tab 为 null，resize 方法会负责初始化它
-进入 resize 方法，可以
+进入 resize 方法，可以了解到 resize 方法就是负责扩容和初始化的

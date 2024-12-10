@@ -49,4 +49,6 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 那么很有可能就在 putVal之中
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211010153.png)
 
-可以看到在 put 的过程中，如果 tab 为 null，resize 方法会负责初始化它，
+可以看到在 put 的过程中，
+- 如果 tab 为 null，resize 方法会负责初始化它
+进入 resize 方法，可以

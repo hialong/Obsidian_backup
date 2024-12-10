@@ -14,4 +14,12 @@ hashTable 是早期一个实现，本身是同步的，性能差，不支持 nul
 hashMap 是广泛的哈希表实现，行为上大致与 HashTale 一致，主要区别在于 HashMap
 	1. 非同步的操作
 	2. 支持 null 的键值
-	3. 
+
+TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get remove 之类的操作都是 logn 的复杂度，具体顺序可以用 Comparato指定
+
+
+## 深入
+
+### 有序 ma
+
+

@@ -63,3 +63,13 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 
 ![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211012040.png)
 当链表过长的时候就会树化
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211012140.png)
+简而言之就是
+- 如果容量小于 MIN_TREEIFY_CAPACITY，只会进行简单的扩容。
+- 如果容量大于 MIN_TREEIFY_CAPACITY ，则会进行树化改造。
+
+那么，为什么 HashMap 要树化呢？
+
+**本质上这是个安全问题。**因为在元素放置过程中，如果一个对象哈希冲突，都被放置到同一个桶里，则会形成一个链表，我们知道链表查询是线性的，会严重影响存取的性能。
+
+而在现实世界，构造哈希冲突的数据并不是非常复杂的事情，恶意代码就可以利用这些数据大量与服务器端交互，导致服务器端 CPU 大量占用，这就构成了哈希碰撞拒绝服务攻击，国内一线互联网公司就发生过类似攻击事件。

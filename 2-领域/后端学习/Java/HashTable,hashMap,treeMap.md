@@ -59,3 +59,7 @@ TreeMap 则是基于红黑树的一个实现顺序访问的 Map，他的 put get
 另外可以看到超过门限值就扩容![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211011812.png)
 
 
+### haspMap 中链表结构（hash 碰撞）也叫 bin 的树化
+
+![image.png](https://obsidian-pic-1317906728.cos.ap-nanjing.myqcloud.com/obsidian/20241211012040.png)
+当链表过长的时候就会树化

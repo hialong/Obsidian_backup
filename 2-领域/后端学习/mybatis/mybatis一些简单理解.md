@@ -35,3 +35,4 @@ tags:
 2. 通过 OpenSession（）方法获取一个 SqlSession 对象
 3. 执行，mybatis 根据方法的 id 获取不同的 sql 语句去执行
 4. 命名空间和映射语句的查找。sql 映射语句根据 namespace 和 id 进行定位，Mybatis
+- [ ] 看完流程

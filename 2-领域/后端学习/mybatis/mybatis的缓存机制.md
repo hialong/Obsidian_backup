@@ -15,6 +15,15 @@ tags:
 
 
 **mybatis 缓存的本质就是在本地利用 map 来存储数据**
+所以实际上这个在分布式环境下并不安全，本地的 map 实际上还是会出现脏数据或者数据对不上的问题
 
 一级缓存默认开启，二级缓存通过 xml 配置开启（一般是并发环境防止脏数据开启的）
+```xml
+<mapper namespace="com.example.mapper.UserMapper">
+    <!-- 开启二级缓存 -->
+    <cache eviction="LRU" flushInterval="60000" size="512" readOnly="true"/>
+</mapper>
 
+```
+
+建议生产上还是要结合 redis 等缓存来结合进行，因为

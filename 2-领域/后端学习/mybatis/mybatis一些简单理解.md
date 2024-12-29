@@ -26,4 +26,9 @@ tags:
 
 ```
 
-建议生产上还是要结合 redis 等缓存来结合进行，因为
+建议生产上还是要结合 redis 等缓存来结合进行
+
+## mybatis 执行的流程
+
+整个执行流程分为以下几步
+1. SqlSessionFactory 的创建，执行通过工厂创建 SqlSession 实例，SqlSessionFactory 是通过 SqlSessionFactory 构建的

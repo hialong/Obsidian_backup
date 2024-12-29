@@ -31,4 +31,7 @@ tags:
 ## mybatis 执行的流程
 
 整个执行流程分为以下几步
-1. SqlSessionFactory 的创建，执行通过工厂创建 SqlSession 实例，SqlSessionFactory 是通过 SqlSessionFactory 构建的
+1. SqlSessionFactory 的创建，执行通过工厂创建 SqlSession 实例，SqlSessionFactory 是通过 SqlSessionFactory 构建的，通常是通过读取 MyBatis 配置文件进行初始化
+2. 通过 OpenSession（）方法获取一个 SqlSession 对象
+3. 执行，mybatis 根据方法的 id 获取不同的 sql 语句去执行
+4. 命名空间和映射语句的查找。sql 映射语句
